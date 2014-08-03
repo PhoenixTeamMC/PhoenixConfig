@@ -308,6 +308,9 @@ val necrodermalVirus = <Botania:virus>;
 val chordataRing = <Botania:waterRing>;
 val seasRod = <Botania:waterRod>;
 
+##BTN Functional Flora
+val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
+
 ##Buildcraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
 val blueprint = <BuildCraft|Builders:blueprintItem>;
