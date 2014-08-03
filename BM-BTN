@@ -315,5 +315,5 @@ val planks = <minecraft:planks:*>;
 recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, manaSpreader, blankSlate], [smoothStone, smoothStone, smoothStone]]);
 recipes.addShaped(livingrock * 2, [[smoothStone, bucketLife, smoothStone], [null, null, null], [null, null, null]]);
 recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
-mods.bloodmagic.Altar.addRecipe(rose, endoFlame, 1, 1000, 20, 20);
-mods.bloodmagic.Altar.addRecipe(daisy, jadedAmaranthus, 1, 1000, 20, 20);
+mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
+mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
