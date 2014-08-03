@@ -50,3 +50,4 @@ Vis (Thaumcraft)
 etc...
 
 
+These all require the mod(s) they are related to, as well as Minetweaker 3. Some of these also require Modtweaker.
