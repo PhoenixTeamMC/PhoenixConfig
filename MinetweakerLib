@@ -310,6 +310,7 @@ val seasRod = <Botania:waterRod>;
 
 ##BTN Functional Flora
 val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
+val endoFlame = <Botania:specialFlower>.withTag({type: "endoflame"});
 
 ##Buildcraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
