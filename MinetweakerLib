@@ -1,3 +1,6 @@
+## MinetweakerLib
+## Defines many, many variables for Minetweaker.
+## Is a must for any PhoenixConfig scripts to run.
 ##Blood Magic
 val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
 val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
