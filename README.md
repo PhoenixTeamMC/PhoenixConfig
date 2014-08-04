@@ -33,7 +33,7 @@ etc...
 
 There will also be more as I think of them, along with some big packs that would encompass a lot of changes centered around a single mod:
 
-Running Red (Blood Magic, not to be confused with my Modpack)
+Running Red (Blood Magic, not to be confused with Gideonseymour's Modpack)
 
 The Quest (HQM)
 
