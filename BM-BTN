@@ -306,14 +306,18 @@ val seasRod = <Botania:waterRod>;
 ##BTN Functional Flora
 val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
 val endoFlame = <Botania:specialFlower>.withTag({type: "endoflame"});
+val pureDaisy = <Botania:specialFlower>.withTag({type: "puredaisy"});
 ##Minecraft
 val piston = <minecraft:piston>;
 val rose = <minecraft:red_flower>;
 val daisy = <minecraft:yellow_flower>;
 val smoothStone = <minecraft:stone>;
 val planks = <minecraft:planks:*>;
-recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, manaSpreader, blankSlate], [smoothStone, smoothStone, smoothStone]]);
+recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, pureDaisy, blankSlate], [smoothStone, smoothStone, smoothStone]]);
 recipes.addShaped(livingrock * 2, [[smoothStone, bucketLife, smoothStone], [null, null, null], [null, null, null]]);
 recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
 mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
 mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
+mods.bloodmagic.Altar.addRecipe(livingrock, smoothStone, 1, 500, 20, 20);
+mods.bloodmagic.Altar.addRecipe(livingwood, planks, 1, 500, 20, 20);
+mods.bloodmagic.Altar.addRecipe(manaSpreader, piston, 1, 1500, 20, 20);
