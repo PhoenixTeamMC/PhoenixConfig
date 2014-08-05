@@ -2,6 +2,31 @@
 ## Defines many, many variables for Minetweaker.
 ## Is a must for any PhoenixConfig scripts to run.
 ## Is not done yet. Many more mods to document.
+##Archimedes' Ships
+val shipHelm = <ArchimedesShips:marker>;
+val floater = <ArchimedesShips:floater>;
+val balloonWhite = <ArchimedesShips:balloon>;
+val balloonOrange = <ArchimedesShips:balloon:1>;
+val balloonMagenta = <ArchimedesShips:balloon:2>;
+val balloonBlueLight = <ArchimedesShips:balloon:3>;
+val balloonYellow = <ArchimedesShips:balloon:4>;
+val balloonLime = <ArchimedesShips:balloon:5>;
+val balloonPink = <ArchimedesShips:balloon:6>;
+val balloonGray = <ArchimedesShips:balloon:7>;
+val balloonSilver = <ArchimedesShips:balloon:8>;
+val balloonCyan = <ArchimedesShips:balloon:9>;
+val balloonPurple = <ArchimedesShips:balloon:10>;
+val balloonBlue = <ArchimedesShips:balloon:11>;
+val balloonBrown = <ArchimedesShips:balloon:12>;
+val balloonGreen = <ArchimedesShips:balloon:13>;
+val balloonRed = <ArchimedesShips:balloon:14>;
+val balloonBlack = <ArchimedesShips:balloon:15>;
+val gaugeBasic = <ArchimedesShips:gauge>;
+val gaugeAdvanced = <ArchimedesShips:gauge:1>;
+val seatPassenger = <ArchimedesShips:seat>;
+val bufferShore = <ArchimedesShips:buffer>;
+val engineSteam = <ArchimedesShips:engine>;
+val crateWood = <ArchimedesShips:crate_wood>;
 ##Blood Magic
 val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
 val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
@@ -787,7 +812,7 @@ val oreDust = <Mekanism:Dust>;
 val electricBow = <Mekanism:ElectricBow>; 
 val electrolyticCore =  <Mekanism:ElectrolyticCore>;
 val energyCube = <Mekanism:EnergyCube>;
-val energyTablet = <Mekanism:EnergyTablet>
+val energyTablet = <Mekanism:EnergyTablet>;
 val energyUpgrade = <Mekanism:EnergyUpgrade>;
 val enrichedAlloy = <Mekanism:EnrichedAlloy>;
 val enrichedIron = <Mekanism:EnrichedIron>;
