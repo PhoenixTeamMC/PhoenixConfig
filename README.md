@@ -23,9 +23,11 @@ Thaumcraft/Blood Magic
 
 Thermal Expansion/IC2/Mekanism
 
-Blood Magic/Witchery
-
 Blood Magic/Thermal Expansion
+
+Witchery/Twilight Forest
+
+Railcraft/Steve's Carts
 
 etc...
 
