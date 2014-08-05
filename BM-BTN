@@ -1,3 +1,4 @@
+##For clarification, NOT DONE. This only accounts for the first tier of both BTN and BM.
 ##Blood Magic
 val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
 val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
