@@ -258,3 +258,5 @@ val Trophy = <TwilightForest:TFTrophy>;
 val TrophyPedestal = <TwilightForest:TFTrophyPedestal>;
 val UncraftingTable = <TwilightForest:TFUncraftingTable>;
 val UnderBrick = <TwilightForest:TFUnderBrick>;
+//Keep this at the bottom
+print("Witchery-Twilight Forest Script Loaded");
