@@ -102,7 +102,6 @@ val witchHunterTrousers = <witchery:hunterlegs>;
 val spearHuntsman = <witchery:huntsmanspear>;
 val icySlippers = <witchery:iceslippers>;
 val infinityEgg = <witchery:infinityegg>;
-val candelabra = <witchery:ingredient>;
 val kettle = <witchery:kettle>;
 val kobolditePick = <witchery:kobolditepickaxe>; 
 val leapingLily = <witchery:leapinglily>;
@@ -124,6 +123,32 @@ val refillingChest = <witchery:refillingchest>;
 val rowanWoodDoor = <witchery:rowanwooddoor>;
 val rubySlippers = <witchery:rubyslippers>;
 val scarecrow = <witchery:scarecrow>;
+val icyNeedle = <witchery:ingredient:78>;
+val frozenHeart = <witchery:ingredient:79>;
+val mutandis = <witchery:ingredient:14>;
+val poppet = <witchery:poppet>;
+val poppetEarth = <witchery:poppet:1>;
+val poppetFire = <witchery:poppet:3>;
+val poppetDeath = <witchery:poppet:6>;
+val chaliceFilled = <witchery:ingredient:1>;
+val kobolditeIngot = <witchery:ingredient:150>;
+val goldenString = <witchery:ingredient:102>;
+val diamondVapor = <witchery:ingredient:29>;
+val pureOdour = <witchery:ingredient:36>;
+val leatherImpregnated = <witchery:ingredient:72>;
+val exhaleHorned = <witchery:ingredient:31>;
+val breathGoddess = <witchery:ingredient:32>;
+val hintRebirth = <witchery:ingredient:33>;
+val mandrakeRoot = <witchery:ingredient:22>;
+val woodAsh = <witchery:ingredient:18>;
+val quicklime = <witchery:ingredient:16>;
+val attunedStone = <witchery:ingredient:10>;
+val chargedStone = <witchery:ingredient:11>;
+val creeperHeart = <witchery:ingredient:74>;
+val batWool = <witchery:ingredient:24>;
+val luckDrop = <witchery:ingredient:39>;
+val redstoneSoup = <witchery:ingredient:40>;
+val candelabra = <witchery:ingredient>;
 
 
 ##Twilight Forest
@@ -258,5 +283,38 @@ val Trophy = <TwilightForest:TFTrophy>;
 val TrophyPedestal = <TwilightForest:TFTrophyPedestal>;
 val UncraftingTable = <TwilightForest:TFUncraftingTable>;
 val UnderBrick = <TwilightForest:TFUnderBrick>;
+val mayapple = <TwilightForest:TFPlant:4>;
+
+//Witchery Recipes
+recipes.remove(lavaDiviner);
+recipes.addShaped(lavaDiviner, [[null, fieryBlood, null], [null, waterDiviner, null], [<minecraft:blaze_rod>, null, <minecraft:blaze_rod>]]);
+
+/*
+recipes that need changing:
+	Frozen Heart to include icy/snowy/yeti materials
+	Earth Protection Poppet to include Mayapples
+	Fire Protection Poppet to include Fiery Ingots
+	Death Protection Poppet to include Charms of Keeping/Life
+	Filled Chalice to include a Fiery Blood
+Get Candelabra name thingy
+	
+*/
+
+recipes.addShaped(altar * 6, [[breathGoddess, <minecraft:water_bottle>, exhaleHorned], [Mazestone, witchlog, Mazestone], [Mazestone, witchlog, Mazestone]]);
+
+recipes.remove(kobolditePick);
+recipes.addShaped(kobolditePick, [[<minecraft:lava_bucket>, attunedStone, <minecraft:lava_bucket>], [kobolditeIngot, kobolditeIngot, kobolditeIngot], [null, mazebreaker, null]]);
+
+recipes.remove(infernalChalk);
+recipes.addShaped(infernalChalk, [[emberMoss, fieryBlood, emberMoss], [<minecraft:red_flower>, ritualChalk, <minecraft:red_flower>], [<minecraft:red_flower>, ritualChalk, <minecraft:red_flower>]]);
+
+recipes.remove(witchesOven);
+recipes.addShaped(witchesOven, [[null, <minecraft:bucket>, null], [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>], [ironwoodIngot, <minecraft:iron_bars>, ironwoodIngot]]);
+
+recipes.remove(statueoftheGoddess);
+recipes.addShaped(statueoftheGoddess, [[<minecraft:nether_star>, <minecraft:stone>, <minecraft:nether_star>], [<minecraft:nether_star>, demonHeart, <minecraft:nether_star>], [<minecraft:stone>, TrophyPedestal, <minecraft:stone>]]);
+
+recipes.addShaped(candelabra, [[torchberries, torchberries, torchberries], [<minecraft:iron_ingot>, attunedStone, <minecraft:iron_ingot>], [null, <minecraft:iron_ingot>, null]]);
+
 //Keep this at the bottom
 print("Witchery-Twilight Forest Script Loaded");
