@@ -1420,5 +1420,5 @@ val TrophyPedestal = <TwilightForest:TFTrophyPedestal>;
 val UncraftingTable = <TwilightForest:TFUncraftingTable>;
 val UnderBrick = <TwilightForest:TFUnderBrick>;
 
-##Keep this at the bottom
-print("MinetweakerLib Loaded!");
+//Keep this at the bottom
+print("MinetweakerLib Loaded");
