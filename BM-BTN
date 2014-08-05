@@ -328,4 +328,4 @@ mods.bloodmagic.Altar.addRecipe(livingrock, smoothStone, 1, 500, 20, 20);
 mods.bloodmagic.Altar.addRecipe(livingwood, planks, 1, 500, 20, 20);
 mods.bloodmagic.Altar.addRecipe(manaSpreader, piston, 1, 1500, 20, 20);
 //Keep this at the bottom
-print("BM-BTN Script Loaded")
+print("BM-BTN Script Loaded");
