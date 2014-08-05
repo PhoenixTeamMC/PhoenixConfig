@@ -308,7 +308,7 @@ val necrodermalVirus = <Botania:virus>;
 val chordataRing = <Botania:waterRing>;
 val seasRod = <Botania:waterRod>;
 
-##BTN Functional Flora
+##BTN Flora
 val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
 val endoFlame = <Botania:specialFlower>.withTag({type: "endoflame"});
 val pureDaisy = <Botania:specialFlower>.withTag({type: "puredaisy"});
