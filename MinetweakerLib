@@ -312,6 +312,9 @@ val seasRod = <Botania:waterRod>;
 val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
 val endoFlame = <Botania:specialFlower>.withTag({type: "endoflame"});
 val pureDaisy = <Botania:specialFlower>.withTag({type: "puredaisy"});
+val thermaLily = 
+val 
+val fallenKanade =
 
 ##Buildcraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
