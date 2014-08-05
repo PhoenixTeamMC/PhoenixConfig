@@ -1,0 +1,11 @@
+##Santa’s Toys
+val enderBlaster = <santastoys:ender_blaster>;
+val match = <santastoys:match>;
+val netherBlaster = <santastoys:nether_blaster>; 
+
+##Twilight Forest
+val scepterTwilight = <TwilightForest:scepterTwilight>;
+
+recipes.addShaped(enderBlaster, [[<minecraft:iron_ingot>, <minecraft:sticky_piston>, <minecraft:diamond>], [<minecraft:iron_ingot>, scepterTwilight, null], [<minecraft:obsidian>, null, null]]);
+
+print("Santa's Toys-Twilight Forest Script Loaded");
