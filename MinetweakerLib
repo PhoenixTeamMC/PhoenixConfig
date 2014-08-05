@@ -1364,4 +1364,5 @@ val match = <santastoys:match>;
 val netherBlaster = <santastoys:nether_blaster>; 
 
 
-
+##Keep this at the bottom
+print("MinetweakerLib Loaded!");
