@@ -1129,6 +1129,7 @@ val woolAll = <minecraft:wool:*>;
 val compass = <minecraft:compass>;
 val lever = <minecraft:lever>;
 val glass = <minecraft:glass>;
+val logAll = <minecraft:log:*>;
 
 ##FLORA
 val hardenedBoots = <flora:item.HardenedBoots>;
