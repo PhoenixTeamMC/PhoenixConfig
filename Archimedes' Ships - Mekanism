@@ -1,6 +1,5 @@
-/*This is a WIP.
-All recipes are removed, only some reimplemented.
-Feel free to edit. */
+/*Poorly created by Padfoote
+Enjoy the nerfs */
 ##Archimedes Ships
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
@@ -180,9 +179,11 @@ val woodPaxel = <MekanismTools:WoodPaxel>;
 ##Minecraft
 val lever = <minecraft:lever>;
 val glass = <minecraft:glass>;
-val ingotIron = <minecraft:iron_ingot>;
+val ironIngot = <minecraft:iron_ingot>;
 val compass = <minecraft:compass>;
-val woodPlank = <minecraft:planks:*>;
+val woodPlankAll = <minecraft:planks:*>;
+val woolAll = <minecraft:wool:*>;
+val logAll = <minecraft:log:*>;
 
 ##Recipes
 recipes.remove(shipHelm);
@@ -190,14 +191,31 @@ recipes.remove(floater);
 recipes.remove(allBalloons);
 recipes.remove(gaugeBasic);
 recipes.remove(gaugeAdvanced);
-recipes.remove(seatPassenger);
 recipes.remove(bufferShore);
 recipes.remove(engineSteam);
-recipes.remove(crateWood);
 
 recipes.addShaped(shipHelm, [[lever, glass, lever], [woodPlank, controlCircuitAdv, woodPlank], [woodPlank, woodPlank, woodPlank]]);
 recipes.addShaped(gaugeBasic, [[glass, compass, glass], [ingotIron, controlCircuitAdv, ingotIron], [ingotIron, ingotIron, ingotIron]]);
 recipes.addShaped(gaugeAdvanced, [[null, compass, null], [controlCircuit, gaugeBasic, controlCircuit], [null, null, null]]);
+recipes.addShaped(engineSteam, [[ironIngot, cableAll, ironIngot], [ironIngot, heatGenerator, ironIngot], [ironIngot, ironIngot, ironIngot]]);
+recipes.addShaped(balloonWhite, [[woolAll, woolAll, woolAll], [woolAll, BalloonWhite, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonOrange, [[woolAll, woolAll, woolAll], [woolAll, BalloonOrange, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonMagenta, [[woolAll, woolAll, woolAll], [woolAll, BalloonMagenta, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonBlueLight, [[woolAll, woolAll, woolAll], [woolAll, BalloonBlueLight, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonYellow, [[woolAll, woolAll, woolAll], [woolAll, BalloonYellow, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonLime, [[woolAll, woolAll, woolAll], [woolAll, BalloonLime, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonPink, [[woolAll, woolAll, woolAll], [woolAll, BalloonPink, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonGray, [[woolAll, woolAll, woolAll], [woolAll, BalloonGrey, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonSilver, [[woolAll, woolAll, woolAll], [woolAll, BalloonGreyLight, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonCyan, [[woolAll, woolAll, woolAll], [woolAll, BalloonCyan, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonPurple, [[woolAll, woolAll, woolAll], [woolAll, BalloonPurple, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonBlue, [[woolAll, woolAll, woolAll], [woolAll, BalloonBlue, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonBrown, [[woolAll, woolAll, woolAll], [woolAll, BalloonBrown, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonGreen, [[woolAll, woolAll, woolAll], [woolAll, BalloonGreen, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonRed, [[woolAll, woolAll, woolAll], [woolAll, BalloonRed, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(balloonBlack, [[woolAll, woolAll, woolAll], [woolAll, BalloonBlack, woolAll], [woolAll, woolAll, woolAll]]);
+recipes.addShaped(bufferShore * 2, [[null, null, null], [allBalloons, woodPlankAll, allBalloons], [null, null, null]]);
+recipes.addShaped(floater * 2, [[null, allBalloons, null], [null, logAll, null], [null, allBalloons, null]]);
 
 //Must remain here.
-print("AS-Mek Script Loaded.");
+print("ArchS-Mek Script Loaded.");
