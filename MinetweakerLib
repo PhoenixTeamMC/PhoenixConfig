@@ -310,6 +310,7 @@ val reedStairs = <Botania:reedBlock0Stairs>;
 val rune = <Botania:rune>;
 val runicAltar = <Botania:runeAltar>;
 val seaLantern = <Botania:seaLamp>;
+val terrasteelBlock = <Botania:storage:1>;
 val glimmeringFlower = <Botania:shinyFlower>;
 val signalFlare = <Botania:signalFlare>;
 val rodHighlands = <Botania:skyDirtRod>;
