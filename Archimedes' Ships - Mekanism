@@ -23,6 +23,7 @@ val seatPassenger = <ArchimedesShips:seat>;
 val bufferShore = <ArchimedesShips:buffer>;
 val engineSteam = <ArchimedesShips:engine>;
 val crateWood = <ArchimedesShips:crate_wood>;
+val allBalloons = <<ArchimedesShips:balloon:*>;
 
 ##Mekanism
 val armoredJetpack = <Mekanism:ArmoredJetpack>;
@@ -156,22 +157,7 @@ val woodPaxel = <MekanismTools:WoodPaxel>;
 ##Recipes
 recipes.remove(shipHelm);
 recipes.remove(floater);
-recipes.remove(balloonWhite);
-recipes.remove(balloonOrange);
-recipes.remove(balloonMagenta);
-recipes.remove(balloonBlueLight);
-recipes.remove(balloonYellow);
-recipes.remove(balloonLime);
-recipes.remove(balloonPink);
-recipes.remove(balloonGray);
-recipes.remove(balloonSilver);
-recipes.remove(balloonCyan);
-recipes.remove(balloonPurple);
-recipes.remove(balloonBlue);
-recipes.remove(balloonBrown);
-recipes.remove(balloonGreen);
-recipes.remove(balloonRed);
-recipes.remove(balloonBlack);
+recipes.remove(allBalloons);
 recipes.remove(gaugeBasic);
 recipes.remove(gaugeAdvanced);
 recipes.remove(seatPassenger);
