@@ -1,7 +1,7 @@
 ## MinetweakerLib
-## Defines many, many variables for Minetweaker.
-## Is a must for any PhoenixConfig scripts to run.
-## Is not done yet. Many more mods to document.
+/* Defines many, many variables for Minetweaker.
+Is a must for any PhoenixConfig scripts to run.
+Is not done yet. Many more mods to document. */
 ##Archimedes' Ships
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
@@ -27,6 +27,7 @@ val seatPassenger = <ArchimedesShips:seat>;
 val bufferShore = <ArchimedesShips:buffer>;
 val engineSteam = <ArchimedesShips:engine>;
 val crateWood = <ArchimedesShips:crate_wood>;
+val allBalloons = <ArchimedesShips:balloon:*>;
 ##Blood Magic
 val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
 val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
