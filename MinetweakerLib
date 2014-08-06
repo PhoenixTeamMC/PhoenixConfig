@@ -1124,6 +1124,11 @@ val lavaBucket = <minecraft:lava_bucket>;
 val ironIngot = <minecraft:iron_ingot>;
 val goldIngot = <minecraft:gold_ingot>;
 val ironPick = <minecraft:iron_pickaxe>;
+val woodPlankAll = <minecraft:planks:*>;
+val woolAll = <minecraft:wool:*>;
+val compass = <minecraft:compass>;
+val lever = <minecraft:lever>;
+val glass = <minecraft:glass>;
 
 ##FLORA
 val hardenedBoots = <flora:item.HardenedBoots>;
