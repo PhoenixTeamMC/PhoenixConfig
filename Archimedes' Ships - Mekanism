@@ -1,3 +1,6 @@
+/*This is a WIP.
+All recipes are removed, only some reimplemented.
+Feel free to edit. */
 ##Archimedes Ships
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
@@ -28,7 +31,23 @@ val allBalloons = <<ArchimedesShips:balloon:*>;
 ##Mekanism
 val armoredJetpack = <Mekanism:ArmoredJetpack>;
 val atomicDisassembler = <Mekanism:AtomicDisassembler>;
-val Balloon = <Mekanism:Balloon>;
+val BalloonBlack = <Mekanism:Balloon>;
+val BalloonRed = <Mekanism:Balloon:1>;
+val BalloonGreen = <Mekanism:Balloon:2>;
+val BalloonBrown = <Mekanism:Balloon:3>;
+val BalloonBlue = <Mekanism:Balloon:4>;
+val BalloonPurple = <Mekanism:Balloon:5>;
+val BalloonCyan = <Mekanism:Balloon:6>;
+val BalloonGreyLight = <Mekanism:Balloon:7>;
+val BalloonGrey = <Mekanism:Balloon:8>;
+val BalloonPink = <Mekanism:Balloon:9>;
+val BalloonLime = <Mekanism:Balloon:10>;
+val BalloonYellow = <Mekanism:Balloon:11>;
+val BalloonBlueLight = <Mekanism:Balloon:12>;
+val BalloonMagenta = <Mekanism:Balloon:13>;
+val BalloonOrange = <Mekanism:Balloon:14>;
+val BalloonWhite = <Mekanism:Balloon:15>;
+val BalloonsAll = <Mekanism:Balloon:*>;
 val osmiumBlock = <Mekanism:BasicBlock>;
 val salinationBlock = <Mekanism:BasicBlock2>;
 val mekBiofuel = <Mekanism:BioFuel>;
@@ -42,6 +61,10 @@ val compressedObsidian = <Mekanism:CompressedObsidian>;
 val compressedRedstone = <Mekanism:CompressedRedstone>;
 val configurator = <Mekanism:Configurator>;
 val controlCircuit = <Mekanism:ControlCircuit>;
+val controlCircuitAdv = <Mekanism:ControlCircuit:1>;
+val controlCircuitElite = <Mekanism:ControlCircuit:2>;
+val controlCircuitUltimate = <Mekanism:ControlCircuit:3>;
+val controlCircuitAll = <Mekanism:ControlCircuit:*>;
 val oreCrystal = <Mekanism:Crystal>;
 val dictionary = <Mekanism:Dictionary>;
 val oreDirtyDust = <Mekanism:DirtyDust>;
@@ -154,6 +177,13 @@ val steelSword = <MekanismTools:SteelSword>;
 val stonePaxel = <MekanismTools:StonePaxel>;
 val woodPaxel = <MekanismTools:WoodPaxel>;
 
+##Minecraft
+val lever = <minecraft:lever>;
+val glass = <minecraft:glass>;
+val ingotIron = <minecraft:iron_ingot>;
+val compass = <minecraft:compass>;
+val woodPlank = <minecraft:planks:*>;
+
 ##Recipes
 recipes.remove(shipHelm);
 recipes.remove(floater);
@@ -164,8 +194,10 @@ recipes.remove(seatPassenger);
 recipes.remove(bufferShore);
 recipes.remove(engineSteam);
 recipes.remove(crateWood);
-recipes.addShaped(shipHelm, [[minecraft:lever, minecraft:glass, minecraft:lever], [minecraft:iron_ingot, controlCircuit, minecraft:iron_ingot], [minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot]]);
-recipes.addShaped(gaugeBasic, [[minecraft:glass, minecraft:compass, minecraft:glass], [minecraft:iron_ingot, controlCircuit, minecraft:iron_ingot], [minecraft:iron_ingot, minecraft:iron_ingot, minecraft:iron_ingot]]);
+
+recipes.addShaped(shipHelm, [[lever, glass, lever], [woodPlank, controlCircuitAdv, woodPlank], [woodPlank, woodPlank, woodPlank]]);
+recipes.addShaped(gaugeBasic, [[glass, compass, glass], [ingotIron, controlCircuitAdv, ingotIron], [ingotIron, ingotIron, ingotIron]]);
+recipes.addShaped(gaugeAdvanced, [[null, compass, null], [controlCircuit, gaugeBasic, controlCircuit], [null, null, null]]);
 
 //Must remain here.
 print("AS-Mek Script Loaded.");
