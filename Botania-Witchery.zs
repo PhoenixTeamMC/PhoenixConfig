@@ -439,8 +439,8 @@ val batWool = <witchery:ingredient:24>;
 val luckDrop = <witchery:ingredient:39>;
 val redstoneSoup = <witchery:ingredient:40>;
 val candelabra = <witchery:ingredient>;
-val  whiffOfMagic = <witchery:ingredient:34>;
-val  oilOfVitriol = <witchery:ingredient:30>;
+val whiffOfMagic = <witchery:ingredient:34>;
+val oilOfVitriol = <witchery:ingredient:30>;
 val breathOfTheGoddess = <witchery:ingredient:32>;
 val exhaleOfTheHornedOne = <witchery:ingredient:31>;
 
@@ -448,8 +448,8 @@ val exhaleOfTheHornedOne = <witchery:ingredient:31>;
 recipes.remove(attunedStone);
 recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 
-mods.botania.Apothecary.removeRecipe("endoFlame")
-mods.botania.Apothecary.addRecipe(endoFlame, [oilOfVitriol, brownManaPetal, redManaPetal, redMysticalPetal, brownMysticalPetal]);
+mods.botania.Apothecary.removeRecipe("endoFlame");
+recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
 
 recipes.remove(altar);
 recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
