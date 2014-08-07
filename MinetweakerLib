@@ -786,6 +786,12 @@ val sawIron = <ForgeMicroblock:sawIron>;
 val sawStone = <ForgeMicroblock:sawStone>;
 val stoneRod =  <ForgeMicroblock:stoneRod>;
 
+##Gendustry
+val modulePower = <gendustry:PowerModule>;
+val tankMutagen = <gendustry:MutagenTank>;
+val moduleClimate = <gendustry:ClimateModule>;
+val frameUpgrade = <gendustry:UpgradeFrame>;
+
 ##Iron Chests
 val ironChest = <IronChest:BlockIronChest>;
 val copperIronUpgrade = <IronChest:copperIronUpgrade>;
@@ -1130,6 +1136,9 @@ val compass = <minecraft:compass>;
 val lever = <minecraft:lever>;
 val glass = <minecraft:glass>;
 val logAll = <minecraft:log:*>;
+val snowball = <minecraft:snowball>;
+val powderBlaze = <minecraft:blaze_powder>;
+val redstone = <minecraft:redstone>;
 
 ##FLORA
 val hardenedBoots = <flora:item.HardenedBoots>;
