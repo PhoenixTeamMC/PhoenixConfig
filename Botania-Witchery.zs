@@ -452,7 +452,7 @@ recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 mods.botania.Apothecary.removeRecipe("endoFlame");
 recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
 
-mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 1000);
+mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 25000);
 recipes.remove(altar);
 recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
 //Keep this at the bottom
