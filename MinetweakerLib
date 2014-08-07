@@ -1463,8 +1463,8 @@ val batWool = <witchery:ingredient:24>;
 val luckDrop = <witchery:ingredient:39>;
 val redstoneSoup = <witchery:ingredient:40>;
 val candelabra = <witchery:ingredient>;
-val  whiffOfMagic = <witchery:ingredient:34>;
-val  oilOfVitriol = <witchery:ingredient:30>;
+val whiffOfMagic = <witchery:ingredient:34>;
+val oilOfVitriol = <witchery:ingredient:30>;
 
 ##Twilight Forest
 val alphaFur = <TwilightForest:alphaFur>;
