@@ -1,0 +1,35 @@
+//Gendustry
+val modulePower = <gendustry:PowerModule>;
+val tankMutagen = <gendustry:MutagenTank>;
+val moduleClimate = <gendustry:ClimateModule>;
+val frameUpgrade = <gendustry:UpgradeFrame>;
+
+//BuildCraft
+val redstoneCompChip = <BuildCraft|Silicon:redstoneChipset:6>;
+val goldChip = <BuildCraft|Silicon:redstoneChipset:2>;
+val tankBC = <BuildCraft|Factory:tankBlock>;
+val redstoneChip = <BuildCraft|Silicon:redstoneChipset>;
+
+//OreDict
+val ingotBronze = <ore:ingotBronze>;
+val ingotTin = <ore:ingotTin>;
+
+//Minecraft
+val redstone = <minecraft:redstone>;
+val goldIngot = <minecraft:gold_ingot>;
+val snowball = <minecraft:snowball>;
+val powderBlaze = <minecraft:blaze_powder>;
+
+//Recipes
+recipes.remove(modulePower);
+recipes.remove(moduleClimate);
+recipes.remove(tankMutagen);
+recipes.remove(frameUpgrade);
+
+recipes.addShaped(modulePower, [[ingotBronze, goldIngot, ingotBronze], [ingotBronze, redstoneCompChip, ingotBronze], [ingotBronze, goldIngot, ingotBronze]]);
+recipes.addShaped(moduleClimate, [[ingotBronze, powderBlaze, ingotBronze], [ingotBronze, goldChip, ingotBronze], [ingotBronze, snowball, ingotBronze]]);
+recipes.addShaped(tankMutagen, [[ingotTin, ingotTin, ingotTin], [ingotTin, tankBC, ingotTin], [ingotTin, ingotTin, ingotTin]]);
+recipes.addShaped(frameUpgrade, [[ingotTin, redstoneChip, ingotTin], [redstoneChip, goldChip, redstoneChip], [ingotTin, redstoneChip, ingotTin]]);
+
+//Keep this last.
+print("Gendustry - BC Scripts Loaded.");
