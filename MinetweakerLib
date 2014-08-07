@@ -1171,6 +1171,7 @@ val logAll = <minecraft:log:*>;
 val snowball = <minecraft:snowball>;
 val powderBlaze = <minecraft:blaze_powder>;
 val redstone = <minecraft:redstone>;
+val waterBottle = <minecraft:potion>;
 
 ##FLORA
 val hardenedBoots = <flora:item.HardenedBoots>;
@@ -1383,7 +1384,7 @@ val otherwhereGlyph = <witchery:circleglyphotherwhere>;
 val ritualGlyph = <witchery:circleglyphritual>;
 val circleTalisman = <witchery:circletalisman>;
 val critterSnare = <witchery:crittersnare>;
-val crystalBall: <witchery:crystalball>;
+val crystalBall = <witchery:crystalball>;
 val deathsHood = <witchery:deathscowl>;
 val deathsFootwear = <witchery:deathsfeet>;
 val deathsHand = <witchery:deathshand>;

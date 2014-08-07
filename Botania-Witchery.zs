@@ -288,6 +288,7 @@ val logAll = <minecraft:log:*>;
 val snowball = <minecraft:snowball>;
 val powderBlaze = <minecraft:blaze_powder>;
 val redstone = <minecraft:redstone>;
+val waterBottle = <minecraft:potion>;
 
 ##Witchery
 val waterArtichokeSeeds = <witchery:seedsartichoke>; 
@@ -359,7 +360,7 @@ val otherwhereGlyph = <witchery:circleglyphotherwhere>;
 val ritualGlyph = <witchery:circleglyphritual>;
 val circleTalisman = <witchery:circletalisman>;
 val critterSnare = <witchery:crittersnare>;
-val crystalBall: <witchery:crystalball>;
+val crystalBall = <witchery:crystalball>;
 val deathsHood = <witchery:deathscowl>;
 val deathsFootwear = <witchery:deathsfeet>;
 val deathsHand = <witchery:deathshand>;
@@ -440,6 +441,8 @@ val redstoneSoup = <witchery:ingredient:40>;
 val candelabra = <witchery:ingredient>;
 val  whiffOfMagic = <witchery:ingredient:34>;
 val  oilOfVitriol = <witchery:ingredient:30>;
+val breathOfTheGoddess = <witchery:ingredient:32>;
+val exhaleOfTheHornedOne = <witchery:ingredient:31>;
 
 ##Recipes
 recipes.remove(attunedStone);
@@ -448,6 +451,8 @@ recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 mods.botania.Apothecary.removeRecipe("endoFlame")
 mods.botania.Apothecary.addRecipe(endoFlame, [oilOfVitriol, brownManaPetal, redManaPetal, redMysticalPetal, brownMysticalPetal]);
 
+recipes.remove(altar);
+recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
 
