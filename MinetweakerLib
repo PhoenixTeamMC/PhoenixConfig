@@ -1194,7 +1194,6 @@ val spectreFlask = <RandomThings:imbue:5>;
 val demorpher = <RandomThings:demorpher>;
 val swordCreative = <RandomThings:creativeSword>;
 val growerCreative = <RandomThings:creativeGrower>;
-val creativeChestGen = <RandomThings:creativeChestGenerator>.withTag({}));
 val soundRecorder = <RandomThings:soundRecorder>;
 val corePlayer = <RandomThings:ingredient>;
 val stickObsidian = <RandomThings:ingredient:1>;
