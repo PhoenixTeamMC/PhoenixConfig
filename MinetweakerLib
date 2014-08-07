@@ -231,7 +231,6 @@ val manaCookie =  <Botania:manaCookie>;
 val manaDetector = <Botania:manaDetector>;
 val manaBlaster = <Botania:manaGun>;
 val manaMirror = <Botania:manaMirror>;
-val manaPetal = <Botania:manaPetal>;
 val manasteelIngot = <Botania:manaResource>;
 val manaPearl = <Botania:manaResource:1>;
 val manaDiamond = <Botania:manaResource:2>;
@@ -263,7 +262,6 @@ val ringMantle = <Botania:miningRing>;
 val extrapolatedBucket = <Botania:openBucket>;
 val openCrate = <Botania:openCrate>;
 val pestleAndMortar = <Botania:pestleAndMortar>;
-val mysticalPetal = <Botania:petal>;
 val forceRelay = <Botania:pistonRelay>;
 val greatFairyRing = <Botania:pixieRing>;
 val abstrusePlatform = <Botania:platform>;
@@ -381,6 +379,42 @@ val daffomill = <Botania:specialFlower>.withTag({type: "daffomill"});
 val vinculotus = <Botania:specialFlower>.withTag({type: "vinculotus"});
 val hydroangeas = <Botania:specialFlower>.withTag({type: "hydroangeas"});
 val fallenKanade = <Botania:specialFlower>.withTag({type: "fallenKanade"});
+
+##BTN Petals
+val whiteMysticalPetal = <Botania:petal>;
+val orangeMysticalPetal = <Botania:petal:1>;
+val magentaMysticalPetal = <Botania:petal:2>;
+val lightBlueMysticalPetal = <Botania:petal:3>;
+val yellowMysticalPetal = <Botania:petal:4>;
+val limeMysticalPetal = <Botania:petal:5>;
+val pinkMysticalPetal = <Botania:petal:6>;
+val grayMysticalPetal = <Botania:petal:7>;
+val lightGrayMysticalPetal = <Botania:petal:8>;
+val cyanMysticalPetal = <Botania:petal:9>;
+val purpleMysticalPetal = <Botania:petal:10>;
+val blueMysticalPetal = <Botania:petal:11>;
+val brownMysticalPetal = <Botania:petal:12>;
+val greenMysticalPetal = <Botania:petal:13>;
+val redMysticalPetal = <Botania:petal:14>;
+val blackMysticalPetal = <Botania:petal:15>;
+
+##BTN Mana Petals
+val whiteManaPetal = <Botania:manaPetal>;
+val orangeManaPetal = <Botania:manaPetal:1>;
+val magentaManaPetal = <Botania:manaPetal:2>;
+val lightBlueManaPetal = <Botania:manaPetal:3>;
+val yellowManaPetal = <Botania:manaPetal:4>;
+val limeManaPetal = <Botania:manaPetal:5>;
+val pinkManaPetal = <Botania:manaPetal:6>;
+val grayManaPetal = <Botania:manaPetal:7>;
+val lightGrayManaPetal = <Botania:manaPetal:8>;
+val cyanManaPetal = <Botania:manaPetal:9>;
+val purpleManaPetal = <Botania:manaPetal:10>;
+val blueManaPetal = <Botania:manaPetal:11>;
+val brownManaPetal = <Botania:manaPetal:12>;
+val greenManaPetal = <Botania:manaPetal:13>;
+val redManaPetal = <Botania:manaPetal:14>;
+val blackManaPetal = <Botania:manaPetal:15>;
 
 ##BuildCraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
@@ -1428,6 +1462,8 @@ val batWool = <witchery:ingredient:24>;
 val luckDrop = <witchery:ingredient:39>;
 val redstoneSoup = <witchery:ingredient:40>;
 val candelabra = <witchery:ingredient>;
+val  whiffOfMagic = <witchery:ingredient:34>;
+val  oilOfVitriol = <witchery:ingredient:30>;
 
 ##Twilight Forest
 val alphaFur = <TwilightForest:alphaFur>;
