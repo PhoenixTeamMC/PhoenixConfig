@@ -1172,6 +1172,7 @@ val snowball = <minecraft:snowball>;
 val powderBlaze = <minecraft:blaze_powder>;
 val redstone = <minecraft:redstone>;
 val waterBottle = <minecraft:potion>;
+val oakSapling = <minecraft:sapling>;
 
 ##FLORA
 val hardenedBoots = <flora:item.HardenedBoots>;
@@ -1465,6 +1466,8 @@ val redstoneSoup = <witchery:ingredient:40>;
 val candelabra = <witchery:ingredient>;
 val whiffOfMagic = <witchery:ingredient:34>;
 val oilOfVitriol = <witchery:ingredient:30>;
+val breathOfTheGoddess = <witchery:ingredient:32>;
+val exhaleOfTheHornedOne = <witchery:ingredient:31>;
 
 ##Twilight Forest
 val alphaFur = <TwilightForest:alphaFur>;
