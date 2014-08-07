@@ -2,6 +2,7 @@
 /* Defines many, many variables for Minetweaker.
 Is a must for any PhoenixConfig scripts to run.
 Is not done yet. Many more mods to document. */
+
 ##Archimedes' Ships
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
@@ -28,6 +29,7 @@ val bufferShore = <ArchimedesShips:buffer>;
 val engineSteam = <ArchimedesShips:engine>;
 val crateWood = <ArchimedesShips:crate_wood>;
 val allBalloons = <ArchimedesShips:balloon:*>;
+
 ##Blood Magic
 val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
 val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
@@ -380,7 +382,7 @@ val vinculotus = <Botania:specialFlower>.withTag({type: "vinculotus"});
 val hydroangeas = <Botania:specialFlower>.withTag({type: "hydroangeas"});
 val fallenKanade = <Botania:specialFlower>.withTag({type: "fallenKanade"});
 
-##Buildcraft
+##BuildCraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
 val blueprint = <BuildCraft|Builders:blueprintItem>;
 val builder = <BuildCraft|Builders:builderBlock>;
@@ -417,6 +419,8 @@ val tank = <BuildCraft|Factory:tankBlock>;
 val laser = <BuildCraft|Silicon:laserBlock>;
 val assemblyTable = <BuildCraft|Silicon:null>;
 val redstoneChipset = <BuildCraft|Silicon:redstoneChipset>;
+val goldChipset = <BuildCraft|Silicon:redstoneChipset:2>;
+val redstoneCompChipset = <BuildCraft|Silicon:redstoneChipset:6>;
 val filteredBuffer = <BuildCraft|Transport:filteredBufferBlock>;
 val cobblestoneFluidPipe = <BuildCraft|Transport:item.buildcraftPipe.pipefluidscobblestone>;
 val emeraldFluidPipe =  <BuildCraft|Transport:item.buildcraftPipe.pipefluidsemerald>;
@@ -426,9 +430,7 @@ val sandstoneFluidPipe = <BuildCraft|Transport:item.buildcraftPipe.pipefluidssan
 val stoneFluidPipe = <BuildCraft|Transport:item.buildcraftPipe.pipefluidsstone>;
 val voidFluidPipe = <BuildCraft|Transport:item.buildcraftPipe.pipefluidsvoid>;
 val woodFluidPipe = <BuildCraft|Transport:item.buildcraftPipe.pipefluidswood>;
-
 val cobblestoneTransportPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemscobblestone>;
-
 val daizuliTransportPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdaizuli>;
 val diamondTranspotPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsdiamond>;
 val emeraldTransportPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsemerald>;
@@ -443,18 +445,14 @@ val stoneTransportPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsston
 val stripesTransportPipe = <BuildCraft|Transport:item.buildcraftPipe.pipeitemsstripes>;
 val voidTransportPipe =  <BuildCraft|Transport:item.buildcraftPipe.pipeitemsvoid>;
 val woodTransportPipe =  <BuildCraft|Transport:item.buildcraftPipe.pipeitemswood>;
-
 val cobblestoneKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowercobblestone>;
-
 val diamondKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowerdiamond>;
 val goldenKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowergold>;
 val ironKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepoweriron>;
 val quartzKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowerquartz>;
 val stoneKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowerstone>;
 val woodKinesisPipe = <BuildCraft|Transport:item.buildcraftPipe.pipepowerwood>;
-
 val cobblestoneStructurePipe = <BuildCraft|Transport:item.buildcraftPipe.pipestructurecobblestone>;
-
 val pipeBlock = <BuildCraft|Transport:pipeBlock>;
 val facade = <BuildCraft|Transport:pipeFacade>;
 val basicGate = <BuildCraft|Transport:pipeGate>;
