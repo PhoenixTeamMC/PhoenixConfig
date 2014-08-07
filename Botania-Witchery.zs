@@ -289,6 +289,7 @@ val snowball = <minecraft:snowball>;
 val powderBlaze = <minecraft:blaze_powder>;
 val redstone = <minecraft:redstone>;
 val waterBottle = <minecraft:potion>;
+val oakSapling = <minecraft:sapling>;
 
 ##Witchery
 val waterArtichokeSeeds = <witchery:seedsartichoke>; 
@@ -451,6 +452,7 @@ recipes.addShaped(attunedStone, [[whiffOfMagic], [manaDiamond], [lavaBucket]]);
 mods.botania.Apothecary.removeRecipe("endoFlame");
 recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol, redManaPetal],[null, null, null]]);
 
+mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 1000);
 recipes.remove(altar);
 recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
 //Keep this at the bottom
