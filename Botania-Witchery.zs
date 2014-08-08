@@ -290,6 +290,27 @@ val powderBlaze = <minecraft:blaze_powder>;
 val redstone = <minecraft:redstone>;
 val waterBottle = <minecraft:potion>;
 val oakSapling = <minecraft:sapling>;
+val enderPearl = <minecraft:ender_pearl>;
+val nuggetGold = <minecraft:gold_nugget>;
+val blazePowder = <minecraft:blaze_powder>;
+
+##MC Dyes
+val inkSac = <minecraft:dye>;
+val roseRed = <minecraft:dye:1>;
+val cactusGreen = <minecraft:dye:2>;
+val cocoaBeans = <minecraft:dye:3>;
+val lapisLazuli = <minecraft:dye:4>;
+val purpleDye = <minecraft:dye:5>;
+val cyanDye = <minecraft:dye:6>;
+val lightGrayDye = <minecraft:dye:7>;
+val grayDye = <minecraft:dye:8>;
+val pinkDye = <minecraft:dye:9>;
+val limeDye = <minecraft:dye:10>;
+val dandelionYellow = <minecraft:dye:11>;
+val lightBlueDye = <minecraft:dye:12>;
+val magentaDye = <minecraft:dye:13>;
+val orangeDye = <minecraft:dye:14>;
+val boneMeal = <minecraft:dye:15>;
 
 ##Witchery
 val waterArtichokeSeeds = <witchery:seedsartichoke>; 
@@ -444,6 +465,9 @@ val whiffOfMagic = <witchery:ingredient:34>;
 val oilOfVitriol = <witchery:ingredient:30>;
 val breathOfTheGoddess = <witchery:ingredient:32>;
 val exhaleOfTheHornedOne = <witchery:ingredient:31>;
+val tearOfTheGoddess = <witchery:ingredient:37>;
+val gypsum = <witchery:ingredient:17>;
+val waterArtichokeGlobe = <witchery:ingredient:69>;
 
 ##Recipes
 recipes.remove(attunedStone);
@@ -455,6 +479,18 @@ recipes.addShaped(endoFlame, [[null, null, null], [brownManaPetal, oilOfVitriol,
 mods.botania.ManaInfusion.addInfusion(rowanSapling, oakSapling, 25000);
 recipes.remove(altar);
 recipes.addShaped(altar * 3, [[breathOfTheGoddess, waterBottle, exhaleOfTheHornedOne], [livingrock, rowanWood, livingrock], [livingrock, rowanWood, livingrock]]);
+
+recipes.remove(ritualChalk);
+recipes.addShaped(ritualChalk * 2, [[woodAsh, tearOfTheGoddess, woodAsh], [whiteManaPetal, gypsum, whiteManaPetal], [woodAsh, gypsum, woodAsh]]);
+
+recipes.remove(otherwhereChalk);
+recipes.addShaped(otherwhereChalk * 2, [[waterArtichokeGlobe, enderPearl, waterArtichokeGlobe], [blueManaPetal, ritualChalk, blueManaPetal], [blueManaPetal, ritualChalk, blueManaPetal]]);
+
+recipes.remove(infernalChalk);
+recipes.addShaped(infernalChalk * 2, [[emberMoss, blazePowder, emberMoss], [redManaPetal, ritualChalk, redManaPetal], [redManaPetal, ritualChalk, redManaPetal]]);
+
+recipes.remove(goldenChalk);
+recipes.addShaped(goldenChalk, [[nuggetGold, nuggetGold, nuggetGold], [yellowManaPetal, ritualChalk, yellowManaPetal], [yellowManaPetal, redstone, yellowManaPetal]]);
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
 
