@@ -118,7 +118,6 @@ val ringMantle = <Botania:miningRing>;
 val extrapolatedBucket = <Botania:openBucket>;
 val openCrate = <Botania:openCrate>;
 val pestleAndMortar = <Botania:pestleAndMortar>;
-val mysticalPetal = <Botania:manaPetal>;
 val forceRelay = <Botania:pistonRelay>;
 val greatFairyRing = <Botania:pixieRing>;
 val abstrusePlatform = <Botania:platform>;
@@ -491,6 +490,10 @@ recipes.addShaped(infernalChalk * 2, [[emberMoss, blazePowder, emberMoss], [redM
 
 recipes.remove(goldenChalk);
 recipes.addShaped(goldenChalk, [[nuggetGold, nuggetGold, nuggetGold], [yellowManaPetal, ritualChalk, yellowManaPetal], [yellowManaPetal, redstone, yellowManaPetal]]);
+
+recipes.remove(runicAltar);
+recipes.addShaped(runicAltar, [[livingrock, livingrock, livingrock], [livingrock, chargedStone, livingrock], [null, null, null]]);
+
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
 
