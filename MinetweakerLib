@@ -1244,7 +1244,7 @@ val redstone = <minecraft:redstone>;
 val waterBottle = <minecraft:potion>;
 val oakSapling = <minecraft:sapling>;
 val enderPearl = <minecraft:ender_pearl>;
-val nuggetGold = <minecraft:gold_nugget>:
+val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
 
 ##MC Dyes
