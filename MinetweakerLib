@@ -416,6 +416,24 @@ val greenManaPetal = <Botania:manaPetal:13>;
 val redManaPetal = <Botania:manaPetal:14>;
 val blackManaPetal = <Botania:manaPetal:15>;
 
+##BTN Runes
+val runeOfWater = <Botania:rune>;
+val runeOfFire = <Botania:rune:1>;
+val runeOfEarth = <Botania:rune:2>;
+val runeOfAir = <Botania:rune:3>;
+val runeOfSpring = <Botania:rune:4>;
+val runeOfSummer = <Botania:rune:5>;
+val runeOfAutumn = <Botania:rune:6>;
+val runeOfWinter = <Botania:rune:7>;
+val runeOfMana = <Botania:rune:8>;
+val runeOfLust = <Botania:rune:9>;
+val runeOfGluttony = <Botania:rune:10>;
+val runeOfGreed = <Botania:rune:11>;
+val runeOfSloth = <Botania:rune:12>;
+val runeOfWrath = <Botania:rune:13>;
+val runeOfEnvy = <Botania:rune:14>;
+val runeOfPride = <Botania:rune:15>;
+
 ##BuildCraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
 val blueprint = <BuildCraft|Builders:blueprintItem>;
