@@ -163,7 +163,6 @@ val reedBlock = <Botania:reedBlock>;
 val reedSlab = <Botania:reedBlock0Slab>;
 val reedSlabFull = <Botania:reedBlock0SlabFull>;
 val reedStairs = <Botania:reedBlock0Stairs>;
-val rune = <Botania:rune>;
 val runicAltar = <Botania:runeAltar>;
 val seaLantern = <Botania:seaLamp>;
 val terrasteelBlock = <Botania:storage:1>;
@@ -271,6 +270,24 @@ val brownManaPetal = <Botania:manaPetal:12>;
 val greenManaPetal = <Botania:manaPetal:13>;
 val redManaPetal = <Botania:manaPetal:14>;
 val blackManaPetal = <Botania:manaPetal:15>;
+
+##BTN Runes
+val runeOfWater = <Botania:rune>;
+val runeOfFire = <Botania:rune:1>;
+val runeOfEarth = <Botania:rune:2>;
+val runeOfAir = <Botania:rune:3>;
+val runeOfSpring = <Botania:rune:4>;
+val runeOfSummer = <Botania:rune:5>;
+val runeOfAutumn = <Botania:rune:6>;
+val runeOfWinter = <Botania:rune:7>;
+val runeOfMana = <Botania:rune:8>;
+val runeOfLust = <Botania:rune:9>;
+val runeOfGluttony = <Botania:rune:10>;
+val runeOfGreed = <Botania:rune:11>;
+val runeOfSloth = <Botania:rune:12>;
+val runeOfWrath = <Botania:rune:13>;
+val runeOfEnvy = <Botania:rune:14>;
+val runeOfPride = <Botania:rune:15>;
 
 ##Minecraft
 val slimeBall = <minecraft:slime_ball>;
@@ -483,10 +500,10 @@ recipes.remove(ritualChalk);
 recipes.addShaped(ritualChalk * 2, [[woodAsh, tearOfTheGoddess, woodAsh], [whiteManaPetal, gypsum, whiteManaPetal], [woodAsh, gypsum, woodAsh]]);
 
 recipes.remove(otherwhereChalk);
-recipes.addShaped(otherwhereChalk * 2, [[waterArtichokeGlobe, enderPearl, waterArtichokeGlobe], [blueManaPetal, ritualChalk, blueManaPetal], [blueManaPetal, ritualChalk, blueManaPetal]]);
+recipes.addShaped(otherwhereChalk * 2, [[waterArtichokeGlobe, manaPearl, waterArtichokeGlobe], [blueManaPetal, ritualChalk, blueManaPetal], [blueManaPetal, ritualChalk, blueManaPetal]]);
 
 recipes.remove(infernalChalk);
-recipes.addShaped(infernalChalk * 2, [[emberMoss, blazePowder, emberMoss], [redManaPetal, ritualChalk, redManaPetal], [redManaPetal, ritualChalk, redManaPetal]]);
+recipes.addShaped(infernalChalk * 2, [[emberMoss, runeOfFire, emberMoss], [redManaPetal, ritualChalk, redManaPetal], [redManaPetal, ritualChalk, redManaPetal]]);
 
 recipes.remove(goldenChalk);
 recipes.addShaped(goldenChalk, [[nuggetGold, nuggetGold, nuggetGold], [yellowManaPetal, ritualChalk, yellowManaPetal], [yellowManaPetal, redstone, yellowManaPetal]]);
@@ -494,6 +511,8 @@ recipes.addShaped(goldenChalk, [[nuggetGold, nuggetGold, nuggetGold], [yellowMan
 recipes.remove(runicAltar);
 recipes.addShaped(runicAltar, [[livingrock, livingrock, livingrock], [livingrock, chargedStone, livingrock], [null, null, null]]);
 
+recipes.remove(circleTalisman);
+recipes.addShaped(circleTalisman, [[nuggetGold, goldIngot, nuggetGold],[goldIngot, manaDiamond,  goldIngot],[nuggetGold, goldIngot, nuggetGold]]);
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
 
