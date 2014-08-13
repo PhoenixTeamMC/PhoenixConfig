@@ -345,25 +345,46 @@ val leather = <minecraft:leather>;
 val lavaBucket = <minecraft:lava_bucket>;
 val magmaCream = <minecraft:magma_cream>;
 ##Recipes
-recipes.remove(manaSpreader);
+
+//blood rune
 recipes.remove(bloodRune);
-mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
-mods.botania.Apothecary.removeRecipe(endoFlame);
 recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, pureDaisy, blankSlate], [smoothStone, smoothStone, smoothStone]]);
+
+//living rock
 recipes.addShaped(livingrock * 2, [[smoothStone, bucketLife, smoothStone], [null, null, null], [null, null, null]]);
-recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
-mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
-mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
 mods.bloodmagic.Altar.addRecipe(livingrock, smoothStone, 1, 500, 20, 20);
+
+//living wood
+recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
 mods.bloodmagic.Altar.addRecipe(livingwood, planks, 1, 500, 20, 20);
+
+//endoflame
+mods.botania.Apothecary.removeRecipe(endoFlame);
+mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
+
+//jaded amaranthus
+mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
+mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
+
+//mana spreader
+recipes.remove(manaSpreader);
 mods.bloodmagic.Altar.addRecipe(manaSpreader, piston, 1, 1500, 20, 20);
+
+//globetrotter sash
 recipes.remove(globetrotterSash);
 recipes.addShaped(globetrotterSash, [[elementiumIngot, null, boundBoots], [null, soujournersSash, null], [gaiaSpirit, null, elementiumIngot]]);
+
+//soujourners sash
 recipes.remove(soujournersSash);
 recipes.addShaped(soujournersSash, [[runeOfEarth, leather, airSigil], [leather, sigilOfHaste, leather], [manasteelIngot, leather, runeOfAir]]);
+
+//empty socket
 recipes.remove(emptySocket);
 mods.botania.ManaInfusion.addInfusion(emptySocket, terrasteelBlock, 200000);
+
+//lava sigil
 recipes.remove(lavaSigil);
 recipes.addShaped(lavaSigil, [[lavaBucket, magmaCream, lavaBucket], [thermaLily, blankSlate, thermaLily], [lavaBucket, lavaCrystal, lavaBucket]]);
+
 //Keep this at the bottom
 print("BM-BTN Script Loaded");
