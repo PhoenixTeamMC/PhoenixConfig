@@ -515,5 +515,3 @@ recipes.remove(circleTalisman);
 recipes.addShaped(circleTalisman, [[nuggetGold, goldIngot, nuggetGold],[goldIngot, manaDiamond,  goldIngot],[nuggetGold, goldIngot, nuggetGold]]);
 //Keep this at the bottom
 print("Botania - Witchery Loaded");
-
-
