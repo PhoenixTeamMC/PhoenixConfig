@@ -459,7 +459,7 @@ recipes.addShaped(soujournersSash, [[runeOfEarth, leather, airSigil], [leather, 
 
 //empty socket
 recipes.remove(emptySocket);
-mods.botania.ManaInfusion.addInfusion(emptySocket, terrasteelBlock, 200000);
+mods.botania.ManaInfusion.addInfusion(emptySocket, terrasteelBlock, 99999);
 
 //lava sigil
 recipes.remove(lavaSigil);
