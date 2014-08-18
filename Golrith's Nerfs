@@ -1,0 +1,73 @@
+##Requires TiC
+
+recipes.remove(<minecraft:planks:*>);
+recipes.addShapeless(<minecraft:planks:0>*2,[<minecraft:log:0>]);
+recipes.addShapeless(<minecraft:planks:1>*2,[<minecraft:log:1>]);
+recipes.addShapeless(<minecraft:planks:2>*2,[<minecraft:log:2>]);
+recipes.addShapeless(<minecraft:planks:3>*2,[<minecraft:log:3>]);
+recipes.addShapeless(<minecraft:planks:4>*2,[<minecraft:log2:0>]);
+recipes.addShapeless(<minecraft:planks:5>*2,[<minecraft:log2:1>]);
+
+val mcTorch = <minecraft:torch>;
+val mcStick = <ore:stickWood>;
+
+val mcCharc = <minecraft:coal:1>;
+val mcCoal  = <minecraft:coal:0>;
+
+recipes.remove(mcTorch);
+recipes.addShaped(mcTorch,[[mcCoal],[mcStick]]);
+recipes.addShaped(mcTorch,[[mcCharc],[mcStick]]);
+
+furnace.remove(mcCharc);
+
+recipes.remove(<minecraft:stone_button>);
+recipes.remove(<minecraft:wooden_button>);
+
+recipes.addShapeless(<minecraft:stone_button>*4,[<ore:stone>,<minecraft:redstone>]);
+recipes.addShapeless(<minecraft:wooden_button>*4,[<ore:plankWood>,<minecraft:redstone>]);
+
+
+recipes.addShapeless(<minecraft:stick>*2,[<ore:plankWood>]);
+
+recipes.remove(<minecraft:lever>);
+recipes.addShaped(<minecraft:lever>,[[mcStick],[<ore:cobblestone>],[<minecraft:redstone>]]);
+
+recipes.remove(<minecraft:iron_sword>);
+recipes.remove(<minecraft:wooden_sword>);
+recipes.remove(<minecraft:wooden_shovel>);
+recipes.remove(<minecraft:wooden_pickaxe>);
+recipes.remove(<minecraft:wooden_axe>);
+recipes.remove(<minecraft:stone_sword>);
+recipes.remove(<minecraft:stone_shovel>);
+recipes.remove(<minecraft:stone_pickaxe>);
+recipes.remove(<minecraft:stone_axe>);
+recipes.remove(<minecraft:stone_hoe>);
+
+recipes.addShaped(<minecraft:iron_sword>,[[<TConstruct:swordBlade:2>],[<TConstruct:handGuard:2>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:wooden_sword>,[[<TConstruct:swordBlade:0>],[<TConstruct:handGuard:0>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:stone_sword>,[[<TConstruct:swordBlade:3>],[<TConstruct:handGuard:3>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:stone_shovel>,[[<TConstruct:shovelHead:3>],[<TConstruct:binding:0>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:stone_pickaxe>,[[<TConstruct:pickaxeHead:3>],[<TConstruct:binding:0>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:stone_axe>,[[<TConstruct:hatchetHead:3>],[<TConstruct:binding:0>],[<TConstruct:toolRod:0>]]);
+recipes.addShaped(<minecraft:stone_hoe>,[[<minecraft:flint>,<minecraft:flint>],[null,mcStick],[null,mcStick]]);
+
+/* Delete this line if you want BoP support.
+
+recipes.remove(<BiomesOPlenty:planks:*>);
+recipes.addShapeless(<BiomesOPlenty:planks:0>*2,[<BiomesOPlenty:logs1:0>]);
+recipes.addShapeless(<BiomesOPlenty:planks:1>*2,[<BiomesOPlenty:logs1:1>]);
+recipes.addShapeless(<BiomesOPlenty:planks:2>*2,[<BiomesOPlenty:logs1:2>]);
+recipes.addShapeless(<BiomesOPlenty:planks:3>*2,[<BiomesOPlenty:logs1:3>]);
+recipes.addShapeless(<BiomesOPlenty:planks:4>*2,[<BiomesOPlenty:logs2:0>]);
+recipes.addShapeless(<BiomesOPlenty:planks:5>*2,[<BiomesOPlenty:logs2:1>]);
+recipes.addShapeless(<BiomesOPlenty:planks:6>*2,[<BiomesOPlenty:logs2:2>]);
+recipes.addShapeless(<BiomesOPlenty:planks:7>*2,[<BiomesOPlenty:logs2:3>]);
+recipes.addShapeless(<BiomesOPlenty:planks:8>*2,[<BiomesOPlenty:logs3:0>]);
+recipes.addShapeless(<BiomesOPlenty:planks:9>*2,[<BiomesOPlenty:logs3:1>]);
+recipes.addShapeless(<BiomesOPlenty:planks:10>*2,[<BiomesOPlenty:logs3:2>]);
+recipes.addShapeless(<BiomesOPlenty:planks:11>*2,[<BiomesOPlenty:logs4:0>]);
+recipes.addShapeless(<BiomesOPlenty:planks:12>*2,[<BiomesOPlenty:logs4:1>]);
+recipes.addShapeless(<BiomesOPlenty:planks:13>*2,[<BiomesOPlenty:logs4:2>]);
+recipes.addShapeless(<BiomesOPlenty:planks:14>*2,[<BiomesOPlenty:logs4:3>]);
+
+Delete this line if you want BoP support */
