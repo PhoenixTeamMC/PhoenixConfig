@@ -1,4 +1,4 @@
-## MinetweakerLib
+﻿## MinetweakerLib
 /* Defines many, many variables for Minetweaker.
 Is a must for any PhoenixConfig scripts to run.
 Is not done yet. Many more mods to document. */
@@ -1249,7 +1249,6 @@ val slimeBall = <minecraft:slime_ball>;
 val lavaBucket = <minecraft:lava_bucket>;
 val ironIngot = <minecraft:iron_ingot>;
 val goldIngot = <minecraft:gold_ingot>;
-val ironPick = <minecraft:iron_pickaxe>;
 val woodPlankAll = <minecraft:planks:*>;
 val woolAll = <minecraft:wool:*>;
 val compass = <minecraft:compass>;
@@ -1264,6 +1263,34 @@ val oakSapling = <minecraft:sapling>;
 val enderPearl = <minecraft:ender_pearl>;
 val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
+val seed = <minecraft:seed>;
+
+##MC Tools
+val woodPick = <minecraft:wood_pickaxe>;
+val woodAxe = <minecraft:wood_axe>;
+val woodShovel = <minecraft:wood_shovel>;
+val woodSword = <minecraft:wood_sword>;
+val woodHoe = <minecraft:wood_hoe>;
+val stonePick = <minecraft:stone_pickaxe>;
+val stoneAxe = <minecraft:stone_axe>;
+val stoneShovel = <minecraft:stone_shovel>;
+val stoneSword = <minecraft:stone_sword>;
+val stoneHoe = <minecraft:stone_hoe>;
+val ironPick = <minecraft:iron_pickaxe>;
+val ironAxe = <minecraft:iron_axe>;
+val ironShovel = <minecraft:iron_shovel>;
+val ironSword = <minecraft:iron_sword>;
+val ironHoe = <minecraft:iron_hoe>;
+val goldPick = <minecraft:gold_pickaxe>;
+val goldAxe = <minecraft:gold_axe>;
+val goldShovel = <minecraft:gold_shovel>;
+val goldSword = <minecraft:gold_sword>;
+val goldHoe = <minecraft:gold_hoe>;
+val diamondPick = <minecraft:diamond_pickaxe>;
+val diamondAxe = <minecraft:diamond_axe>;
+val diamondShovel = <minecraft:diamond_shovel>;
+val diamondSword = <minecraft:diamond_sword>;
+val diamondHoe = <minecraft:diamond_hoe>;
 
 ##MC Dyes
 val inkSac = <minecraft:dye>;

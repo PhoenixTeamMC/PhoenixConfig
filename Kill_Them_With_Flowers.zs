@@ -1,120 +1,8 @@
-##For clarification, NOT DONE. This currently only accounts for the first tier of both BTN and BM.
-##Blood Magic
-val bloodRune = <AWWayofTime:AlchemicalWizardrybloodRune>;
-val crucibleFire = <AWWayofTime:AlchemicalWizardrytile.blockSpellEffect>;
-val unstableSpellEmpowerer = <AWWayofTime:AlchemicalWizardrytile.blockSpellEnhancement>;
-val defaultSpellModifier = <AWWayofTime:AlchemicalWizardrytile.blockSpellModifier>;
-val particleGenerator = <AWWayofTime:AlchemicalWizardrytile.blockSpellParadigm>;
-val bloodAltar = <AWWayofTime:Altar>;
-val weakActivationCrystal = <AWWayofTime:activationCrystal>;
-val aether = <AWWayofTime:aether>;
-val airScribeTool =  <AWWayofTime:airScribeTool>;
-val airSigil = <AWWayofTime:airSigil>;
-val potionFlask = <AWWayofTime:alchemyFlask>;
-val apprenticeBloodOrb = <AWWayofTime:apprenticeBloodOrb>;
-val aquasalus = <AWWayofTime:aquasalus>;
-val archmageBloodOrb = <AWWayofTime:archmageBloodOrb>;
-val armourForge = <AWWayofTime:armourForge>;
-val armourInhibitor = <AWWayofTime:armourInhibitor>;
-val averageLengtheningCatalyst = <AWWayofTime:averageLengtheningCatalyst>;
-val averagePowerCatalyst = <AWWayofTime:averagePowerCatalyst>;
-val blankSlate = <AWWayofTime:blankSlate>;
-val unboundSpellCrystal = <AWWayofTime:blankSpell>;
-val blockSpellConduit = <AWWayofTime:blockConduit>;
-val spellTable = <AWWayofTime:blockHomHeart>;
-val arcanePedestal = <AWWayofTime:blockPedestal>;
-val arcanePlinth = <AWWayofTime:blockPlinth>;
-val schematicSaver = <AWWayofTime:blockSchemSaver>;
-val teleposer = <AWWayofTime:blockTeleposer>;
-val alchemicChemistrySet = <AWWayofTime:blockWritingTable>;
-val bloodLight = <AWWayofTime:bloodLight>;
-val offensa = <AWWayofTime:bloodMagicBaseAlchemyItems>;
-val quartzRod = <AWWayofTime:bloodMagicBaseItems>;
-val filledSocket = <AWWayofTime:bloodSocket>;
-val bloodStoneBrick = <AWWayofTime:bloodStoneBrick>;
-val boundAxe = <AWWayofTime:boundAxe>;
-val boundBoots = <AWWayofTime:boundBoots>;
-val boundHelmet = <AWWayofTime:boundHelmet>;
-val boundLeggings = <AWWayofTime:boundLeggings>;
-val boundPickaxe = <AWWayofTime:boundPickaxe>;
-val boundPlate = <AWWayofTime:boundPlate>;
-val boundShovel = <AWWayofTime:boundShovel>;
-val bucketLife = <AWWayofTime:bucketLife>;
-val testingOrb = <AWWayofTime:creativeFiller>;
-val crepitous = <AWWayofTime:crepitous>;
-val crystallos = <AWWayofTime:crystallos>;
-val dynamicMace = <AWWayofTime:customTool>;
-val daggerSacrifice = <AWWayofTime:daggerOfSacrifice>;
-val demonBloodShard = <AWWayofTime:demonBloodShard>;
-val demonPlacer = <AWWayofTime:demonPlacer>;
-val demonPortalMain = <AWWayofTime:demonPortalMain>;
-val demonicSlate = <AWWayofTime:demonicSlate>;
-val demonicTelepositionFocus = <AWWayofTime:demonicTelepositionFocus>;
-val divinationSigil = <AWWayofTime:divinationSigil>;
-val duskScribeTool= <AWWayofTime:duskScribeTool>;
-val earthScribeTool = <AWWayofTime:earthScribeTool>;
-val efficiencyRune = <AWWayofTime:efficiencyRune>;
-val emptySocket = <AWWayofTime:emptySocket>;
-val energyBazooka = <AWWayofTime:energyBazooka>;
-val energyBlaster = <AWWayofTime:energyBlaster>;
-val boundBlade = <AWWayofTime:energySword>;
-val enhancedFillingAgent = <AWWayofTime:enhancedFillingAgent>;
-val enhancedTelepositionFocus = <AWWayofTime:enhancedTelepositionFocus>;
-val fireScribeTool = <AWWayofTime:fireScribeTool>;
-val fluidSigil = <AWWayofTime:fluidSigil>;
-val greaterLengtheningCatalyst = <AWWayofTime:greaterLengtheningCatalyst>;
-val greaterPowerCatalyst = <AWWayofTime:greaterPowerCatalyst>;
-val growthSigil = <AWWayofTime:growthSigil>;
-val imbuedSlate = <AWWayofTime:imbuedSlate>;
-val imperfectRitualStone = <AWWayofTime:imperfectRitualStone>;
-val incendium  = <AWWayofTime:incendium>;
-val itemBloodLightSigil  = <AWWayofTime:itemBloodLightSigil>;
-val itemComplexSpellCrystal = <AWWayofTime:itemComplexSpellCrystal>;
-val keyBinding = <AWWayofTime:itemKeyOfDiablo>;
-val itemRitualDiviner = <AWWayofTime:itemRitualDiviner>;
-val largeBloodStoneBrick = <AWWayofTime:largeBloodStoneBrick>;
-val lavaCrystal = <AWWayofTime:lavaCrystal>;
-val lavaSigil = <AWWayofTime:lavaSigil>;
-val lifeEssence = <AWWayofTime:lifeEssence>;
-val magicales = <AWWayofTime:magicales>;
-val magicianBloodOrb = <AWWayofTime:magicianBloodOrb>;
-val masterBloodOrb = <AWWayofTime:masterBloodOrb>;
-val masterRitualStone = <AWWayofTime:masterStone>;
-val mundaneLengtheningCatalyst = <AWWayofTime:mundaneLengtheningCatalyst>;
-val mundanePowerCatalyst = <AWWayofTime:mundanePowerCatalyst>;
-val reinforcedSlate = <AWWayofTime:reinforcedSlate>;
-val reinforcedTelepositionFocus = <AWWayofTime:reinforcedTelepositionFocus>;
-val ritualStone = <AWWayofTime:ritualStone>;
-val runeOfSacrifice = <AWWayofTime:runeOfSacrifice>;
-val runeOfSelfSacrifice = <AWWayofTime:runeOfSelfSacrifice>;
-val sacrificialKnife = <AWWayofTime:sacrificialKnife>;
-val sanctus = <AWWayofTime:sanctus>;
-val sigilSight = <AWWayofTime:seerSigil>;
-val sigilOfElementalAffinity = <AWWayofTime:sigilOfElementalAffinity>;
-val sigilOfEnderSeverance = <AWWayofTime:sigilOfEnderSeverance>;
-val sigilOfHaste = <AWWayofTime:sigilOfHaste>;
-val sigilOfHolding = <AWWayofTime:sigilOfHolding>;
-val sigilOfMagnetism = <AWWayofTime:sigilOfMagnetism>;
-val sigilOfSupression = <AWWayofTime:sigilOfSupression>;
-val sigilOfThePhantomBridge = <AWWayofTime:sigilOfTheBridge>;
-val sigilOfTheFastMiner = <AWWayofTime:sigilOfTheFastMiner>;
-val sigilOfWhirlwind = <AWWayofTime:sigilOfWind>;
-val simpleCatalyst = <AWWayofTime:simpleCatalyst>;
-val spectralBlock = <AWWayofTime:spectralBlock>;
-val spectralContainer = <AWWayofTime:spectralContainer>;
-val speedRune = <AWWayofTime:speedRune>;
-val standardBindingAgent = <AWWayofTime:standardBindingAgent>;
-val standardFillingAgent = <AWWayofTime:standardFillingAgent>;
-val telepositionFocus = <AWWayofTime:telepositionFocus>;
-val tennebrae = <AWWayofTime:tennebrae>;
-val terrae = <AWWayofTime:terrae>;
-val voidSigil = <AWWayofTime:voidSigil>;
-val waterScribeTool = <AWWayofTime:waterScribeTool>;
-val waterSigil = <AWWayofTime:waterSigil>;
-val weakBindingAgent = <AWWayofTime:weakBindingAgent>;
-val weakBloodOrb = <AWWayofTime:weakBloodOrb>;
-val weakBloodShard = <AWWayofTime:weakBloodShard>;
-val weakFillingAgent = <AWWayofTime:weakFillingAgent>;
+## MinetweakerLib
+/* Defines many, many variables for Minetweaker.
+Is a must for any PhoenixConfig scripts to run.
+Is not done yet. Many more mods to document. */
+
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
 val elvenGatewayCore = <Botania:alfheimPortal>;
@@ -151,8 +39,8 @@ val floralPowder = <Botania:dye>;
 val elementiumAxe = <Botania:elementiumAxe>;
 val elementiumBoots = <Botania:elementiumBoots>;
 val elementiumChestplate = <Botania:elementiumChest>;
-val elementiumHelm = <Botania:elementiumHelm>;
-val elementiumHelmRevealing = <Botania:elementiumHelmReveal>;
+val elementiumHelmet = <Botania:elementiumHelm>;
+val elementiumHelmetRevealing = <Botania:elementiumHelmReveal>;
 val elementiumLeggings = <Botania:elementiumLegs>;
 val elementiumPick = <Botania:elementiumPick>;
 val elementiumShears = <Botania:elementiumShears>;
@@ -199,7 +87,6 @@ val manaCookie =  <Botania:manaCookie>;
 val manaDetector = <Botania:manaDetector>;
 val manaBlaster = <Botania:manaGun>;
 val manaMirror = <Botania:manaMirror>;
-val manaPetal = <Botania:manaPetal>;
 val manasteelIngot = <Botania:manaResource>;
 val manaPearl = <Botania:manaResource:1>;
 val manaDiamond = <Botania:manaResource:2>;
@@ -219,8 +106,8 @@ val manaVoid = <Botania:manaVoid>;
 val manasteelAxe = <Botania:manasteelAxe>;
 val manasteelBoots = <Botania:manasteelBoots>;
 val manasteelChestplate = <Botania:manasteelChest>;
-val manasteelHelm = <Botania:manasteelHelm>;
-val manasteelHelmRevealing = <Botania:manasteelHelmReveal>;
+val manasteelHelmet = <Botania:manasteelHelm>;
+val manasteelHelmetRevealing = <Botania:manasteelHelmReveal>;
 val manasteelLeggings = <Botania:manasteelLegs>;
 val manasteelPick = <Botania:manasteelPick>;
 val manasteelShears = <Botania:manasteelShears>;
@@ -231,7 +118,6 @@ val ringMantle = <Botania:miningRing>;
 val extrapolatedBucket = <Botania:openBucket>;
 val openCrate = <Botania:openCrate>;
 val pestleAndMortar = <Botania:pestleAndMortar>;
-val mysticalPetal = <Botania:petal>;
 val forceRelay = <Botania:pistonRelay>;
 val greatFairyRing = <Botania:pixieRing>;
 val abstrusePlatform = <Botania:platform>;
@@ -277,24 +163,9 @@ val reedBlock = <Botania:reedBlock>;
 val reedSlab = <Botania:reedBlock0Slab>;
 val reedSlabFull = <Botania:reedBlock0SlabFull>;
 val reedStairs = <Botania:reedBlock0Stairs>;
-val runeOfWater = <Botania:rune>;
-val runeOfFire = <Botania:rune:1>;
-val runeOfEarth = <Botania:rune:2>;
-val runeOfAir = <Botania:rune:3>;
-val runeOfSpring = <Botania:rune:4>;
-val runeOfSummer = <Botania:rune:5>;
-val runeOfAutumn = <Botania:rune:6>;
-val runeOfWinter = <Botania:rune:7>;
-val runeOfMana = <Botania:rune:8>;
-val runeOfLust = <Botania:rune:9>;
-val runeOfGreed = <Botania:rune:11>;
-val runeOfSloth = <Botania:rune:12>;
-val runeOfWrath = <Botania:rune:13>;
-val runeOfEnvy = <Botania:rune:14>;
-val runeOfPride = <Botania:rune:15>;
-val runeOfGluttony = <Botania:rune:10>;
 val runicAltar = <Botania:runeAltar>;
 val seaLantern = <Botania:seaLamp>;
+val terrasteelBlock = <Botania:storage:1>;
 val glimmeringFlower = <Botania:shinyFlower>;
 val signalFlare = <Botania:signalFlare>;
 val rodHighlands = <Botania:skyDirtRod>;
@@ -308,12 +179,11 @@ val crimsonPendant = <Botania:superLavaPendant>;
 val globetrotterSash = <Botania:superTravelBelt>;
 val terraPick = <Botania:terraPick>;
 val terraSword = <Botania:terraSword>;
-val terrasteelBlock = <Botania:storage:1>;
 val terrafirmaRod = <Botania:terraformRod>;
 val terrasteelBoots = <Botania:terrasteelBoots>;
 val terrasteelChestplate = <Botania:terrasteelChest>;
-val terrasteelHelm = <Botania:terrasteelHelm>;
-val terrasteelHelmRevealing = <Botania:terrasteelHelmReveal>;
+val terrasteelHelmet = <Botania:terrasteelHelm>;
+val terrasteelHelmetRevealing = <Botania:terrasteelHelmReveal>;
 val terrasteelLegs = <Botania:terrasteelLegs>;
 val thatch = <Botania:thatch>;
 val thatchSlab = <Botania:thatch0Slab>;
@@ -331,6 +201,7 @@ val vineBall = <Botania:vineBall>;
 val necrodermalVirus = <Botania:virus>;
 val chordataRing = <Botania:waterRing>;
 val seasRod = <Botania:waterRod>;
+
 ##BTN Flora
 val jadedAmaranthus = <Botania:specialFlower>.withTag({type: "jadedAmaranthus"});
 val endoFlame = <Botania:specialFlower>.withTag({type: "endoflame"});
@@ -363,6 +234,7 @@ val daffomill = <Botania:specialFlower>.withTag({type: "daffomill"});
 val vinculotus = <Botania:specialFlower>.withTag({type: "vinculotus"});
 val hydroangeas = <Botania:specialFlower>.withTag({type: "hydroangeas"});
 val fallenKanade = <Botania:specialFlower>.withTag({type: "fallenKanade"});
+
 ##BTN Petals
 val whiteMysticalPetal = <Botania:petal>;
 val orangeMysticalPetal = <Botania:petal:1>;
@@ -380,6 +252,7 @@ val brownMysticalPetal = <Botania:petal:12>;
 val greenMysticalPetal = <Botania:petal:13>;
 val redMysticalPetal = <Botania:petal:14>;
 val blackMysticalPetal = <Botania:petal:15>;
+
 ##BTN Mana Petals
 val whiteManaPetal = <Botania:manaPetal>;
 val orangeManaPetal = <Botania:manaPetal:1>;
@@ -397,6 +270,7 @@ val brownManaPetal = <Botania:manaPetal:12>;
 val greenManaPetal = <Botania:manaPetal:13>;
 val redManaPetal = <Botania:manaPetal:14>;
 val blackManaPetal = <Botania:manaPetal:15>;
+
 ##BTN Runes
 val runeOfWater = <Botania:rune>;
 val runeOfFire = <Botania:rune:1>;
@@ -414,56 +288,96 @@ val runeOfSloth = <Botania:rune:12>;
 val runeOfWrath = <Botania:rune:13>;
 val runeOfEnvy = <Botania:rune:14>;
 val runeOfPride = <Botania:rune:15>;
+
 ##Minecraft
-val piston = <minecraft:piston>;
-val rose = <minecraft:red_flower>;
-val daisy = <minecraft:yellow_flower>;
-val smoothStone = <minecraft:stone>;
-val planks = <minecraft:planks:*>;
-val leather = <minecraft:leather>;
+val slimeBall = <minecraft:slime_ball>;
 val lavaBucket = <minecraft:lava_bucket>;
-val magmaCream = <minecraft:magma_cream>;
+val ironIngot = <minecraft:iron_ingot>;
+val goldIngot = <minecraft:gold_ingot>;
+val woodPlankAll = <minecraft:planks:*>;
+val woolAll = <minecraft:wool:*>;
+val compass = <minecraft:compass>;
+val lever = <minecraft:lever>;
+val glass = <minecraft:glass>;
+val logAll = <minecraft:log:*>;
+val snowball = <minecraft:snowball>;
+val powderBlaze = <minecraft:blaze_powder>;
+val redstone = <minecraft:redstone>;
+val waterBottle = <minecraft:potion>;
+val oakSapling = <minecraft:sapling>;
+val enderPearl = <minecraft:ender_pearl>;
+val nuggetGold = <minecraft:gold_nugget>;
+val blazePowder = <minecraft:blaze_powder>;
+val seed = <minecraft:seed>;
+
+##MC Tools
+val woodPick = <minecraft:wood_pickaxe>;
+val woodAxe = <minecraft:wood_axe>;
+val woodShovel = <minecraft:wood_shovel>;
+val woodSword = <minecraft:wood_sword>;
+val woodHoe = <minecraft:wood_hoe>;
+val stonePick = <minecraft:stone_pickaxe>;
+val stoneAxe = <minecraft:stone_axe>;
+val stoneShovel = <minecraft:stone_shovel>;
+val stoneSword = <minecraft:stone_sword>;
+val stoneHoe = <minecraft:stone_hoe>;
+val ironPick = <minecraft:iron_pickaxe>;
+val ironAxe = <minecraft:iron_axe>;
+val ironShovel = <minecraft:iron_shovel>;
+val ironSword = <minecraft:iron_sword>;
+val ironHoe = <minecraft:iron_hoe>;
+val goldPick = <minecraft:gold_pickaxe>;
+val goldAxe = <minecraft:gold_axe>;
+val goldShovel = <minecraft:gold_shovel>;
+val goldSword = <minecraft:gold_sword>;
+val goldHoe = <minecraft:gold_hoe>;
+val diamondPick = <minecraft:diamond_pickaxe>;
+val diamondAxe = <minecraft:diamond_axe>;
+val diamondShovel = <minecraft:diamond_shovel>;
+val diamondSword = <minecraft:diamond_sword>;
+val diamondHoe = <minecraft:diamond_hoe>;
+
 ##Recipes
 
-//blood rune
-recipes.remove(bloodRune);
-recipes.addShaped(bloodRune, [[smoothStone, smoothStone, smoothStone], [blankSlate, pureDaisy, blankSlate], [smoothStone, smoothStone, smoothStone]]);
+//Removals
 
-//living rock
-recipes.addShaped(livingrock * 2, [[smoothStone, bucketLife, smoothStone], [null, null, null], [null, null, null]]);
-mods.bloodmagic.Altar.addRecipe(livingrock, smoothStone, 1, 500, 20, 20);
+//Tools
+recipes.remove(woodPick);
+recipes.remove(woodAxe);
+recipes.remove(woodShovel);
+recipes.remove(woodSword);
+recipes.remove(woodHoe);
+recipes.remove(ironPick);
+recipes.remove(ironAxe);
+recipes.remove(ironShovel);
+recipes.remove(ironSword);
+recipes.remove(ironHoe);
+recipes.remove(goldPick);
+recipes.remove(goldAxe);
+recipes.remove(goldShovel);
+recipes.remove(goldSword);
+recipes.remove(goldHoe);
 
-//living wood
-recipes.addShaped(livingwood * 2, [[planks, bucketLife, planks], [null, null, null], [null, null, null]]);
-mods.bloodmagic.Altar.addRecipe(livingwood, planks, 1, 500, 20, 20);
+//Additions
 
-//endoflame
-mods.botania.Apothecary.removeRecipe(endoFlame);
-mods.bloodmagic.Altar.addRecipe(endoFlame, rose, 1, 1000, 20, 20);
+recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]);
 
-//jaded amaranthus
-mods.botania.Apothecary.removeRecipe(jadedAmaranthus);
-mods.bloodmagic.Altar.addRecipe(jadedAmaranthus, daisy, 1, 1000, 20, 20);
-
-//mana spreader
-recipes.remove(manaSpreader);
-mods.bloodmagic.Altar.addRecipe(manaSpreader, piston, 1, 1500, 20, 20);
-
-//globetrotter sash
-recipes.remove(globetrotterSash);
-recipes.addShaped(globetrotterSash, [[elementiumIngot, null, boundBoots], [null, soujournersSash, null], [gaiaSpirit, null, elementiumIngot]]);
-
-//soujourners sash
-recipes.remove(soujournersSash);
-recipes.addShaped(soujournersSash, [[runeOfEarth, leather, airSigil], [leather, sigilOfHaste, leather], [manasteelIngot, leather, runeOfAir]]);
-
-//empty socket
-recipes.remove(emptySocket);
-mods.botania.ManaInfusion.addInfusion(emptySocket, terrasteelBlock, 99999);
-
-//lava sigil
-recipes.remove(lavaSigil);
-recipes.addShaped(lavaSigil, [[lavaBucket, magmaCream, lavaBucket], [thermaLily, blankSlate, thermaLily], [lavaBucket, lavaCrystal, lavaBucket]]);
+//Tools
+recipes.add(woodPick, [[livingwood, livingwood, livingwood], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodAxe, [[livingwood, livingwood, null], [livingwood, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodShovel, [[null, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodSword, [[null, livingwood, null], [null, livingwood, null], [null, livingwoodTwig, null]);
+recipes.add(woodHoe, [[livingwood, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(ironPick, [[ironIngot, ironIngot, ironIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(ironAxe, [[ironIngot, ironIngot, null], [ironIngot, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(ironShovel, [[null, ironIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(ironSword, [[null, ironIngot, null], [null, ironIngot, null], [null, livingwoodTwig, null]);
+recipes.add(ironHoe, [[ironIngot, ironIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]);
+recipes.add(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 
 //Keep this at the bottom
-print("BM-BTN Script Loaded");
+print("Kill Them With Flowers Loaded");

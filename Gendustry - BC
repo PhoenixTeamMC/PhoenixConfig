@@ -21,14 +21,17 @@ val snowball = <minecraft:snowball>;
 val powderBlaze = <minecraft:blaze_powder>;
 
 //Recipes
-recipes.remove(modulePower);
-recipes.remove(moduleClimate);
-recipes.remove(tankMutagen);
-recipes.remove(frameUpgrade);
 
+recipes.remove(modulePower);
 recipes.addShaped(modulePower, [[ingotBronze, goldIngot, ingotBronze], [ingotBronze, redstoneCompChipset, ingotBronze], [ingotBronze, goldIngot, ingotBronze]]);
+
+recipes.remove(moduleClimate);
 recipes.addShaped(moduleClimate, [[ingotBronze, powderBlaze, ingotBronze], [ingotBronze, goldChipset, ingotBronze], [ingotBronze, snowball, ingotBronze]]);
+
+recipes.remove(tankMutagen);
 recipes.addShaped(tankMutagen, [[ingotTin, ingotTin, ingotTin], [ingotTin, tank, ingotTin], [ingotTin, ingotTin, ingotTin]]);
+
+recipes.remove(frameUpgrade);
 recipes.addShaped(frameUpgrade, [[ingotTin, redstoneChipset, ingotTin], [redstoneChipset, goldChipset, redstoneChipset], [ingotTin, redstoneChipset, ingotTin]]);
 
 //Keep this last.

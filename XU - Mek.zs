@@ -1,53 +1,53 @@
-##Archimedes' Ships - Mekanism
-/*Poorly created by Padfoote
-Enjoy the nerfs */
-##Archimedes Ships
-val shipHelm = <ArchimedesShips:marker>;
-val floater = <ArchimedesShips:floater>;
-val arcBalloonWhite = <ArchimedesShips:balloon>;
-val arcBalloonOrange = <ArchimedesShips:balloon:1>;
-val arcBalloonMagenta = <ArchimedesShips:balloon:2>;
-val arcBalloonBlueLight = <ArchimedesShips:balloon:3>;
-val arcBalloonYellow = <ArchimedesShips:balloon:4>;
-val arcBalloonLime = <ArchimedesShips:balloon:5>;
-val arcBalloonPink = <ArchimedesShips:balloon:6>;
-val arcBalloonGray = <ArchimedesShips:balloon:7>;
-val arcBalloonSilver = <ArchimedesShips:balloon:8>;
-val arcBalloonCyan = <ArchimedesShips:balloon:9>;
-val arcBalloonPurple = <ArchimedesShips:balloon:10>;
-val arcBalloonBlue = <ArchimedesShips:balloon:11>;
-val arcBalloonBrown = <ArchimedesShips:balloon:12>;
-val arcBalloonGreen = <ArchimedesShips:balloon:13>;
-val arcBalloonRed = <ArchimedesShips:balloon:14>;
-val arcBalloonBlack = <ArchimedesShips:balloon:15>;
-val gaugeBasic = <ArchimedesShips:gauge>;
-val gaugeAdvanced = <ArchimedesShips:gauge:1>;
-val seatPassenger = <ArchimedesShips:seat>;
-val bufferShore = <ArchimedesShips:buffer>;
-val engineSteam = <ArchimedesShips:engine>;
-val crateWood = <ArchimedesShips:crate_wood>;
-val allArcBalloons = <ArchimedesShips:balloon:*>;
+//XU
+val genSurvivalist = <ExtraUtilities:generator>;
+val genFurnace = <ExtraUtilities:generator:1>;
+val genLava = <ExtraUtilities:generator:2>;
+val genEnder = <ExtraUtilities:generator:3>;
+val genRedstoneHeated = <ExtraUtilities:generator:4>;
+val genCulinary = <ExtraUtilities:generator:5>;
+val genPotions = <ExtraUtilities:generator:6>;
+val genSolar = <ExtraUtilities:generator:7>;
+val genTNT = <ExtraUtilities:generator:8>;
+val genPink = <ExtraUtilities:generator:9>;
+val genHighTemp = <ExtraUtilities:generator:10>;
+val genNetherStar = <ExtraUtilities:generator:11>;
+val postTrading = <ExtraUtilities:trading_post>;
+val nodeItem = <ExtraUtilities:extractor_base>;
+val nodeLiquid = <ExtraUtilities:extractor_base:6>;
+val nodeEnergy = <ExtraUtilities:extractor_base:12>;
+val pipeTransfer = <ExtraUtilities:pipes>;
+val pipeSorting = <ExtraUtilities:pipes:8>;
+val pipeFilter = <ExtraUtilities:pipes:9>;
+val pipeRationing = <ExtraUtilities:pipes:10>;
+val pipeEnergy = <ExtraUtilities:pipes:11>;
+val pipeCrossover = <ExtraUtilities:pipes:12>;
+val pipeSortingMod = <ExtraUtilities:pipes:13>;
+val pipeEnergyExtraction = <ExtraUtilities:pipes:14>;
+val pipeRationingHyper = <ExtraUtilities:pipes.1>;
+val nodeItemRetrieval = <ExtraUtilities:extractor_base_remote>;
+val nodeLiquidRetrieval = <ExtraUtilities:extractor_base_remote:6>;
+val canWatering = <ExtraUtilities:watering_can:1>;
 
-##Mekanism
+//Mek
 val armoredJetpack = <Mekanism:ArmoredJetpack>;
 val atomicDisassembler = <Mekanism:AtomicDisassembler>;
-val MekBalloonBlack = <Mekanism:Balloon>;
-val MekBalloonRed = <Mekanism:Balloon:1>;
-val MekBalloonGreen = <Mekanism:Balloon:2>;
-val MekBalloonBrown = <Mekanism:Balloon:3>;
-val MekBalloonBlue = <Mekanism:Balloon:4>;
-val MekBalloonPurple = <Mekanism:Balloon:5>;
-val MekBalloonCyan = <Mekanism:Balloon:6>;
-val MekBalloonGreyLight = <Mekanism:Balloon:7>;
-val MekBalloonGrey = <Mekanism:Balloon:8>;
-val MekBalloonPink = <Mekanism:Balloon:9>;
-val MekBalloonLime = <Mekanism:Balloon:10>;
-val MekBalloonYellow = <Mekanism:Balloon:11>;
-val MekBalloonBlueLight = <Mekanism:Balloon:12>;
-val MekBalloonMagenta = <Mekanism:Balloon:13>;
-val MekBalloonOrange = <Mekanism:Balloon:14>;
-val MekBalloonWhite = <Mekanism:Balloon:15>;
-val allMekBalloons = <Mekanism:Balloon:*>;
+val BalloonBlack = <Mekanism:Balloon>;
+val BalloonRed = <Mekanism:Balloon:1>;
+val BalloonGreen = <Mekanism:Balloon:2>;
+val BalloonBrown = <Mekanism:Balloon:3>;
+val BalloonBlue = <Mekanism:Balloon:4>;
+val BalloonPurple = <Mekanism:Balloon:5>;
+val BalloonCyan = <Mekanism:Balloon:6>;
+val BalloonGreyLight = <Mekanism:Balloon:7>;
+val BalloonGrey = <Mekanism:Balloon:8>;
+val BalloonPink = <Mekanism:Balloon:9>;
+val BalloonLime = <Mekanism:Balloon:10>;
+val BalloonYellow = <Mekanism:Balloon:11>;
+val BalloonBlueLight = <Mekanism:Balloon:12>;
+val BalloonMagenta = <Mekanism:Balloon:13>;
+val BalloonOrange = <Mekanism:Balloon:14>;
+val BalloonWhite = <Mekanism:Balloon:15>;
+val BalloonsAll = <Mekanism:Balloon:*>;
 val osmiumBlock = <Mekanism:BasicBlock>;
 val salinationBlock = <Mekanism:BasicBlock2>;
 val mekBiofuel = <Mekanism:BioFuel>;
@@ -177,46 +177,13 @@ val steelSword = <MekanismTools:SteelSword>;
 val stonePaxel = <MekanismTools:StonePaxel>;
 val woodPaxel = <MekanismTools:WoodPaxel>;
 
-##Minecraft
-val lever = <minecraft:lever>;
-val glass = <minecraft:glass>;
+//Minecraft
 val ironIngot = <minecraft:iron_ingot>;
-val compass = <minecraft:compass>;
-val woodPlankAll = <minecraft:planks:*>;
-val woolAll = <minecraft:wool:*>;
-val logAll = <minecraft:log:*>;
+val pressurePlateHeavy = <minecraft:heavy_weighted_pressure_plate>;
+val boneMeal = <minecraft:dye:15>;
+val bucket = <minecraft:bucket>;
 
-##Recipes
-recipes.remove(shipHelm);
-recipes.remove(floater);
-recipes.remove(allArcBalloons);
-recipes.remove(gaugeBasic);
-recipes.remove(gaugeAdvanced);
-recipes.remove(bufferShore);
-recipes.remove(engineSteam);
+//Recipes
+recipes.remove(canWatering);
 
-recipes.addShaped(shipHelm, [[lever, glass, lever], [woodPlankAll, controlCircuitAdv, woodPlankAll], [woodPlankAll, woodPlankAll, woodPlankAll]]);
-recipes.addShaped(gaugeBasic, [[glass, compass, glass], [ironIngot, controlCircuitAdv, ironIngot], [ironIngot, ironIngot, ironIngot]]);
-recipes.addShaped(gaugeAdvanced, [[null, compass, null], [controlCircuit, gaugeBasic, controlCircuit], [null, null, null]]);
-recipes.addShaped(engineSteam, [[ironIngot, cable, ironIngot], [ironIngot, heatGenerator, ironIngot], [ironIngot, ironIngot, ironIngot]]);
-recipes.addShaped(arcBalloonWhite, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonWhite, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonOrange, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonOrange, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonMagenta, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonMagenta, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonBlueLight, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonBlueLight, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonYellow, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonYellow, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonLime, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonLime, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonPink, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonPink, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonGray, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonGrey, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonSilver, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonGreyLight, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonCyan, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonCyan, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonPurple, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonPurple, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonBlue, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonBlue, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonBrown, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonBrown, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonGreen, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonGreen, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonRed, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonRed, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(arcBalloonBlack, [[woolAll, woolAll, woolAll], [woolAll, MekBalloonBlack, woolAll], [woolAll, woolAll, woolAll]]);
-recipes.addShaped(bufferShore * 2, [[null, null, null], [allArcBalloons, woodPlankAll, allArcBalloons], [null, null, null]]);
-recipes.addShaped(floater * 2, [[null, allArcBalloons, null], [null, logAll, null], [null, allArcBalloons, null]]);
-
-//Must remain here.
-print("ArchS-Mek Script Loaded.");
+recipes.addShaped(canWatering, [[ironIngot, boneMeal, null], [ironIngot, bucket, ironIngot], [null, pressurePlateHeavy, null]]);
