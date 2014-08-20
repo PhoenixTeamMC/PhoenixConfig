@@ -308,6 +308,7 @@ val oakSapling = <minecraft:sapling>;
 val enderPearl = <minecraft:ender_pearl>;
 val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
+val seed = <minecraft:seed>;
 
 ##MC Tools
 val woodPick = <minecraft:wood_pickaxe>;
@@ -358,6 +359,8 @@ recipes.remove(goldSword);
 recipes.remove(goldHoe);
 
 //Additions
+
+recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]);
 
 //Tools
 recipes.add(woodPick, [[livingwood, livingwood, livingwood], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
