@@ -307,6 +307,7 @@ val enderPearl = <minecraft:ender_pearl>;
 val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
 val seed = <minecraft:seed>;
+val cobblestone = <minecraft:cobblestone>;
 
 ##MC Tools
 val woodPick = <minecraft:wood_pickaxe>;
@@ -314,21 +315,25 @@ val woodAxe = <minecraft:wood_axe>;
 val woodShovel = <minecraft:wood_shovel>;
 val woodSword = <minecraft:wood_sword>;
 val woodHoe = <minecraft:wood_hoe>;
+
 val stonePick = <minecraft:stone_pickaxe>;
 val stoneAxe = <minecraft:stone_axe>;
 val stoneShovel = <minecraft:stone_shovel>;
 val stoneSword = <minecraft:stone_sword>;
 val stoneHoe = <minecraft:stone_hoe>;
+
 val ironPick = <minecraft:iron_pickaxe>;
 val ironAxe = <minecraft:iron_axe>;
 val ironShovel = <minecraft:iron_shovel>;
 val ironSword = <minecraft:iron_sword>;
 val ironHoe = <minecraft:iron_hoe>;
+
 val goldPick = <minecraft:gold_pickaxe>;
 val goldAxe = <minecraft:gold_axe>;
 val goldShovel = <minecraft:gold_shovel>;
 val goldSword = <minecraft:gold_sword>;
 val goldHoe = <minecraft:gold_hoe>;
+
 val diamondPick = <minecraft:diamond_pickaxe>;
 val diamondAxe = <minecraft:diamond_axe>;
 val diamondShovel = <minecraft:diamond_shovel>;
@@ -345,6 +350,12 @@ recipes.remove(woodAxe);
 recipes.remove(woodShovel);
 recipes.remove(woodSword);
 recipes.remove(woodHoe);
+
+recipes.remove(stonePick);
+recipes.remove(stoneAxe);
+recipes.remove(stoneShovel);
+recipes.remove(stoneSword);
+recipes.remove(stoneHoe);
 
 recipes.remove(ironPick);
 recipes.remove(ironAxe);
@@ -374,6 +385,12 @@ recipes.add(woodAxe, [[livingwood, livingwood, null], [livingwood, livingwoodTwi
 recipes.add(woodShovel, [[null, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 recipes.add(woodSword, [[null, livingwood, null], [null, livingwood, null], [null, livingwoodTwig, null]);
 recipes.add(woodHoe, [[livingwood, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+
+recipes.add(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(stoneShovel, [[null, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(stoneSword, [[null, livingrock, null], [null, livingrock, null], [null, livingwoodTwig, null]);
+recipes.add(stoneHoe, [[livingrock, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 
 recipes.add(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 recipes.add(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]);
