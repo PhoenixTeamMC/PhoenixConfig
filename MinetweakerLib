@@ -1264,6 +1264,7 @@ val enderPearl = <minecraft:ender_pearl>;
 val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
 val seed = <minecraft:seed>;
+val cobblestone = <minecraft:cobblestone>;
 
 ##MC Tools
 val woodPick = <minecraft:wood_pickaxe>;
