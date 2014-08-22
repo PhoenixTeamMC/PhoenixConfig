@@ -221,6 +221,7 @@ val livingwood = <Botania:livingwood>;
 val livingwoodSlab = <Botania:livingwood0Slab>;
 val livingwoodSlabFull = <Botania:livingwood0SlabFull>;
 val livingwoodStairs = <Botania:livingwood0Stairs>;
+val livingwoodPlank = <Botania:livingwood:1>;
 val livingwoodPlanksSlab = <Botania:livingwood1Slab>;
 val livingwoodPlanksSlabFull = <Botania:livingwood1SlabFull>;
 val livingwoodPlanksStairs = <Botania:livingwood1Stairs>;
@@ -1265,6 +1266,10 @@ val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
 val seed = <minecraft:seed>;
 val cobblestone = <minecraft:cobblestone>;
+val furnace = <minecraft:furnace>;
+val bow = <minecraft:bow>;
+val dispenser = <minecraft:dispenser>;
+val dropper = <minecraft:dropper>;
 
 ##MC Tools
 val woodPick = <minecraft:wood_pickaxe>;
