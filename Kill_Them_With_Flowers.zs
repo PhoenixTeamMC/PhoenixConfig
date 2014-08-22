@@ -387,5 +387,7 @@ recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, nu
 recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]);
 recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 
+//lol i just made you wait for this. 100th commit \o/
+//>implying i would do anything
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
