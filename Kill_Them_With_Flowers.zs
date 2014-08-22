@@ -75,6 +75,7 @@ val livingwood = <Botania:livingwood>;
 val livingwoodSlab = <Botania:livingwood0Slab>;
 val livingwoodSlabFull = <Botania:livingwood0SlabFull>;
 val livingwoodStairs = <Botania:livingwood0Stairs>;
+val livingwoodPlank = <Botania:livingwood:1>;
 val livingwoodPlanksSlab = <Botania:livingwood1Slab>;
 val livingwoodPlanksSlabFull = <Botania:livingwood1SlabFull>;
 val livingwoodPlanksStairs = <Botania:livingwood1Stairs>;
@@ -308,6 +309,10 @@ val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
 val seed = <minecraft:seed>;
 val cobblestone = <minecraft:cobblestone>;
+val furnace = <minecraft:furnace>;
+val bow = <minecraft:bow>;
+val dispenser = <minecraft:dispenser>;
+val dropper = <minecraft:dropper>;
 
 ##MC Tools
 val woodPick = <minecraft:wood_pickaxe>;
@@ -344,7 +349,13 @@ val diamondHoe = <minecraft:diamond_hoe>;
 
 //Removals
 
+recipes.remove(furnace);
+recipes.remove(dispenser);
+recipes.remove(dropper)
+recipes.remove(livingwoodTwig);
+
 //Tools
+
 recipes.remove(woodPick);
 recipes.remove(woodAxe);
 recipes.remove(woodShovel);
@@ -378,13 +389,24 @@ recipes.remove(diamondHoe);
 //Additions
 
 recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]);
+recipes.add(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.add(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
+recipes.add(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
+
+//Twigs
+recipes.add(livingwoodTwig, [[livingwoodPlank, null, null],[livingwoodPlank, null, null],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[livingwoodPlank, null, null],[livingwoodPlank, null, null]]);
+recipes.add(livingwoodTwig, [[null, livingwoodPlank, null],[null, livingwoodPlank, null],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[null, livingwoodPlank, null],[null, livingwoodPlank, null]]);
+recipes.add(livingwoodTwig, [[null, null, livingwoodPlank],[null, null, livingwoodPlank],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[null, null, livingwoodPlank],[null, null, livingwoodPlank]]);
 
 //Tools
-recipes.add(woodPick, [[livingwood, livingwood, livingwood], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(woodAxe, [[livingwood, livingwood, null], [livingwood, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(woodShovel, [[null, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(woodSword, [[null, livingwood, null], [null, livingwood, null], [null, livingwoodTwig, null]);
-recipes.add(woodHoe, [[livingwood, livingwood, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]);
+recipes.add(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 
 recipes.add(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 recipes.add(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]);
@@ -404,7 +426,5 @@ recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, nu
 recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]);
 recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
 
-//lol i just made you wait for this. 100th commit \o/
-//>implying i would do anything
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
