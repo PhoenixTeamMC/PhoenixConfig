@@ -1,7 +1,5 @@
-## MinetweakerLib
-/* Defines many, many variables for Minetweaker.
-Is a must for any PhoenixConfig scripts to run.
-Is not done yet. Many more mods to document. */
+## Kill Them With Flowers
+/* Makes everything rely on Botania*/
 
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
