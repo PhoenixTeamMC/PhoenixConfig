@@ -43,4 +43,9 @@ mods.thaumcraft.Aspects.add(<Botania:pylon:1>, "metallum 16, praecantatio 21, se
 mods.thaumcraft.Aspects.add(<Botania:pylon:2>, "metallum 22, praecantatio 32, sensus 14, iter 16, auram 4, lucrum 8, vitreus 4, alienis 8");
 mods.thaumcraft.Aspects.add(<Botania:shinyFlower:*>, "herba 2, victus 1, sensus 4, praecantatio 2, lux 4");
 mods.thaumcraft.Aspects.add(<Botania:miniIsland:*>, "herba 2, victus 1, sensus 2, praecantatio 2, terra 2");
-mods.thaumcraft.Aspects.add(<Botania:manaBeacon:*>, "praecantatio 20, alienis 14, perditio 10, lux 20, 5 vitreus, 5 auram");
+mods.thaumcraft.Aspects.add(<Botania:manaBeacon>, "praecantatio 20, alienis 14, perditio 10, lux 20, vitreus 5, auram 5");
+mods.thaumcraft.Aspects.add(<Botania:unstableBlock>, "praecantatio 10, alienis 14, perditio 15, lux 8, vitreus 5, auram 2");
+mods.thaumcraft.Aspects.add(<Botania:manaResource:3>, "arbor 2, sensus 4, praecantatio 8, metallum 4, alienis 3, iter 2, tellum");
+mods.thaumcraft.Aspects.add(<Botania:terraSword>, "victus 5, ignis 5, lux 5, herba 5, sensus 5, praecantatio 5, telum 3, metallum 5, arbor 2, iter 4");
+mods.thaumcraft.Aspects.add(<Botania:terraPick>, "victus 5, ignis 5, lux 5, herba 5, sensus 5, praecantatio 5, perfodio 3, metallum 7, arbor 2, iter 4");
+mods.thaumcraft.Aspects.add(<Botania:lens>, "metallum 4, praecantatio 4, sensus 2, vitreus 2");
