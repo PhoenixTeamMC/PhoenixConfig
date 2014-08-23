@@ -402,11 +402,12 @@ recipes.add(livingwoodTwig, [[null, null, livingwoodPlank],[null, null, livingwo
 recipes.add(livingwoodTwig, [[null, null, null],[null, null, livingwoodPlank],[null, null, livingwoodPlank]]);
 
 //Tools
-recipes.add(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]]);
 recipes.add(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
 
 recipes.add(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]]);
