@@ -4,6 +4,7 @@ Is a must for any PhoenixConfig scripts to run.
 Is not done yet. Many more mods to document. */
 
 ##Archimedes' Ships
+//I cant stand all the String this look like'
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
 val balloonWhite = <ArchimedesShips:balloon>;
