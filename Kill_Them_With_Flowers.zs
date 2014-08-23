@@ -683,6 +683,7 @@ recipes.add(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, l
 recipes.add(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 
 //Twigs
+
 recipes.add(livingwoodTwig, [[livingwoodPlank, null, null],[livingwoodPlank, null, null],[null, null, null]]);
 recipes.add(livingwoodTwig, [[null, null, null],[livingwoodPlank, null, null],[livingwoodPlank, null, null]]);
 recipes.add(livingwoodTwig, [[null, livingwoodPlank, null],[null, livingwoodPlank, null],[null, null, null]]);
