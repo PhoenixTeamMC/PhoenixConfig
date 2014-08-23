@@ -624,7 +624,6 @@ recipes.remove(dispenser);
 recipes.remove(dropper);
 recipes.remove(livingwoodTwig);
 
-
 //Armor
 
 recipes.remove(ironHelmet);
