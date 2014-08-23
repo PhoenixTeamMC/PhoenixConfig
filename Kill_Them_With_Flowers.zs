@@ -309,7 +309,7 @@ val bookshelf = <minecraft:bookshelf>;
 val bow = <minecraft:bow>;
 val bowl = <minecraft:bowl>;
 val bread = <minecraft:bread>;
-val brewingStand<minecraft:brewing_stand>;
+val brewingStand = <minecraft:brewing_stand>;
 val brick = <minecraft:brick>;
 val brickBlock = <minecraft:brick_block>;
 val brickStairs = <minecraft:brick_stairs>;
