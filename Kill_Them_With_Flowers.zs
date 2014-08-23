@@ -388,7 +388,7 @@ recipes.remove(diamondHoe);
 
 //Additions
 
-recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]);
+recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
 recipes.add(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.add(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.add(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
@@ -420,11 +420,11 @@ recipes.add(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], 
 recipes.add(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]]);
 recipes.add(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
-recipes.add(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
-recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]);
-recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]);
+recipes.add(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
