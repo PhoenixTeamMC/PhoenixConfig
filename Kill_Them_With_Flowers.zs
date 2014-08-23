@@ -403,28 +403,37 @@ recipes.add(livingwoodTwig, [[null, null, null],[null, null, livingwoodPlank],[n
 
 //Tools
 recipes.add(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
 recipes.add(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodAxe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, livingwoodPlank], [null, livingwoodTwig, null]]);
 recipes.add(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]]);
 recipes.add(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodHoe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 recipes.add(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneAxe, [[null, livingrock, livingrock], [null, livingwoodTwig, livingrock], [null, livingwoodTwig, null]]);
 recipes.add(stoneShovel, [[null, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(stoneSword, [[null, livingrock, null], [null, livingrock, null], [null, livingwoodTwig, null]]);
 recipes.add(stoneHoe, [[livingrock, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneHoe, [[null, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 recipes.add(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldAxe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, goldIngot], [null, livingwoodTwig, null]]);
 recipes.add(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]]);
 recipes.add(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldHoe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 recipes.add(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondAxe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, manaDiamond], [null, livingwoodTwig, null]]);
 recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]]);
 recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
