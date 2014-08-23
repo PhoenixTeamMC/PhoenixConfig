@@ -1301,6 +1301,10 @@ val commandBlock = <minecraft:command_block>;
 val commandBlockMinecart = <minecraft:command_block_minecart>;
 val comparator = <minecraft:comparator>;
 val compass = <minecraft:compass>;
+<<<<<<< HEAD
+=======
+val steak = <minecraft:cooked_beef>;
+>>>>>>> FETCH_HEAD
 val cookedChicken = <minecraft:cooked_chicken>;
 val cookedFish = <minecraft:cooked_fished>;
 val cookedPorkchop = <minecraft:cooked_porkchop>;
@@ -1323,7 +1327,10 @@ val redstone = <minecraft:redstone>;
 val seed = <minecraft:seed>;
 val slimeBall = <minecraft:slime_ball>;
 val snowball = <minecraft:snowball>;
+<<<<<<< HEAD
 val steak = <minecraft:cooked_beef>;
+=======
+>>>>>>> FETCH_HEAD
 val woodPlankAll = <minecraft:planks:*>;
 val woolAll = <minecraft:wool:*>;
 val waterBottle = <minecraft:potion>;
