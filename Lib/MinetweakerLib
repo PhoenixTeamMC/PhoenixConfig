@@ -4,7 +4,7 @@ Is a must for any PhoenixConfig scripts to run.
 Is not done yet. Many more mods to document. */
 
 ##Archimedes' Ships
-//I cant stand all the String this look like'
+##I can't stand string
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
 val balloonWhite = <ArchimedesShips:balloon>;
@@ -1267,7 +1267,7 @@ val bookshelf = <minecraft:bookshelf>;
 val bow = <minecraft:bow>;
 val bowl = <minecraft:bowl>;
 val bread = <minecraft:bread>;
-val brewingStand<minecraft:brewing_stand>;
+val brewingStand = <minecraft:brewing_stand>;
 val brick = <minecraft:brick>;
 val brickBlock = <minecraft:brick_block>;
 val brickStairs = <minecraft:brick_stairs>;
@@ -1354,8 +1354,8 @@ val fishingRod = <minecraft:fishing_rod>;
 val flint = <minecraft:flint>;
 val flintAndSteel = <minecraft:flint_and_steel>;
 val flowerPot = <minecraft:flower_pot>;
-val lava = <minecraft:flowing_lava>;
-val water = <minecraft:flowing_water>;
+val flowingLava = <minecraft:flowing_lava>;
+val flowingWater = <minecraft:flowing_water>;
 val furnace = <minecraft:furnace>;
 val furnaceMinecart = <minecraft:furnace_minecart>;
 val ghastTear = <minecraft:ghast_tear>;
@@ -1402,7 +1402,7 @@ val ladder = <minecraft:ladder>;
 val lapisBlock = <minecraft:lapis_block>;
 val lapisOre = <minecraft:lapis_ore>;
 val lava = <minecraft:lava>;
-val lavaBucket = <Minecraft:lava_bucket>;
+val lavaBucket = <minecraft:lava_bucket>;
 val lead = <minecraft:lead>;
 val leather = <minecraft:leather>;
 val leatherBoots = <minecraft:leather_boots>;
@@ -1445,7 +1445,7 @@ val packedIce = <minecraft:packed_ice>;
 val painting = <minecraft:painting>;
 val paper = <minecraft:paper>;
 val piston = <minecraft:piston>;
-val oakWoodPlanks = minecraft:planks>;
+val oakWoodPlanks = <minecraft:planks>;
 val woodPlankAll = <minecraft:planks:*>;
 val poisonousPotato = <minecraft:poisonous_potato>;
 val rawPorkchop = <minecraft:porkchop>;
@@ -1507,7 +1507,7 @@ val spruceStairs = <minecraft:spruce_stairs>;
 val stainedGlass = <minecraft:stained_glass>;
 val stainedGlassPane = <minecraft:stained_glass_pane>;
 val whiteStainedClay = <minecraft:stained_hardened_clay>;
-val allStainedClay = <minecraft:stained_hardened_clay:*>
+val allStainedClay = <minecraft:stained_hardened_clay:*>;
 val stick = <minecraft:stick>;
 val stickyPiston = <minecraft:sticky_piston>;
 val stone = <minecraft:stone>;
@@ -1544,26 +1544,30 @@ val writtenBook = <minecraft:written_book>;
 val dandelion = <minecraft:yellow_flower>;
 
 ##MC Tools
-val woodPick = <minecraft:wood_pickaxe>;
-val woodAxe = <minecraft:wood_axe>;
-val woodShovel = <minecraft:wood_shovel>;
-val woodSword = <minecraft:wood_sword>;
-val woodHoe = <minecraft:wood_hoe>;
+val woodPick = <minecraft:wooden_pickaxe>;
+val woodAxe = <minecraft:wooden_axe>;
+val woodShovel = <minecraft:wooden_shovel>;
+val woodSword = <minecraft:wooden_sword>;
+val woodHoe = <minecraft:wooden_hoe>;
+
 val stonePick = <minecraft:stone_pickaxe>;
 val stoneAxe = <minecraft:stone_axe>;
 val stoneShovel = <minecraft:stone_shovel>;
 val stoneSword = <minecraft:stone_sword>;
 val stoneHoe = <minecraft:stone_hoe>;
+
 val ironPick = <minecraft:iron_pickaxe>;
 val ironAxe = <minecraft:iron_axe>;
 val ironShovel = <minecraft:iron_shovel>;
 val ironSword = <minecraft:iron_sword>;
 val ironHoe = <minecraft:iron_hoe>;
-val goldPick = <minecraft:gold_pickaxe>;
-val goldAxe = <minecraft:gold_axe>;
-val goldShovel = <minecraft:gold_shovel>;
-val goldSword = <minecraft:gold_sword>;
-val goldHoe = <minecraft:gold_hoe>;
+
+val goldPick = <minecraft:golden_pickaxe>;
+val goldAxe = <minecraft:golden_axe>;
+val goldShovel = <minecraft:golden_shovel>;
+val goldSword = <minecraft:golden_sword>;
+val goldHoe = <minecraft:golden_hoe>;
+
 val diamondPick = <minecraft:diamond_pickaxe>;
 val diamondAxe = <minecraft:diamond_axe>;
 val diamondShovel = <minecraft:diamond_shovel>;
