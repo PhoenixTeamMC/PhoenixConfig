@@ -309,7 +309,11 @@ val bookshelf = <minecraft:bookshelf>;
 val bow = <minecraft:bow>;
 val bowl = <minecraft:bowl>;
 val bread = <minecraft:bread>;
+<<<<<<< HEAD
 val brewingStand = <minecraft:brewing_stand>;
+=======
+val brewingStand<minecraft:brewing_stand>;
+>>>>>>> FETCH_HEAD
 val brick = <minecraft:brick>;
 val brickBlock = <minecraft:brick_block>;
 val brickStairs = <minecraft:brick_stairs>;
@@ -444,7 +448,11 @@ val ladder = <minecraft:ladder>;
 val lapisBlock = <minecraft:lapis_block>;
 val lapisOre = <minecraft:lapis_ore>;
 val lava = <minecraft:lava>;
+<<<<<<< HEAD
 val lavaBucket = <minecraft:lava_bucket>;
+=======
+val lavaBucket = <Minecraft:lava_bucket>;
+>>>>>>> FETCH_HEAD
 val lead = <minecraft:lead>;
 val leather = <minecraft:leather>;
 val leatherBoots = <minecraft:leather_boots>;
@@ -487,7 +495,11 @@ val packedIce = <minecraft:packed_ice>;
 val painting = <minecraft:painting>;
 val paper = <minecraft:paper>;
 val piston = <minecraft:piston>;
+<<<<<<< HEAD
 val oakWoodPlanks = <minecraft:planks>;
+=======
+val oakWoodPlanks = minecraft:planks>;
+>>>>>>> FETCH_HEAD
 val woodPlankAll = <minecraft:planks:*>;
 val poisonousPotato = <minecraft:poisonous_potato>;
 val rawPorkchop = <minecraft:porkchop>;
@@ -549,7 +561,11 @@ val spruceStairs = <minecraft:spruce_stairs>;
 val stainedGlass = <minecraft:stained_glass>;
 val stainedGlassPane = <minecraft:stained_glass_pane>;
 val whiteStainedClay = <minecraft:stained_hardened_clay>;
+<<<<<<< HEAD
 val allStainedClay = <minecraft:stained_hardened_clay:*>;
+=======
+val allStainedClay = <minecraft:stained_hardened_clay:*>
+>>>>>>> FETCH_HEAD
 val stick = <minecraft:stick>;
 val stickyPiston = <minecraft:sticky_piston>;
 val stone = <minecraft:stone>;
@@ -559,6 +575,10 @@ val stonePressurePlate = <minecraft:stone_pressure_plate>;
 val stoneSlab = <minecraft:stone_slab>;
 val stoneStairs = <minecraft:stone_stairs>;
 val stoneBrick = <minecraft:stonebrick>;
+<<<<<<< HEAD
+=======
+val string = <minecraft:string>;
+>>>>>>> FETCH_HEAD
 val sugar = <minecraft:sugar>;
 val shrub = <minecraft:tallgrass>;
 val tnt = <minecraft:tnt>;
@@ -621,9 +641,15 @@ val diamondHoe = <minecraft:diamond_hoe>;
 
 recipes.remove(furnace);
 recipes.remove(dispenser);
+<<<<<<< HEAD
 recipes.remove(dropper);
 recipes.remove(livingwoodTwig);
 furnace.remove(goldIngot);
+=======
+recipes.remove(dropper)
+recipes.remove(livingwoodTwig);
+
+>>>>>>> FETCH_HEAD
 
 //Armor
 
@@ -632,12 +658,23 @@ recipes.remove(ironChestplate);
 recipes.remove(ironLeggings);
 recipes.remove(ironBoots);
 
+<<<<<<< HEAD
+=======
+recipes.remove(goldenHelmet);
+recipes.remove(goldenChestplate);
+recipes.remove(goldenLeggings);
+recipes.remove(goldenBoots);
+
+>>>>>>> FETCH_HEAD
 recipes.remove(diamondHelmet);
 recipes.remove(diamondChestplate);
 recipes.remove(diamondLeggings);
 recipes.remove(diamondBoots);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> FETCH_HEAD
 //Tools
 
 recipes.remove(woodPick);
@@ -672,6 +709,7 @@ recipes.remove(diamondHoe);
 
 //Additions
 
+<<<<<<< HEAD
 recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
 recipes.addShaped(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
@@ -733,6 +771,64 @@ recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwo
 //Renaming
 print(goldIngot.displayName);
 goldIngot.displayName = "Mana Gold";
+=======
+recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
+recipes.add(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.add(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
+recipes.add(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
+
+//Twigs
+
+recipes.add(livingwoodTwig, [[livingwoodPlank, null, null],[livingwoodPlank, null, null],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[livingwoodPlank, null, null],[livingwoodPlank, null, null]]);
+recipes.add(livingwoodTwig, [[null, livingwoodPlank, null],[null, livingwoodPlank, null],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[null, livingwoodPlank, null],[null, livingwoodPlank, null]]);
+recipes.add(livingwoodTwig, [[null, null, livingwoodPlank],[null, null, livingwoodPlank],[null, null, null]]);
+recipes.add(livingwoodTwig, [[null, null, null],[null, null, livingwoodPlank],[null, null, livingwoodPlank]]);
+
+//Armor
+
+recipes.add(diamondHelmet, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
+recipes.add(diamondHelmet, [[null, null, null], [manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond]]);
+recipes.add(diamondChestplate, [[manaDiamond, null, manaDiamond], [manaDiamond, manaDiamond, manaDiamond], [manaDiamond, manaDiamond, manaDiamond]]);
+recipes.add(diamondLeggings, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond]]);
+recipes.add(diamondBoots, [[manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
+recipes.add(diamondBoots, [[null, null, null], [manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond]]);
+
+//Tools
+
+recipes.add(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodAxe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, livingwoodPlank], [null, livingwoodTwig, null]]);
+recipes.add(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]]);
+recipes.add(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(woodHoe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.add(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneAxe, [[null, livingrock, livingrock], [null, livingwoodTwig, livingrock], [null, livingwoodTwig, null]]);
+recipes.add(stoneShovel, [[null, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneSword, [[null, livingrock, null], [null, livingrock, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneHoe, [[livingrock, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(stoneHoe, [[null, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.add(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldAxe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, goldIngot], [null, livingwoodTwig, null]]);
+recipes.add(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]]);
+recipes.add(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(goldHoe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.add(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondAxe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, manaDiamond], [null, livingwoodTwig, null]]);
+recipes.add(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.add(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+>>>>>>> FETCH_HEAD
 
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
