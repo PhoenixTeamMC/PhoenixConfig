@@ -307,7 +307,7 @@ val oakSapling = <minecraft:sapling>;
 val enderPearl = <minecraft:ender_pearl>;
 val nuggetGold = <minecraft:gold_nugget>;
 val blazePowder = <minecraft:blaze_powder>;
-val seed = <minecraft:seed>;
+val wheatSeed = <minecraft:wheat_seed>;
 val cobblestone = <minecraft:cobblestone>;
 val furnace = <minecraft:furnace>;
 val bow = <minecraft:bow>;
@@ -388,7 +388,7 @@ recipes.remove(diamondHoe);
 
 //Additions
 
-recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, seed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
+recipes.add(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
 recipes.add(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.add(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.add(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
