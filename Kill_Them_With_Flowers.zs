@@ -620,6 +620,7 @@ val diamondHoe = <minecraft:diamond_hoe>;
 //Removals
 
 recipes.remove(<minecraft:gold_ingot>);
+furnace.remove(<minecraft:gold_ingot>);
 recipes.remove(furnace);
 recipes.remove(dispenser);
 recipes.remove(dropper);
