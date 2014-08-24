@@ -398,7 +398,7 @@ val flintAndSteel = <minecraft:flint_and_steel>;
 val flowerPot = <minecraft:flower_pot>;
 val lava = <minecraft:flowing_lava>;
 val water = <minecraft:flowing_water>;
-val furnace = <minecraft:furnace>;
+val furnaceBlock = <minecraft:furnace>;
 val furnaceMinecart = <minecraft:furnace_minecart>;
 val ghastTear = <minecraft:ghast_tear>;
 val glass = <minecraft:glass>;
@@ -455,7 +455,7 @@ val oakLeaves = <minecraft:leaves>;
 val acaciaLeaves = <minecraft:leaves2>;
 val lever = <minecraft:lever>;
 val lightWeightedPressurePlate = <minecraft:light_weighted_pressure_plate>;
-val litFurnace = <minecraft:lit_furnace>;
+val litfurnace = <minecraft:lit_furnace>;
 val jackOLantern = <minecraft:lit_pumpkin>;
 val oakWood = <minecraft:log>;
 val acaciaWood = <minecraft:log2>;
@@ -619,9 +619,8 @@ val diamondHoe = <minecraft:diamond_hoe>;
 
 //Removals
 
-recipes.remove(<minecraft:gold_ingot>);
 furnace.remove(<minecraft:gold_ingot>);
-recipes.remove(furnace);
+recipes.remove(furnaceBlock);
 recipes.remove(dispenser);
 recipes.remove(dropper);
 recipes.remove(livingwoodTwig);
@@ -683,7 +682,7 @@ recipes.remove(diamondHoe);
 
 
 recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
-recipes.addShaped(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 mods.botania.ManaInfusion.addInfusion(goldIngot, goldOre, 2000);
@@ -744,7 +743,7 @@ recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwo
 print(goldIngot.displayName);
 goldIngot.displayName = "Mana Gold";
 recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
-recipes.addShaped(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 
