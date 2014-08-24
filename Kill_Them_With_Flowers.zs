@@ -743,6 +743,8 @@ recipes.addShaped(furnace, [[livingrock, livingrock, livingrock],[livingrock, nu
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 <<<<<<< HEAD
+
+recipes.remove(<minecraft:gold_ingot>);
 mods.botania.ManaInfusion.addInfusion(goldIngot, goldOre, 2000);
 
 //Twigs
