@@ -742,6 +742,10 @@ recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwo
 //Renaming
 print(goldIngot.displayName);
 goldIngot.displayName = "Mana Gold";
+print(goldBlock.displayName);
+goldBlock.displayName = "Mana Gold Block";
+
+//Adding Recipes
 recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
 recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
