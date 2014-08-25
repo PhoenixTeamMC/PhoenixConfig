@@ -398,7 +398,7 @@ val flintAndSteel = <minecraft:flint_and_steel>;
 val flowerPot = <minecraft:flower_pot>;
 val lava = <minecraft:flowing_lava>;
 val water = <minecraft:flowing_water>;
-val furnace = <minecraft:furnace>;
+val furnaceBlock = <minecraft:furnace>;
 val furnaceMinecart = <minecraft:furnace_minecart>;
 val ghastTear = <minecraft:ghast_tear>;
 val glass = <minecraft:glass>;
@@ -455,7 +455,7 @@ val oakLeaves = <minecraft:leaves>;
 val acaciaLeaves = <minecraft:leaves2>;
 val lever = <minecraft:lever>;
 val lightWeightedPressurePlate = <minecraft:light_weighted_pressure_plate>;
-val litFurnace = <minecraft:lit_furnace>;
+val litfurnace = <minecraft:lit_furnace>;
 val jackOLantern = <minecraft:lit_pumpkin>;
 val oakWood = <minecraft:log>;
 val acaciaWood = <minecraft:log2>;
@@ -619,8 +619,13 @@ val diamondHoe = <minecraft:diamond_hoe>;
 
 //Removals
 
-recipes.remove(furnace);
+furnace.remove(<minecraft:gold_ingot>);
+recipes.remove(furnaceBlock);
 recipes.remove(dispenser);
+recipes.remove(dropper);
+recipes.remove(livingwoodTwig);
+recipes.remove(dropper);
+recipes.remove(livingwoodTwig);
 recipes.remove(dropper);
 recipes.remove(livingwoodTwig);
 
@@ -673,10 +678,76 @@ recipes.remove(diamondShovel);
 recipes.remove(diamondSword);
 recipes.remove(diamondHoe);
 
-//Additions
+//addShapeditions
+
 
 recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
-recipes.addShaped(furnace, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
+recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
+recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
+mods.botania.ManaInfusion.addInfusion(goldIngot, goldOre, 2000);
+
+//Twigs
+
+recipes.addShaped(livingwoodTwig, [[livingwoodPlank, null, null],[livingwoodPlank, null, null],[null, null, null]]);
+recipes.addShaped(livingwoodTwig, [[null, null, null],[livingwoodPlank, null, null],[livingwoodPlank, null, null]]);
+recipes.addShaped(livingwoodTwig, [[null, livingwoodPlank, null],[null, livingwoodPlank, null],[null, null, null]]);
+recipes.addShaped(livingwoodTwig, [[null, null, null],[null, livingwoodPlank, null],[null, livingwoodPlank, null]]);
+recipes.addShaped(livingwoodTwig, [[null, null, livingwoodPlank],[null, null, livingwoodPlank],[null, null, null]]);
+recipes.addShaped(livingwoodTwig, [[null, null, null],[null, null, livingwoodPlank],[null, null, livingwoodPlank]]);
+
+//Armor
+
+recipes.addShaped(diamondHelmet, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
+recipes.addShaped(diamondHelmet, [[null, null, null], [manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond]]);
+recipes.addShaped(diamondChestplate, [[manaDiamond, null, manaDiamond], [manaDiamond, manaDiamond, manaDiamond], [manaDiamond, manaDiamond, manaDiamond]]);
+recipes.addShaped(diamondLeggings, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond]]);
+recipes.addShaped(diamondBoots, [[manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
+recipes.addShaped(diamondBoots, [[null, null, null], [manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond]]);
+
+//Tools
+
+recipes.addShaped(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodAxe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, livingwoodPlank], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodHoe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneAxe, [[null, livingrock, livingrock], [null, livingwoodTwig, livingrock], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneShovel, [[null, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneSword, [[null, livingrock, null], [null, livingrock, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneHoe, [[livingrock, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneHoe, [[null, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldAxe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, goldIngot], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldHoe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondAxe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, manaDiamond], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+//Renaming
+print(goldIngot.displayName);
+goldIngot.displayName = "Mana Gold";
+print(goldBlock.displayName);
+goldBlock.displayName = "Mana Gold Block";
+
+//Adding Recipes
+recipes.addShaped(pureDaisy, [[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal],[whiteMysticalPetal, wheatSeed,whiteMysticalPetal],[whiteMysticalPetal, whiteMysticalPetal, whiteMysticalPetal]]);
+recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, livingrock, livingrock]]);
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 
@@ -699,6 +770,38 @@ recipes.addShaped(diamondBoots, [[manaDiamond, null, manaDiamond], [manaDiamond,
 recipes.addShaped(diamondBoots, [[null, null, null], [manaDiamond, null, manaDiamond], [manaDiamond, null, manaDiamond]]);
 
 //Tools
+
+recipes.addShaped(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodAxe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, livingwoodPlank], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodShovel, [[null, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodSword, [[null, livingwoodPlank, null], [null, livingwoodPlank, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodHoe, [[livingwoodPlank, livingwoodPlank, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(woodHoe, [[null, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(stonePick, [[livingrock, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneAxe, [[livingrock, livingrock, null], [livingrock, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneAxe, [[null, livingrock, livingrock], [null, livingwoodTwig, livingrock], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneShovel, [[null, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneSword, [[null, livingrock, null], [null, livingrock, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneHoe, [[livingrock, livingrock, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(stoneHoe, [[null, livingrock, livingrock], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(goldPick, [[goldIngot, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldAxe, [[goldIngot, goldIngot, null], [goldIngot, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldAxe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, goldIngot], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldShovel, [[null, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldSword, [[null, goldIngot, null], [null, goldIngot, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldHoe, [[goldIngot, goldIngot, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(goldHoe, [[null, goldIngot, goldIngot], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+
+recipes.addShaped(diamondPick, [[manaDiamond, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondAxe, [[manaDiamond, manaDiamond, null], [manaDiamond, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondAxe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, manaDiamond], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondShovel, [[null, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
+recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
 recipes.addShaped(woodPick, [[livingwoodPlank, livingwoodPlank, livingwoodPlank], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.addShaped(woodAxe, [[livingwoodPlank, livingwoodPlank, null], [livingwoodPlank, livingwoodTwig, null], [null, livingwoodTwig, null]]);
