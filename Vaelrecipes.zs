@@ -1,5 +1,5 @@
 print("Vaelrecipies Init");
-print("version .4beta-1")
+print("version .4beta-1");
 
 
 ##dusts
