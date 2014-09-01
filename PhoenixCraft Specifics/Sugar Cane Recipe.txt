@@ -1,11 +1,16 @@
 ##Good Sugar Cane Recipe
-/*Created By  
-FrostyDude2475*/
+//Created By FrostyDude2475
+
 ##Minecraft
 val reeds = <minecraft:reeds>;
 val sand = <minecraft:sand>;
 val waterBucket = <minecraft:water_bucket>;
 val wheatSeed = <minecraft:wheat_seeds>;
+
+//Recipes
+
+//Additions
 recipes.addShapeless(reeds, [sand, waterBucket, seeds]);
+
 //Must remain here.
 print("Sugar Cane Recipe Loaded.");
