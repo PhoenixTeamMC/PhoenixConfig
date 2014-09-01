@@ -1,5 +1,5 @@
 ## Kill Them With Flowers
-/* Makes everything rely on Botania*/
+//Makes everything rely on Botania 
 
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
