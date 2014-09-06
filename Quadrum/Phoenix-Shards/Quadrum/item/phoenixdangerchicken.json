@@ -1,0 +1,17 @@
+{
+    "name": "phoenixRawChicken",
+    "texture": "pt_rawChicken",
+	"type": food,
+    "lore": [
+        "Wouldn't suggest eating it in this state m8."
+    ],
+	 "consume-effect": {
+        "id": 7,
+        "duration": 100,
+        "amplifier": 10,
+        "probability": 100
+},
+	"food-amount": 6,
+	"consume-duration": 24,
+	"food-saturation": 1.0F
+}
