@@ -1,0 +1,11 @@
+{
+    "name": "phoenixShard",
+    "texture": "pt_shard",
+    "lore": [
+        "Are Flames Shall Burn Forever!"
+    ],
+    "mob-drops": {
+        "Blaze": 1
+    },
+	"burn-time": 500000
+}
