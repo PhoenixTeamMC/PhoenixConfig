@@ -1,2 +1,5 @@
 Like the texture? They were a modified version of Faithful 32x. You can get that texturepack here:
 http://www.minecraftforum.net/forums/mapping-and-modding/resource-packs/1223254-faithful-32x32-pack-update-1-8-1-8
+/*
+*m8, Unity is sooo much better :P
+*/
