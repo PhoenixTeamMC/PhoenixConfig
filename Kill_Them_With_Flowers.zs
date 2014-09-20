@@ -86,7 +86,7 @@ val manaCookie =  <Botania:manaCookie>;
 val manaDetector = <Botania:manaDetector>;
 val manaBlaster = <Botania:manaGun>;
 val manaMirror = <Botania:manaMirror>;
-val manasteelIngot = <Botania:manaResource>;
+val manaSteelIngot = <Botania:manaResource>;
 val manaPearl = <Botania:manaResource:1>;
 val manaDiamond = <Botania:manaResource:2>;
 val livingwoodTwig = <Botania:manaResource:3>;
@@ -635,6 +635,9 @@ recipes.remove(livingwoodTwig);
 recipes.remove(dropper);
 recipes.remove(livingwoodTwig);
 recipes.remove(eyeEnder);
+recipes.remove(ironBlock);
+recipes.remove(hopper);
+recipes.remove(chest);
 
 //Armor
 
@@ -691,6 +694,8 @@ recipes.addShaped(furnaceBlock, [[livingrock, livingrock, livingrock],[livingroc
 recipes.addShaped(dispenser, [[livingrock, livingrock, livingrock],[livingrock, bow, livingrock],[livingrock, redstone, livingrock]]);
 recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, null, livingrock],[livingrock, redstone, livingrock]]);
 mods.botania.ManaInfusion.addInfusion(goldIngot, goldOre, 2000);
+recipes.addShaped(hopper, [[manaSteelIngot, null, manaSteelIngot], [manaSteelIngot, chest, manaSteelIngot], [null, manaSteelIngot, null]]);
+recipes.addShaped(chest, [[livingwood, livingwood, livingwood], [livingwood, null, livingwood], [livingwood, livingwood, livingwood]]);
 
 //Armor
 recipes.addShaped(diamondHelmet, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
@@ -783,6 +788,8 @@ recipes.addShaped(diamondSword, [[null, manaDiamond, null], [null, manaDiamond, 
 recipes.addShaped(diamondHoe, [[manaDiamond, manaDiamond, null], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwoodTwig, null], [null, livingwoodTwig, null]]);
 
+
+//Add Shapless Recipes
 recipes.addShapless(eyeEnder, [manaPearl, blazePowder]);
 
 //Keep this at the bottom
