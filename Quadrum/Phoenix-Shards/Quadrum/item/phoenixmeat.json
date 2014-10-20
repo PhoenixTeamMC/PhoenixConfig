@@ -1,0 +1,17 @@
+{
+    "name": "phoenixChicken",
+    "texture": "pt_Chicken",
+	"type": food,
+    "lore": [
+        "Super Spicy!"
+    ],
+	 "consume-effect": {
+        "id": 12,
+        "duration": 1200,
+        "amplifier": 1,
+        "probability": 100
+},
+	"food-amount": 6,
+	"consume-duration": 24,
+	"food-saturation": 1.0F
+}

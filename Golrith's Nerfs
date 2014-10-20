@@ -22,9 +22,12 @@ furnace.remove(mcCharc);
 
 recipes.remove(<minecraft:stone_button>);
 recipes.remove(<minecraft:wooden_button>);
+recipes.remove(<minecraft:iron_door>);
+
 
 recipes.addShapeless(<minecraft:stone_button>*4,[<ore:stone>,<minecraft:redstone>]);
 recipes.addShapeless(<minecraft:wooden_button>*4,[<ore:plankWood>,<minecraft:redstone>]);
+recipes.addShaped(<minecraft:iron_door>,[[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],[<minecraft:iron_ingot>,<minecraft:iron_ingot>,<minecraft:iron_ingot>],[<minecraft:iron_ingot>,<minecraft:redstone>,<minecraft:iron_ingot>]]);
 
 
 recipes.addShapeless(<minecraft:stick>*2,[<ore:plankWood>]);
