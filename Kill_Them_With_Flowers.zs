@@ -1,5 +1,5 @@
 ## Kill Them With Flowers
-//Makes everything rely on Botania 
+//Makes everything rely on Botania
 
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
@@ -145,7 +145,7 @@ val manaQuartzSlab = <Botania:quartzSlabManaHalf>;
 val redQuartzSlabFull = <Botania:quartzSlabRedFull>;
 val redQuartzSlab = <Botania:quartzSlabRedHalf>;
 val blazeQuartzStairs = <Botania:quartzStairsBlaze>;
-val smokeyQuartzStairs = <Botania:quartzStairsBlaze>;	
+val smokeyQuartzStairs = <Botania:quartzStairsBlaze>;
 val elfQuartzStairs = <Botania:quartzStairsElf>;
 val lavenderQuartzStairs = <Botania:quartzStairsLavender>;
 val manaQuartzStairs = <Botania:quartzStairsMana>;
@@ -638,6 +638,7 @@ recipes.remove(eyeEnder);
 recipes.remove(ironBlock);
 recipes.remove(hopper);
 recipes.remove(chest);
+recipes.remove(bow);
 
 //Armor
 
@@ -696,6 +697,7 @@ recipes.addShaped(dropper, [[livingrock, livingrock, livingrock],[livingrock, nu
 mods.botania.ManaInfusion.addInfusion(goldIngot, goldOre, 2000);
 recipes.addShaped(hopper, [[manaSteelIngot, null, manaSteelIngot], [manaSteelIngot, chest, manaSteelIngot], [null, manaSteelIngot, null]]);
 recipes.addShaped(chest, [[livingwood, livingwood, livingwood], [livingwood, null, livingwood], [livingwood, livingwood, livingwood]]);
+recipes.addShaped(bow, [[<minecraft:string>, livingwoodTwig, null], [<minecraft:string>, null, livingwoodTwig], [<minecraft:string>, livingwoodTwig, null]]);
 
 //Armor
 recipes.addShaped(diamondHelmet, [[manaDiamond, manaDiamond, manaDiamond], [manaDiamond, null, manaDiamond], [null, null, null]]);
