@@ -1,11 +1,7 @@
-//This script if for Minecraft version 1.7.10, and will not work in prior versions... probably
-//Note these will require both PneumaticCraft and Thermal Expansion (obviously)
-//but they also require Minetweaker AND Modtweaker.
+
 //Created in the following versions. Probably works in later versions.
 //Minetweaker version:3.0.8B
 //Modtweaker version: 0.6-17
-//This script doesn't change everything, and I may tweak it more in the future.
-//Anyway, onto the code:
 
 //Values
 val CompressedIron = <PneumaticCraft:ingotIronCompressed>;
