@@ -1,5 +1,5 @@
-## Kill Them With Flowers
-//Makes everything rely on Botania
+## Kill Them With Flowers Vanilla
+//Makes Vanilla rely on Botania
 
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
@@ -858,4 +858,4 @@ recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwo
 recipes.addShapless(eyeEnder, [manaPearl, blazePowder]);
 
 //Keep this at the bottom
-print("Kill Them With Flowers Loaded");
+print("Kill Them With Flowers Vanilla Loaded");
