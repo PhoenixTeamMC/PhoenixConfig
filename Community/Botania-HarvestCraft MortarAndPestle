@@ -1,0 +1,52 @@
+//This script was made to allow the Mortar and Pestle from Pam's Harvestcraft to be interchangeable with the Pestle and Mortar from Botania.
+
+//Created by 13rett
+
+//oredict equal
+
+<ore:toolMortarandpestle>.addAll(<ore:pestleAndMortar>);
+
+<ore:pestleAndMortar>.mirror(<ore:toolMortarandpestle>);
+
+
+//Replaces Botania's recipe with an oredictionary version
+recipes.remove(<Botania:dye:*>);
+
+recipes.addShapeless(<Botania:dye:0> , [<Botania:petal:0>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:1> , [<Botania:petal:1>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:2> , [<Botania:petal:2>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:3> , [<Botania:petal:3>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:4> , [<Botania:petal:4>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:5> , [<Botania:petal:5>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:6> , [<Botania:petal:6>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:7> , [<Botania:petal:7>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:8> , [<Botania:petal:8>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:9> , [<Botania:petal:9>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:10> , [<Botania:petal:10>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:11> , [<Botania:petal:11>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:12> , [<Botania:petal:12>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:13> , [<Botania:petal:13>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:14> , [<Botania:petal:14>, <ore:pestleAndMortar>]);
+
+recipes.addShapeless(<Botania:dye:15> , [<Botania:petal:15>, <ore:pestleAndMortar>]);
+
+
+
+
+//Keep this at the bottom
+print("BTN-harvestcraft oredict equaliser loaded");
+
