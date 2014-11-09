@@ -1,0 +1,79 @@
+//mods: Steve's Factory Manager, Minefactory Reloaded, PneumaticCraft
+//Vals
+val manager = <StevesFactoryManager:BlockMachineManagerName>;
+val cable = <StevesFactoryManager:BlockCableName>;
+val relay = <StevesFactoryManager:BlockCableRelayName>;
+val Arelay = <StevesFactoryManager:BlockCableRelayName:8>;
+val emitter = <StevesFactoryManager:BlockCableOutputName>;
+val reciever = <StevesFactoryManager:BlockCableInputName>;
+val itemvalve = <StevesFactoryManager:BlockCableIntakeName>;
+val Ritemvalve = <StevesFactoryManager:BlockCableIntakeName:8>;
+val detector = <StevesFactoryManager:BlockCableBUDName>;
+val gate = <StevesFactoryManager:BlockCableBreakerName>;
+val cluster = <StevesFactoryManager:BlockCableClusterName>;
+val Acluster = <StevesFactoryManager:BlockCableClusterName:8>;
+val camo = <StevesFactoryManager:BlockCableCamouflageName>;
+val dscamo = <StevesFactoryManager:BlockCableCamouflageName:1>;
+val tcamo = <StevesFactoryManager:BlockCableCamouflageName:2>;
+val basiccircuit = <MineFactoryReloaded:upgrade.logic>;
+val midcircuit = <MineFactoryReloaded:upgrade.logic:1>;
+val advancedcircuit = <MineFactoryReloaded:upgrade.logic:2>;
+val ironblock = <ore:blockIron>;
+val redstoneblock = <ore:blockRedstone>;
+val transistor = <PneumaticCraft:transistor>;
+val capacitor = <PneumaticCraft:capacitor>;
+val PCB = <PneumaticCraft:printedCircuitBoard>;
+val nugget = <ore:nuggetGold>;
+val redstone = <ore:dustRedstone>;
+val rncable = <ore:cableRedNet>;
+val encable = <ore:cableRedNetEnergy>;
+val chest = <ore:chestWood>;
+val hopper = <minecraft:hopper>;
+val dropper = <minecraft:dropper>;
+val comparator = <minecraft:comparator>;
+val dispenser = <minecraft:dispenser>;
+val pick = <minecraft:diamond_pickaxe>;
+val glass = <ore:blockGlass>;
+
+
+//remove recipes
+recipes.remove(manager);
+recipes.remove(cable);
+recipes.remove(relay);
+recipes.remove(Arelay);
+recipes.remove(emitter);
+recipes.remove(reciever);
+recipes.remove(itemvalve);
+recipes.remove(Ritemvalve);
+recipes.remove(detector);
+recipes.remove(gate);
+recipes.remove(cluster);
+recipes.remove(Acluster);
+recipes.remove(camo);
+recipes.remove(dscamo);
+recipes.remove(tcamo);
+recipes.remove(basiccircuit);
+recipes.remove(midcircuit);
+recipes.remove(advancedcircuit);
+
+
+//add recipes
+recipes.addShaped(basiccircuit,[[transistor,redstone,transistor],[nugget,PCB,nugget],[capacitor,redstone,capacitor]]);
+recipes.addShaped(midcircuit,[[transistor,capacitor,transistor],[basiccircuit,<ore:ingotGold>,basiccircuit],[capacitor,transistor,capacitor]]);
+recipes.addShaped(advancedcircuit,[[basiccircuit,<ore:gemDiamond>,basiccircuit],[redstone,midcircuit,redstone],[basiccircuit,<ore:gemDiamond>,basiccircuit]]);
+recipes.addShaped(manager,[[ironblock,basiccircuit,ironblock],[midcircuit,redstoneblock,midcircuit],[cable,advancedcircuit,cable]]);
+recipes.addShaped(cable * 8, [[rncable,encable,rncable],[encable,basiccircuit,encable],[rncable,encable,rncable]]);
+recipes.addShaped(relay, [[null,chest,null],[hopper,cable,hopper],[null,chest,null]]);
+recipes.addShaped(Arelay, [[null,cable,null],[redstoneblock,relay,redstoneblock],[null,cable,null]]);
+recipes.addShaped(emitter * 3, [[redstone,redstoneblock,redstone],[cable,reciever,cable],[redstone,redstoneblock,redstone]]);
+recipes.addShaped(reciever * 2, [[redstone, redstone, redstone],[cable,redstone,cable],[redstone,redstone,redstone]]);
+recipes.addShaped(itemvalve * 4, [[cable,dropper,cable],[hopper,basiccircuit,hopper],[cable,dropper,cable]]);
+recipes.addShaped(Ritemvalve * 2, [[null,redstone,null],[itemvalve,<ore:gemDiamond>,itemvalve],[null,redstone,null]]);
+recipes.addShaped(detector * 4, [[cable,redstone,cable],[redstone,comparator,redstone],[cable,redstone,cable]]);
+recipes.addShaped(gate * 3, [[null,cable,null],[redstone,dispenser,redstone],[cable,pick,cable]]);
+recipes.addShaped(cluster * 7, [[cable,cable,cable],[basiccircuit,cable,basiccircuit],[cable,cable,cable]]);
+recipes.addShaped(cluster * 8, [[cable,cable,cable],[cable,midcircuit,cable],[cable,cable,cable]]);
+recipes.addShaped(Acluster * 8, [[cluster,cluster,cluster],[cluster,advancedcircuit,cluster],[cluster,cluster,cluster]]);
+recipes.addShaped(camo * 4, [[<ore:blockWool>,cable,<ore:blockWool>],[cable,glass,cable],[<ore:blockWool>,cable,<ore:blockWool>]]);
+recipes.addShaped(dscamo * 4,[[camo,glass,camo],[null,glass,null],[camo,glass,camo]]);
+recipes.addShaped(tcamo * 2,[[null,midcircuit,null],[camo,null,camo],[null,midcircuit,null]]);
