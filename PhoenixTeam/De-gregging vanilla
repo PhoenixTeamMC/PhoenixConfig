@@ -1,0 +1,71 @@
+//vals
+val ironPlate = <ore:plateAnyIron>;
+val iron = <ore:ingotIron>;
+val stick = <ore:stickWood>;
+val gold = <ore:ingotGold>;
+val glass = <ore:blockGlass>;
+
+
+//recipes
+//remove
+recipes.remove(<minecraft:iron_helmet>);
+recipes.remove(<minecraft:iron_chestplate>);
+recipes.remove(<minecraft:iron_leggings>);
+recipes.remove(<minecraft:iron_boots>);
+recipes.remove(<minecraft:hopper>);
+recipes.remove(<minecraft:minecart>);
+recipes.remove(<minecraft:iron_shovel>);
+recipes.remove(<minecraft:iron_pickaxe>);
+recipes.remove(<minecraft:iron_axe>);
+recipes.remove(<minecraft:iron_sword>);
+recipes.remove(<minecraft:iron_hoe>);
+recipes.remove(<minecraft:golden_hoe>);
+recipes.remove(<minecraft:golden_shovel>);
+recipes.remove(<minecraft:golden_pickaxe>);
+recipes.remove(<minecraft:golden_axe>);
+recipes.remove(<minecraft:golden_sword>);
+recipes.remove(<minecraft:shears>);
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.remove(<minecraft:golden_helmet>);
+recipes.remove(<minecraft:golden_chestplate>);
+recipes.remove(<minecraft:golden_leggings>);
+recipes.remove(<minecraft:golden_boots>);
+recipes.remove(<minecraft:iron_bars>);
+recipes.remove(<minecraft:cauldron>);
+recipes.remove(<minecraft:bucket>);
+recipes.remove(<minecraft:heavy_weighted_pressure_plate>);
+recipes.remove(<minecraft:light_weighted_pressure_plate>);
+recipes.remove(<minecraft:iron_door>);
+
+
+
+//re add
+recipes.addShaped(<minecraft:iron_helmet>,[[iron,iron,iron],[iron,null,iron]]);
+recipes.addShaped(<minecraft:iron_chestplate>,[[iron,null,iron],[iron,iron,iron],[iron,iron,iron]]);
+recipes.addShaped(<minecraft:iron_leggings>,[[iron,iron,iron],[iron,null,iron],[iron,null,iron]]);
+recipes.addShaped(<minecraft:iron_boots>,[[iron,null,iron],[iron,null,iron]]);
+recipes.addShaped(<minecraft:hopper>,[[iron,null,iron],[iron,<minecraft:chest>,iron],[null,iron,null]]);
+recipes.addShaped(<minecraft:minecart>,[[iron,null,iron],[iron,iron,iron]]);
+recipes.addShaped(<minecraft:iron_shovel>,[[iron],[stick],[stick]]);
+recipes.addShaped(<minecraft:iron_pickaxe>,[[iron,iron,iron],[null,stick,null],[null,stick,null]]);
+recipes.addShapedMirrored(<minecraft:iron_axe>,[[iron,iron],[iron,stick],[null,stick]]);
+recipes.addShaped(<minecraft:iron_sword>,[[iron],[iron],[stick]]);
+recipes.addShapedMirrored(<minecraft:iron_hoe>,[[iron,iron],[null,stick],[null,stick]]);
+recipes.addShapedMirrored(<minecraft:golden_hoe>,[[gold,gold],[null,stick],[null,stick]]);
+recipes.addShaped(<minecraft:golden_shovel>,[[gold],[stick],[stick]]);
+recipes.addShaped(<minecraft:golden_pickaxe>,[[gold,gold,gold],[null,stick,null],[null,stick,null]]);
+recipes.addShapedMirrored(<minecraft:golden_axe>,[[gold,gold],[gold,stick],[null,stick]]);
+recipes.addShaped(<minecraft:golden_sword>,[[gold],[gold],[stick]]);
+recipes.addShapedMirrored(<minecraft:shears>,[[iron,null],[iron,null]]);
+recipes.addShapeless(<minecraft:flint_and_steel>,[iron,<minecraft:flint>]);
+recipes.addShaped(<minecraft:golden_helmet>,[[gold,gold,gold],[gold,null,gold]]);
+recipes.addShaped(<minecraft:golden_chestplate>,[[gold,null,gold],[gold,gold,gold],[gold,gold,gold]]);
+recipes.addShaped(<minecraft:golden_leggings>,[[gold,gold,gold],[gold,null,gold],[gold,null,gold]]);
+recipes.addShaped(<minecraft:golden_boots>,[[gold,null,gold],[gold,null,gold]]);
+recipes.addShaped(<minecraft:iron_bars> * 16,[[iron,iron,iron],[iron,iron,iron]]);
+recipes.addShaped(<minecraft:glass_bottle> * 3,[[glass,null,glass],[null,glass,null]]);
+recipes.addShaped(<minecraft:cauldron>,[[iron,null,iron],[iron,null,iron],[iron,iron,iron]]);
+recipes.addShaped(<minecraft:bucket>,[[iron,null,iron],[null,iron,null]]);
+recipes.addShaped(<minecraft:heavy_weighted_pressure_plate>,[[iron,iron]]);
+recipes.addShaped(<minecraft:light_weighted_pressure_plate>,[[gold,gold]]);
+recipes.addShaped(<minecraft:iron_door>,[[iron,iron],[iron,iron],[iron,iron]]);
