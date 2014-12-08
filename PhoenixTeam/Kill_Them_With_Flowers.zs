@@ -1,5 +1,5 @@
 ## Kill Them With Flowers
-//Makes everything rely on Botania 
+//Makes everything rely on Botania
 
 ##Botania
 val alchemyCatalyst = <Botania:alchemyCatalyst>;
@@ -145,7 +145,7 @@ val manaQuartzSlab = <Botania:quartzSlabManaHalf>;
 val redQuartzSlabFull = <Botania:quartzSlabRedFull>;
 val redQuartzSlab = <Botania:quartzSlabRedHalf>;
 val blazeQuartzStairs = <Botania:quartzStairsBlaze>;
-val smokeyQuartzStairs = <Botania:quartzStairsBlaze>;	
+val smokeyQuartzStairs = <Botania:quartzStairsBlaze>;
 val elfQuartzStairs = <Botania:quartzStairsElf>;
 val lavenderQuartzStairs = <Botania:quartzStairsLavender>;
 val manaQuartzStairs = <Botania:quartzStairsMana>;
@@ -623,8 +623,71 @@ goldIngot.displayName = "Mana Gold";
 print(goldBlock.displayName);
 goldBlock.displayName = "Mana Gold Block";
 
-//Removals
+//Tool Renaming
+print(diamondPick.displayName);
+diamondPick.displayName = "Mana Diamond Pickaxe";
+print(diamondAxe.displayName);
+diamondAxe.displayName = "Mana Diamond Axe";
+print(diamondShovel.displayName);
+diamondShovel.displayName = "Mana Diamond Shovel";
+print(diamondSword.displayName);
+diamondSword.displayName = "Mana Diamond Sword";
+print(diamondHoe.displayName);
+diamondHoe.displayName = "Mana Diamond Hoe";
 
+print(goldPick.displayName);
+goldPick.displayName = "Mana Gold Pickaxe";
+print(goldAxe.displayName);
+goldAxe.displayName = "Mana Gold Axe";
+print(goldShovel.displayName);
+goldShovel.displayName = "Mana Gold Shovel";
+print(goldSword.displayName);
+goldSword.displayName = "Mana Gold Sword";
+print(goldHoe.displayName);
+goldHoe.displayName = "Mana Gold Hoe";
+
+print(stonePick.displayName);
+stonePick.displayName = "Livingrock Pickaxe";
+print(stoneAxe.displayName);
+stoneAxe.displayName = "Livingrock Axe";
+print(stoneShovel.displayName);
+stoneShovel.displayName = "Livingrock Shovel";
+print(stoneSword.displayName);
+stoneSword.displayName = "Livingrock Sword";
+print(stoneHoe.displayName);
+stoneHoe.displayName = "Livingrock Hoe";
+
+print(woodPick.displayName);
+woodPick.displayName = "Livingwood Pickaxe";
+print(woodAxe.displayName);
+woodAxe.displayName = "Livingwood Axe";
+print(woodShovel.displayName);
+woodShovel.displayName = "Livingwood Shovel";
+print(woodSword.displayName);
+woodSword.displayName = "Livingwood Sword";
+print(woodHoe.displayName);
+woodHoe.displayName = "Livingwood Hoe";
+
+//Armor Renaming
+print(goldenHelmet.displayName);
+goldenHelmet.displayName = "Mana Gold Helmet"
+print(goldenChestplate.displayName);
+goldenChestplate.displayName = "Mana Gold Chestplate"
+print(goldenLeggings.displayName);
+goldenLeggings.displayName = "Mana Gold Leggings"
+print(goldenBoots.displayName);
+goldenBoots.displayName = "Mana Gold Boots"
+
+print(diamondHelmet.displayName);
+diamondHelmet.displayName = "Mana Diamond Helmet"
+print(diamondChestplate.displayName);
+diamondChestplate.displayName = "Mana Diamond Chestplate"
+print(diamondLeggings.displayName);
+diamondLeggings.displayName = "Mana Diamond Leggings"
+print(diamondBoots.displayName);
+diamondBoots.displayName = "Mana Diamond Boots"
+
+//Removals
 furnace.remove(<minecraft:gold_ingot>);
 recipes.remove(furnaceBlock);
 recipes.remove(dispenser);
