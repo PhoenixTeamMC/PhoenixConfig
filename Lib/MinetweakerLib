@@ -7,6 +7,14 @@ Is not done yet. Many more mods to document. */
 ##I can't stand String
 val shipHelm = <ArchimedesShips:marker>;
 val floater = <ArchimedesShips:floater>;
+val gaugeBasic = <ArchimedesShips:gauge>;
+val gaugeAdvanced = <ArchimedesShips:gauge:1>;
+val seatPassenger = <ArchimedesShips:seat>;
+val bufferShore = <ArchimedesShips:buffer>;
+val engineSteam = <ArchimedesShips:engine>;
+val crateWood = <ArchimedesShips:crate_wood>;
+
+##Archimedes' Ships Balloons
 val balloonWhite = <ArchimedesShips:balloon>;
 val balloonOrange = <ArchimedesShips:balloon:1>;
 val balloonMagenta = <ArchimedesShips:balloon:2>;
@@ -23,12 +31,6 @@ val balloonBrown = <ArchimedesShips:balloon:12>;
 val balloonGreen = <ArchimedesShips:balloon:13>;
 val balloonRed = <ArchimedesShips:balloon:14>;
 val balloonBlack = <ArchimedesShips:balloon:15>;
-val gaugeBasic = <ArchimedesShips:gauge>;
-val gaugeAdvanced = <ArchimedesShips:gauge:1>;
-val seatPassenger = <ArchimedesShips:seat>;
-val bufferShore = <ArchimedesShips:buffer>;
-val engineSteam = <ArchimedesShips:engine>;
-val crateWood = <ArchimedesShips:crate_wood>;
 val allBalloons = <ArchimedesShips:balloon:*>;
 
 ##Blood Magic
@@ -399,6 +401,7 @@ val brownMysticalPetal = <Botania:petal:12>;
 val greenMysticalPetal = <Botania:petal:13>;
 val redMysticalPetal = <Botania:petal:14>;
 val blackMysticalPetal = <Botania:petal:15>;
+val allMysticalPetals = <Botania:petal:*>;
 
 ##BTN Mana Petals
 val whiteManaPetal = <Botania:manaPetal>;
@@ -417,6 +420,7 @@ val brownManaPetal = <Botania:manaPetal:12>;
 val greenManaPetal = <Botania:manaPetal:13>;
 val redManaPetal = <Botania:manaPetal:14>;
 val blackManaPetal = <Botania:manaPetal:15>;
+val allManaPetals = <Botania:manaPetal:*>;
 
 ##BTN Runes
 val runeOfWater = <Botania:rune>;
@@ -435,6 +439,26 @@ val runeOfSloth = <Botania:rune:12>;
 val runeOfWrath = <Botania:rune:13>;
 val runeOfEnvy = <Botania:rune:14>;
 val runeOfPride = <Botania:rune:15>;
+val allBTNRunes = <Botania:rune:*>;
+
+##BTN Dyes
+val whiteBTNDye = <Botania:dye>;
+val orangeBTNDye = <Botania:dye:1>;
+val magentaBTNDye = <Botania:dye:2>;
+val lightBlueBTNDye = <Botania:dye:3>;
+val yellowBTNDye = <Botania:dye:4>;
+val limeBTNDye = <Botania:dye:5>;
+val pinkBTNDye = <Botania:dye:6>;
+val grayBTNDye = <Botania:dye:7>;
+val lightGrayBTNDye = <Botania:dye:8>;
+val cyanBTNDye = <Botania:dye:9>;
+val purpleBTNDye = <Botania:dye:10>;
+val blueBTNDye = <Botania:dye:11>;
+val brownBTNDye = <Botania:dye:12>;
+val greenBTNDye = <Botania:dye:13>;
+val redBTNDye = <Botania:dye:14>;
+val blackBTNDye = <Botania:dye:15>;
+val allBTNDyes = <Botania:dye:*>;
 
 ##BuildCraft
 val architectTable = <BuildCraft|Builders:architectBlock>;
@@ -560,6 +584,60 @@ val treasureDisk = <ComputerCraft:treasureDisk>
 ##Ender Storage
 val esEnderChest = <EnderStorage:enderChest>
 val enderPouch = <EnderStorage:enderPouch>;
+
+##Ender Chests
+val enderChestWhite     = <EnderStorage:enderChest:0>;
+val enderChestOrange    = <EnderStorage:enderChest:273>;
+val enderChestMagenta   = <EnderStorage:enderChest:546>;
+val enderChestLightBlue = <EnderStorage:enderChest:819>;
+val enderChestYellow    = <EnderStorage:enderChest:1092>;
+val enderChestLime      = <EnderStorage:enderChest:1365>;
+val enderChestPink      = <EnderStorage:enderChest:1638>;
+val enderChestGray      = <EnderStorage:enderChest:1911>;
+val enderChestLightGray = <EnderStorage:enderChest:2184>;
+val enderChestCyan      = <EnderStorage:enderChest:2457>;
+val enderChestPurple    = <EnderStorage:enderChest:2730>;
+val enderChestBlue      = <EnderStorage:enderChest:3003>;
+val enderChestBrown     = <EnderStorage:enderChest:3276>;
+val enderChestGreen     = <EnderStorage:enderChest:3549>;
+val enderChestRed       = <EnderStorage:enderChest:3822>;
+val enderChestBlack     = <EnderStorage:enderChest:4095>;
+
+##Ender Pouches
+val enderPouchWhite     = <EnderStorage:enderPouch:0>;
+val enderPouchOrange    = <EnderStorage:enderPouch:273>;
+val enderPouchMagenta   = <EnderStorage:enderPouch:546>;
+val enderPouchLightBlue = <EnderStorage:enderPouch:819>;
+val enderPouchYellow    = <EnderStorage:enderPouch:1092>;
+val enderPouchLime      = <EnderStorage:enderPouch:1365>;
+val enderPouchPink      = <EnderStorage:enderPouch:1638>;
+val enderPouchGray      = <EnderStorage:enderPouch:1911>;
+val enderPouchLightGray = <EnderStorage:enderPouch:2184>;
+val enderPouchCyan      = <EnderStorage:enderPouch:2457>;
+val enderPouchPurple    = <EnderStorage:enderPouch:2730>;
+val enderPouchBlue      = <EnderStorage:enderPouch:3003>;
+val enderPouchBrown     = <EnderStorage:enderPouch:3276>;
+val enderPouchGreen     = <EnderStorage:enderPouch:3549>;
+val enderPouchRed       = <EnderStorage:enderPouch:3822>;
+val enderPouchBlack     = <EnderStorage:enderPouch:4095>;
+
+##Ender Tanks
+val enderTankWhite      = <EnderStorage:enderChest:4096>; 
+val enderTankOrange     = <EnderStorage:enderChest:4369>; 
+val enderTankMagenta    = <EnderStorage:enderChest:4642>;
+val enderTankLightBlue  = <EnderStorage:enderChest:4915>;
+val enderTankYellow     = <EnderStorage:enderChest:5188>;
+val enderTankLime       = <EnderStorage:enderChest:5461>;
+val enderTankPink       = <EnderStorage:enderChest:5734>;
+val enderTankGray       = <EnderStorage:enderChest:6007>;
+val enderTankLightGray  = <EnderStorage:enderChest:6280>;
+val enderTankCyan       = <EnderStorage:enderChest:6553>;
+val enderTankPurple     = <EnderStorage:enderChest:6826>;
+val enderTankBlue       = <EnderStorage:enderChest:7099>;
+val enderTankBrown      = <EnderStorage:enderChest:7372>;
+val enderTankGreen      = <EnderStorage:enderChest:7645>;
+val enderTankRed        = <EnderStorage:enderChest:7918>;
+val enderTankBlack      = <EnderStorage:enderChest:8191>;
 
 ##ExtraUtilities
 val angelBlock = <ExtraUtilities:angelBlock>;
@@ -1043,6 +1121,25 @@ val computerCase = <OpenComputers:simple_redstone>;
 val cable = <OpenComputers:special>;
 val robot = <OpenComputers:special_redstone>;
 
+##PneumaticCraft
+val blackPlasticSheet     = <PneumaticCraft:plastic>;
+val redPlasticSheet       = <PneumaticCraft:plastic:1>;
+val greenPlasticSheet     = <PneumaticCraft:plastic:2>;
+val brownPlasticSheet     = <PneumaticCraft:plastic:3>;
+val bluePlasticSheet      = <PneumaticCraft:plastic:4>;
+val purplePlasticSheet    = <PneumaticCraft:plastic:5>;
+val cyanPlasticSheet      = <PneumaticCraft:plastic:6>;
+val lightGreyPlasticSheet = <PneumaticCraft:plastic:7>;
+val greyPlasticSheet      = <PneumaticCraft:plastic:8>;
+val pinkPlasticSheet      = <PneumaticCraft:plastic:9>;
+val limePlasticSheet      = <PneumaticCraft:plastic:10>;
+val yellowPlasticSheet    = <PneumaticCraft:plastic:11>;
+val lightBluePlasticSheet = <PneumaticCraft:plastic:12>;
+val magentaPlasticSheet   = <PneumaticCraft:plastic:13>;
+val orangePlasticSheet    = <PneumaticCraft:plastic:14>;
+val whitePlasticSheet     = <PneumaticCraft:plastic:15>;
+val allPlasticSheets      = <PneumaticCraft:plastic:*>;
+
 ##Redstone Arsenal
 val fluxedElectrumBlock = <RedstoneArsenal:Storage>;
 val fluxBoots = <RedstoneArsenal:armor.bootsFlux>;
@@ -1154,6 +1251,15 @@ val moduleComponets = <StevesCarts:ModuleComponents>;
 val upgrades = <StevesCarts:upgrade>;
 
 ##TConstruct
+val canisterEmpty = <TConstruct:heartCanister:0>;
+val miniRedHeart = <TConstruct:heartCanister:1>;
+val canisterRedHeart = <TConstruct:heartCanister:2>;
+val miniYellowHeart = <TConstruct:heartCanister:3>;
+val canisterYellowHeart = <TConstruct:heartCanister:4>;
+val miniGreenHeart = <TConstruct:heartCanister:5>;
+val canisterGreenHeart = <TConstruct:heartCanister:6>;
+
+##Thermal Foundation
 
 ##dusts
 val dustIron = <ThermalFoundation:material>;
