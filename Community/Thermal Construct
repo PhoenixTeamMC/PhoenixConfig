@@ -1,0 +1,303 @@
+#===================================================================================================
+#                                 Thermal Construct by Epidemia78
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+#MINECRAFT
+#===================================================================================================
+val coal = <minecraft:coal>;
+val redstone = <minecraft:redstone>;
+val glowstone = <minecraft:glowstone_dust>;
+val enderpearl = <minecraft:ender_pearl>;
+val snow = <minecraft:snow>;
+val snowball = <minecraft:snowball>;
+#===================================================================================================
+#LIQUID
+#===================================================================================================
+val liquidiron = <liquid:iron.molten>;
+val liquidgold = <liquid:gold.molten>;
+val liquidtin = <liquid:tin.molten>;
+val liquidcopper = <liquid:copper.molten>;
+val liquidlead = <liquid:lead.molten>;
+val liquidsilver = <liquid:silver.molten>;
+val liquidnickel = <liquid:nickel.molten>;
+val liquidplatinum = <liquid:platinum.molten>;
+val liquidelectrum = <liquid:electrum.molten>;
+val liquidinvar = <liquid:invar.molten>;
+val liquidbronze = <liquid:bronze.molten>;
+val liquidsteel = <liquid:steel.molten>;
+#===================================================================================================
+#BLOCK
+#===================================================================================================
+val blockredstone = <minecraft:redstone_block>;
+val blockiron = <minecraft:iron_block>;
+val blockgold = <minecraft:gold_block>;
+val blocktin = <ThermalFoundation:Storage:1>;
+val blockcopper = <ThermalFoundation:Storage:0>;
+val blocklead = <ThermalFoundation:Storage:3>;
+val blocksilver = <ThermalFoundation:Storage:2>;
+val blockferrous = <ThermalFoundation:Storage:4>;
+val blockshiny = <ThermalFoundation:Storage:5>;
+val blockmana = <ThermalFoundation:Storage:6>;
+val blockelectrum = <ThermalFoundation:Storage:7>;
+val blockinvar = <ThermalFoundation:Storage:8>;
+val blockbronze = <ThermalFoundation:Storage:9>;
+val blocksignalum = <ThermalFoundation:Storage:10>;
+val blocklumium = <ThermalFoundation:Storage:11>;
+val blockenderium = <ThermalFoundation:Storage:12>;
+val blockcobalt = <TConstruct:MetalBlock:0>;
+val blockardite = <TConstruct:MetalBlock:1>;
+val blockmany = <TConstruct:MetalBlock:2>;
+val blockalum = <TConstruct:MetalBlock:6>;
+val blockbrass = <TConstruct:MetalBlock:7>;
+val blockalumite = <TConstruct:MetalBlock:8>;
+val blocksteel = <TConstruct:MetalBlock:9>;
+#===================================================================================================
+#INGOT
+#===================================================================================================
+val ingotiron = <minecraft:iron_ingot>;
+val ingotgold = <minecraft:gold_ingot>;
+val ingotcopper = <ThermalFoundation:material:64>;
+val ingottin = <ThermalFoundation:material:65>;
+val ingotsilver = <ThermalFoundation:material:66>;
+val ingotlead = <ThermalFoundation:material:67>;
+val ingotferrous = <ThermalFoundation:material:68>;
+val ingotshiny = <ThermalFoundation:material:69>;
+val ingotmana = <ThermalFoundation:material:70>;
+val ingotelectrum = <ThermalFoundation:material:71>;
+val ingotinvar = <ThermalFoundation:material:72>;
+val ingotbronze = <ThermalFoundation:material:73>;
+val ingotsteel = <TConstruct:materials:16>;
+#===================================================================================================
+#DUST
+#===================================================================================================
+val dustiron = <ThermalFoundation:material>;
+val dustgold = <ThermalFoundation:material:1>;
+val dustcopper = <ThermalFoundation:material:32>;
+val dusttin = <ThermalFoundation:material:33>;
+val dustsilver = <ThermalFoundation:material:34>;
+val dustlead = <ThermalFoundation:material:35>;
+val dustferrous = <ThermalFoundation:material:36>;
+val dustshiny = <ThermalFoundation:material:37>;
+val dustmana = <ThermalFoundation:material:38>;
+val dustelectrum = <ThermalFoundation:material:39>;
+val dustinvar = <ThermalFoundation:material:40>;
+val dustbronze = <ThermalFoundation:material:41>;
+val dustsignalum = <ThermalFoundation:material:42>;
+val dustlumium = <ThermalFoundation:material:43>;
+val dustenderium = <ThermalFoundation:material:44>;
+val dustardite = <TConstruct:materials:38>;
+val dustcobalt = <TConstruct:materials:39>;
+val dustalum = <TConstruct:materials:40>;
+#===================================================================================================
+#ORE
+#===================================================================================================
+val oreiron = <minecraft:iron_ore>;
+val oregold = <minecraft:gold_ore>;
+val orecopper = <ThermalFoundation:Ore>;
+val oretin = <ThermalFoundation:Ore:1>;
+val oresilver = <ThermalFoundation:Ore:2>;
+val orelead = <ThermalFoundation:Ore:3>;
+val oreferrous = <ThermalFoundation:Ore:4>;
+val oreshiny = <ThermalFoundation:Ore:5>;
+val orecobalt = <TConstruct:SearedBrick:1>;
+val oreardite = <TConstruct:SearedBrick:2>;
+val orealum = <TConstruct:SearedBrick:5>;
+#===================================================================================================
+#GEARS
+#===================================================================================================
+val geariron = <ThermalFoundation:material:12>;
+val geargold = <ThermalFoundation:material:13>;
+val gearcopper = <ThermalFoundation:material:128>;
+val geartin = <ThermalFoundation:material:129>;
+val gearsilver = <ThermalFoundation:material:130>;
+val gearlead = <ThermalFoundation:material:131>;
+val gearferrous = <ThermalFoundation:material:132>;
+val gearshiny = <ThermalFoundation:material:133>;
+val gearmana = <ThermalFoundation:material:134>;
+val gearelectrum = <ThermalFoundation:material:135>;
+val gearinvar = <ThermalFoundation:material:136>;
+val gearbronze = <ThermalFoundation:material:137>;
+val gearsignalum = <ThermalFoundation:material:138>;
+val gearlumium = <ThermalFoundation:material:139>;
+val gearenderium = <ThermalFoundation:material:140>;
+#===================================================================================================
+#MISC
+#===================================================================================================
+val servo = <ThermalExpansion:material:0>;
+val coil1 = <ThermalExpansion:material:1>;
+val coil2 = <ThermalExpansion:material:2>;
+val coil3 = <ThermalExpansion:material:3>;
+val frame1 = <ThermalExpansion:Frame:0>;
+val frame2 = <ThermalExpansion:Frame:1>;
+val frame3 = <ThermalExpansion:Frame:2>;
+val frame4 = <ThermalExpansion:Frame:3>;
+val cellframe1 = <ThermalExpansion:Frame:4>;
+val cellframe2 = <ThermalExpansion:Frame:5>;
+val cellframe3 = <ThermalExpansion:Frame:6>;
+val cellframe4 = <ThermalExpansion:Frame:7>;
+val cellframe5 = <ThermalExpansion:Frame:8>;
+val cell1 = <ThermalExpansion:Cell:1>;
+val cell2 = <ThermalExpansion:Cell:2>;
+val cell3 = <ThermalExpansion:Cell:3>;
+#===================================================================================================
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+#MAGMA CRUCIBLE METALS (ingots, dust and blocks to molten form)
+#===================================================================================================
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotiron, liquidiron * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotgold, liquidgold * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotcopper, liquidcopper * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingottin, liquidtin * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotlead, liquidlead * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotsilver, liquidsilver * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotferrous, liquidnickel * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotshiny, liquidplatinum * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotelectrum, liquidelectrum * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotinvar, liquidinvar * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotbronze, liquidbronze * 144);
+mods.thermalexpansion.Crucible.addRecipe(8000, ingotsteel, liquidsteel * 144);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Crucible.addRecipe(4000, dustiron, liquidiron * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustgold, liquidgold * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustcopper, liquidcopper * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dusttin, liquidtin * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustlead, liquidlead * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustsilver, liquidsilver * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustferrous, liquidnickel * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustshiny, liquidplatinum * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustelectrum, liquidelectrum * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustinvar, liquidinvar * 144);
+mods.thermalexpansion.Crucible.addRecipe(4000, dustbronze, liquidbronze * 144);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Crucible.addRecipe(16000, blockiron, liquidiron * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockgold, liquidgold * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockcopper, liquidcopper * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blocktin, liquidtin * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blocklead, liquidlead * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blocksilver, liquidsilver * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockferrous, liquidnickel * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockshiny, liquidplatinum * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockelectrum, liquidelectrum * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockinvar, liquidinvar * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blockbronze, liquidbronze * 1296);
+mods.thermalexpansion.Crucible.addRecipe(16000, blocksteel, liquidsteel * 1296);
+#===================================================================================================
+#FLUID TRANSPOSER METAL RECIPES (molten metal to dust or block form)
+#===================================================================================================
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustiron, liquidiron * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustcopper, liquidcopper * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dusttin, liquidtin * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustlead, liquidlead * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustsilver, liquidsilver * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustgold, liquidgold * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snowball, dustferrous, liquidnickel * 144);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blockiron, liquidiron * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blockcopper, liquidcopper * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blocktin, liquidtin * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blocklead, liquidlead * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blocksilver, liquidsilver * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blockgold, liquidgold * 1296);
+mods.thermalexpansion.Transposer.addFillRecipe(1000, snow, blockferrous, liquidnickel * 1296);
+#===================================================================================================
+#MACHINE FRAME RECIPES (molten metal + metal block, casting basin, fluid transposer)
+#===================================================================================================
+recipes.remove(frame1);
+recipes.remove(frame2);
+recipes.remove(frame3);
+recipes.remove(frame4);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blocktin, frame1, liquidinvar * 1152);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blockelectrum, frame2, liquidinvar * 1152);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blocksignalum, frame3, liquidinvar * 1152);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blockenderium, frame4, liquidinvar * 1152);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blocktin, frame1, liquidsteel * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blockelectrum, frame2, liquidsteel * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blocksignalum, frame3, liquidsteel * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, blockenderium, frame4, liquidsteel * 576);
+#---------------------------------------------------------------------------------------------------
+mods.tconstruct.Casting.addBasinRecipe(frame1, liquidsteel * 648, blocktin, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame2, liquidsteel * 648, blockelectrum, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame3, liquidsteel * 648, blocksignalum, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame4, liquidsteel * 648, blockenderium, true, 20);
+#---------------------------------------------------------------------------------------------------
+mods.tconstruct.Casting.addBasinRecipe(frame1, liquidinvar * 1296, blocktin, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame2, liquidinvar * 1296, blockelectrum, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame3, liquidinvar * 1296, blocksignalum, true, 20);
+mods.tconstruct.Casting.addBasinRecipe(frame4, liquidinvar * 1296, blockenderium, true, 20);
+#===================================================================================================
+#GEAR RECIPES (molten metal + lead gear, casting table, fluid transposer)
+#===================================================================================================
+recipes.remove(geariron);
+recipes.remove(geargold);
+recipes.remove(gearcopper);
+recipes.remove(geartin);
+recipes.remove(gearsilver);
+recipes.remove(gearlead);
+recipes.remove(gearferrous);
+recipes.remove(gearshiny);
+recipes.remove(gearelectrum);
+recipes.remove(gearinvar);
+recipes.remove(gearbronze);
+recipes.remove(gearsignalum);
+recipes.remove(gearlumium);
+recipes.remove(gearenderium);
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(gearlead,
+ [[null, ingotlead, null],
+  [ingotlead, null, ingotlead],
+  [null, ingotlead, null]]);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, geartin, liquidtin * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearcopper, liquidcopper * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, geariron, liquidiron * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearsilver, liquidsilver * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, geargold, liquidgold * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearbronze, liquidbronze * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearinvar, liquidinvar * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearelectrum, liquidelectrum * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearferrous, liquidnickel * 576);
+mods.thermalexpansion.Transposer.addFillRecipe(1600, gearlead, gearshiny, liquidplatinum * 576);
+#---------------------------------------------------------------------------------------------------
+mods.tconstruct.Casting.addTableRecipe(geartin, liquidtin * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearcopper, liquidcopper * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(geariron, liquidiron * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearsilver, liquidsilver * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(geargold, liquidgold * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearbronze, liquidbronze * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearinvar, liquidinvar * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearelectrum, liquidelectrum * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearferrous, liquidnickel * 576, gearlead, true, 20);
+mods.tconstruct.Casting.addTableRecipe(gearshiny, liquidplatinum * 576, gearlead, true, 20);
+#---------------------------------------------------------------------------------------------------
+#Ultimate Gears (dust + lead gear, induction smelter)
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Smelter.addRecipe(4000, gearlead, dustsignalum * 4, gearsignalum, null, 25);
+mods.thermalexpansion.Smelter.addRecipe(8000, gearlead, dustlumium * 4, gearlumium, null, 25);
+mods.thermalexpansion.Smelter.addRecipe(16000, gearlead, dustenderium * 8, gearenderium, null, 25);
+#---------------------------------------------------------------------------------------------------
+#Pulverize Gears (recycle gears back into dust form, lead dust included)
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Pulverizer.addRecipe(100, geariron, dustiron * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, geargold, dustgold * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, geartin, dusttin * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearcopper, dustcopper * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearlead, dustlead * 4, null, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearsilver, dustsilver * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, geargold, dustgold * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearferrous, dustferrous * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearshiny, dustshiny * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearmana, dustmana * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearbronze, dustbronze * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearinvar, dustinvar * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearelectrum, dustelectrum * 4, dustlead * 4, 100);
+#---------------------------------------------------------------------------------------------------
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearsignalum, dustsignalum * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearlumium, dustlumium * 4, dustlead * 4, 100);
+mods.thermalexpansion.Pulverizer.addRecipe(100, gearenderium, dustenderium * 8, dustlead * 4, 100);
+#---------------------------------------------------------------------------------------------------
