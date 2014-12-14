@@ -1,0 +1,205 @@
+#===================================================================================================
+#                               Thermal Expansion Machines recipes by Epidemia78
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+#MISC
+#===================================================================================================
+val servo = <ThermalExpansion:material:0>;
+val coil1 = <ThermalExpansion:material:1>;
+val coil2 = <ThermalExpansion:material:2>;
+val coil3 = <ThermalExpansion:material:3>;
+val frame1 = <ThermalExpansion:Frame:0>;
+val frame2 = <ThermalExpansion:Frame:1>;
+val frame3 = <ThermalExpansion:Frame:2>;
+val frame4 = <ThermalExpansion:Frame:3>;
+val cellframe1 = <ThermalExpansion:Frame:4>;
+val cellframe2 = <ThermalExpansion:Frame:5>;
+val cellframe3 = <ThermalExpansion:Frame:6>;
+val cellframe4 = <ThermalExpansion:Frame:7>;
+val cellframe5 = <ThermalExpansion:Frame:8>;
+val cell1 = <ThermalExpansion:Cell:1>;
+val cell2 = <ThermalExpansion:Cell:2>;
+val cell3 = <ThermalExpansion:Cell:3>;
+#===================================================================================================
+#GEARS
+#===================================================================================================
+val geariron = <ThermalFoundation:material:12>;
+val geargold = <ThermalFoundation:material:13>;
+val gearcopper = <ThermalFoundation:material:128>;
+val geartin = <ThermalFoundation:material:129>;
+val gearsilver = <ThermalFoundation:material:130>;
+val gearlead = <ThermalFoundation:material:131>;
+val gearferrous = <ThermalFoundation:material:132>;
+val gearshiny = <ThermalFoundation:material:133>;
+val gearmana = <ThermalFoundation:material:134>;
+val gearelectrum = <ThermalFoundation:material:135>;
+val gearinvar = <ThermalFoundation:material:136>;
+val gearbronze = <ThermalFoundation:material:137>;
+val gearsignalum = <ThermalFoundation:material:138>;
+val gearlumium = <ThermalFoundation:material:139>;
+val gearenderium = <ThermalFoundation:material:140>;
+#===================================================================================================
+#MACHINE
+#===================================================================================================
+val furnace = <ThermalExpansion:Machine:0>;
+val pulverizer = <ThermalExpansion:Machine:1>;
+val sawmill = <ThermalExpansion:Machine:2>;
+val smelter = <ThermalExpansion:Machine:3>;
+val crucible = <ThermalExpansion:Machine:4>;
+val transposer = <ThermalExpansion:Machine:5>;
+val precipitator = <ThermalExpansion:Machine:6>;
+val extruder = <ThermalExpansion:Machine:7>;
+val accumulator = <ThermalExpansion:Machine:8>;
+val assembler = <ThermalExpansion:Machine:9>;
+val infuser = <ThermalExpansion:Machine:10>;
+#---------------------------------------------------------------------------------------------------
+val ingotiron = <minecraft:iron_ingot>;
+val ingotgold = <minecraft:gold_ingot>;
+val ingotcopper = <ThermalFoundation:material:64>;
+val ingottin = <ThermalFoundation:material:65>;
+val ingotsilver = <ThermalFoundation:material:66>;
+val ingotlead = <ThermalFoundation:material:67>;
+val ingotferrous = <ThermalFoundation:material:68>;
+val ingotshiny = <ThermalFoundation:material:69>;
+val ingotmana = <ThermalFoundation:material:70>;
+val ingotelectrum = <ThermalFoundation:material:71>;
+val ingotinvar = <ThermalFoundation:material:72>;
+val ingotbronze = <ThermalFoundation:material:73>;
+val ingotsignalum = <ThermalFoundation:material:74>;
+val ingotlumium = <ThermalFoundation:material:75>;
+val ingotenderium = <ThermalFoundation:material:76>;
+val ingotsteel = <TConstruct:materials:16>;
+#===================================================================================================
+#---------------------------------------------------------------------------------------------------
+#-----------------------------------Remove easy machine recipes-------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+recipes.removeShaped(furnace,
+ [[null, <minecraft:redstone>, null],
+  [<minecraft:brick_block>, frame1, <minecraft:brick_block>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(pulverizer,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:flint>, frame1, <minecraft:flint>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(sawmill,
+ [[null, <minecraft:iron_axe>, null],
+  [<minecraft:planks>, frame1, <minecraft:planks>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(smelter,
+ [[null, <minecraft:bucket>, null],
+  [ingotinvar, frame1, ingotinvar],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(crucible,
+ [[null, cellframe1, null],
+  [<minecraft:nether_brick>, frame1, <minecraft:nether_brick>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(transposer,
+ [[null, <minecraft:bucket>, null],
+  [<minecraft:glass>, frame1, <minecraft:glass>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(precipitator,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:snow>, frame1, <minecraft:snow>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(extruder,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:glass>, frame1, <minecraft:glass>],
+  [gearcopper, servo, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(assembler,
+ [[null, <minecraft:chest>, null],
+  [geartin, frame1, geartin],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+recipes.removeShaped(infuser,
+ [[null, cellframe1, null],
+  [coil2, frame1, coil2],
+  [gearcopper, coil1, gearcopper]]);
+#===================================================================================================
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------Add difficult machine recipes-------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+#---------------------------------------------------------------------------------------------------
+##tier1 accumulator
+#---------------------------------------------------------------------------------------------------
+#tier2
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(precipitator,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:snow>, frame1, <minecraft:snow>],
+  [gearcopper, coil1, gearcopper]]);
+#---------------------------------------------------------------------------------------------------
+#tier3
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(extruder,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:glass>, frame1, <minecraft:glass>],
+  [geariron, servo, geariron]]);
+#---------------------------------------------------------------------------------------------------
+#tier4
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(sawmill,
+ [[null, <minecraft:iron_axe>, null],
+  [<minecraft:planks>, frame1, <minecraft:planks>],
+  [gearsilver, coil1, gearsilver]]);
+#---------------------------------------------------------------------------------------------------
+#tier5
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(furnace,
+ [[null, <minecraft:redstone>, null],
+  [<minecraft:brick_block>, frame1, <minecraft:brick_block>],
+  [geargold, coil1, geargold]]);
+#---------------------------------------------------------------------------------------------------
+#tier6
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(pulverizer,
+ [[null, <minecraft:piston>, null],
+  [<minecraft:flint>, frame2, <minecraft:flint>],
+  [gearferrous, coil2, gearferrous]]);
+#---------------------------------------------------------------------------------------------------
+#tier7
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(assembler,
+ [[null, <minecraft:chest>, null],
+  [geartin, frame2, geartin],
+  [gearbronze, coil2, gearbronze]]);
+#---------------------------------------------------------------------------------------------------
+#tier8
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(infuser,
+ [[null, cellframe1, null],
+  [coil2, frame2, coil2],
+  [gearinvar, coil2, gearinvar]]);
+#---------------------------------------------------------------------------------------------------
+#tier9
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(smelter,
+ [[null, <minecraft:bucket>, null],
+  [ingotinvar, frame3, ingotinvar],
+  [gearelectrum, coil3, gearelectrum]]);
+#---------------------------------------------------------------------------------------------------
+#tier10
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(transposer,
+ [[null, <minecraft:bucket>, null],
+  [<minecraft:glass>, frame3, <minecraft:glass>],
+  [gearsignalum, coil3, gearsignalum]]);
+#---------------------------------------------------------------------------------------------------
+#tier11
+#---------------------------------------------------------------------------------------------------
+recipes.addShaped(crucible,
+ [[null, cellframe1, null],
+  [<minecraft:nether_brick>, frame3, <minecraft:nether_brick>],
+  [gearlumium, coil3, gearlumium]]);
+#---------------------------------------------------------------------------------------------------
