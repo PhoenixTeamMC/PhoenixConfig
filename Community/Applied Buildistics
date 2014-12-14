@@ -1,0 +1,48 @@
+#===================================================================================================
+#                          Thermal Construct: Applied Buildistics by Epidemia78
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+val redstone = <minecraft:redstone>;
+#=================================================
+#AE2 stuff
+#=================================================
+val skystone = <appliedenergistics2:tile.BlockSkyStone>;
+val press1 = <appliedenergistics2:item.ItemMultiMaterial:19>;
+val chipgold = <appliedenergistics2:item.ItemMultiMaterial:18>;
+val chipgold2 = <appliedenergistics2:item.ItemMultiMaterial:22>;
+val chipblue = <appliedenergistics2:item.ItemMultiMaterial:16>;
+val chipblue2 = <appliedenergistics2:item.ItemMultiMaterial:23>;
+val chipwhite = <appliedenergistics2:item.ItemMultiMaterial:17>;
+val chipwhite2 = <appliedenergistics2:item.ItemMultiMaterial:24>;
+#=================================================
+#Buildcraft Chipsets
+#=================================================
+val basic = <BuildCraft|Silicon:redstoneChipset:0>;
+val iron = <BuildCraft|Silicon:redstoneChipset:1>;
+val gold = <BuildCraft|Silicon:redstoneChipset:2>;
+val diamond = <BuildCraft|Silicon:redstoneChipset:3>;
+val ender = <BuildCraft|Silicon:redstoneChipset:4>;
+val quartz = <BuildCraft|Silicon:redstoneChipset:5>;
+val pulse = <BuildCraft|Silicon:redstoneChipset:6>;
+val emerald = <BuildCraft|Silicon:redstoneChipset:7>;
+#===================================================================================================
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------------------
+#===================================================================================================
+#Processor recipes
+#=================================================
+mods.thermalexpansion.Transposer.addFillRecipe(4000, basic, chipgold, <liquid:gold.molten> * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(4000, basic, chipblue, <liquid:platinum.molten> * 144);
+mods.thermalexpansion.Transposer.addFillRecipe(4000, basic, chipwhite, <liquid:silver.molten> * 144);
+#-------------------------------------------------
+mods.thermalexpansion.Smelter.addRecipe(4000, gold, chipgold, chipgold2, null, 25);
+mods.thermalexpansion.Smelter.addRecipe(4000, diamond, chipblue, chipblue2, null, 25);
+mods.thermalexpansion.Smelter.addRecipe(4000, quartz, chipwhite, chipwhite2, null, 25);
+#=================================================
+#Craftable Skystone
+#=================================================
+mods.thermalexpansion.Smelter.addRecipe(2000, <minecraft:obsidian>, <minecraft:cobblestone>, skystone, null, 25);
+#---------------------------------------------------------------------------------------------------
