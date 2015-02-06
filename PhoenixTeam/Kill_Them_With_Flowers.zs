@@ -443,7 +443,7 @@ val jungleStairs = <minecraft:jungle_stairs>;
 val ladder = <minecraft:ladder>;
 val lapisBlock = <minecraft:lapis_block>;
 val lapisOre = <minecraft:lapis_ore>;
-val lava = <minecraft:lava>;
+//val lava = <minecraft:lava>;
 val lavaBucket = <minecraft:lava_bucket>;
 val lead = <minecraft:lead>;
 val leather = <minecraft:leather>;
@@ -568,7 +568,7 @@ val trapdoor = <minecraft:trapdoor>;
 val trappedChest = <minecraft:trapped_chest>;
 val tripwireHook = <minecraft:tripwire_hook>;
 val vine = <minecraft:vine>;
-val water = <minecraft:water>;
+//val water = <minecraft:water>;
 val waterBucket = <minecraft:water_bucket>;
 val lilyPad = <minecraft:waterlily>;
 val cobweb = <minecraft:web>;
@@ -670,22 +670,22 @@ woodHoe.displayName = "Livingwood Hoe";
 
 //Armor Renaming
 print(goldenHelmet.displayName);
-goldenHelmet.displayName = "Mana Gold Helmet"
+goldenHelmet.displayName = "Mana Gold Helmet";
 print(goldenChestplate.displayName);
-goldenChestplate.displayName = "Mana Gold Chestplate"
+goldenChestplate.displayName = "Mana Gold Chestplate";
 print(goldenLeggings.displayName);
-goldenLeggings.displayName = "Mana Gold Leggings"
+goldenLeggings.displayName = "Mana Gold Leggings";
 print(goldenBoots.displayName);
-goldenBoots.displayName = "Mana Gold Boots"
+goldenBoots.displayName = "Mana Gold Boots";
 
 print(diamondHelmet.displayName);
-diamondHelmet.displayName = "Mana Diamond Helmet"
+diamondHelmet.displayName = "Mana Diamond Helmet";
 print(diamondChestplate.displayName);
-diamondChestplate.displayName = "Mana Diamond Chestplate"
+diamondChestplate.displayName = "Mana Diamond Chestplate";
 print(diamondLeggings.displayName);
-diamondLeggings.displayName = "Mana Diamond Leggings"
+diamondLeggings.displayName = "Mana Diamond Leggings";
 print(diamondBoots.displayName);
-diamondBoots.displayName = "Mana Diamond Boots"
+diamondBoots.displayName = "Mana Diamond Boots";
 
 //Removals
 furnace.remove(<minecraft:gold_ingot>);
@@ -853,7 +853,7 @@ recipes.addShaped(diamondHoe, [[null, manaDiamond, manaDiamond], [null, livingwo
 
 
 //Add Shapless Recipes
-recipes.addShapless(eyeEnder, [manaPearl, blazePowder]);
+recipes.addShapeless(eyeEnder, [manaPearl, blazePowder]);
 
 //Keep this at the bottom
 print("Kill Them With Flowers Loaded");
