@@ -1,3 +1,4 @@
+//This script requires Ae2, Thermal Expansion, and Ender IO
 recipes.remove(<appliedenergistics2:tile.BlockQuartzGlass>);
 recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
