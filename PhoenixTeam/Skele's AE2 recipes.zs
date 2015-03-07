@@ -1,206 +1,92 @@
-//This MineTweaker/ModTweaker file was made using MineFactory Reloaded, Redstone Arsenal, Thermal Expansion, Applied Energistics 2, Mekanism, and Tinkers Construct
-
-//new meteorite compass recipe
-recipes.remove(<appliedenergistics2:tile.BlockSkyCompass>);
-recipes.addShaped(<appliedenergistics2:tile.BlockSkyCompass>,
- [[<ThermalFoundation:material:71>, <ThermalExpansion:material:1>, <ThermalFoundation:material:71>],
-  [<appliedenergistics2:item.ItemMultiMaterial>, <minecraft:compass>, <appliedenergistics2:item.ItemMultiMaterial>],
-  [<ThermalFoundation:material:71>, <ThermalExpansion:material:1>, <ThermalFoundation:material:71>]]);
-
-//new Quartz Glass recipe
 recipes.remove(<appliedenergistics2:tile.BlockQuartzGlass>);
-mods.mekanism.Infuser.addRecipe("OBSIDIAN", 200, <appliedenergistics2:item.ItemMultiMaterial> * 3, <appliedenergistics2:tile.BlockQuartzGlass> * 4);
-
-//new Charger recipe
-recipes.remove(<appliedenergistics2:tile.BlockCharger>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCharger>,
- [[<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalFoundation:material:71>],
-  [<Mekanism:ControlCircuit:1>, <ThermalExpansion:material:3>, null],
-  [<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalFoundation:material:71>]]);
-  
-//new Growth Accelerator Recipe
-recipes.remove(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>);
-recipes.addShaped(<appliedenergistics2:tile.BlockQuartzGrowthAccelerator>,
- [[<TConstruct:materials:15>, <ThermalExpansion:material:515>, <TConstruct:materials:15>],
-  [<appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalExpansion:Frame:7>, <appliedenergistics2:item.ItemMultiMaterial:12>],
-  [<TConstruct:materials:15>, <ThermalExpansion:material:515>, <TConstruct:materials:15>]]);
-
-//new Grinder Recipe
-recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
-recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>,
- [[<ThermalFoundation:material:136>, null, <ThermalFoundation:material:136>],
-  [<appliedenergistics2:item.ItemMultiMaterial>, <MineFactoryReloaded:tile.mfr.machineblock>, <appliedenergistics2:item.ItemMultiMaterial>],
-  [<MineFactoryReloaded:item.mfr.plastic.sheet>, <ThermalExpansion:material>, <MineFactoryReloaded:item.mfr.plastic.sheet>]]);
-  
-//new Incriber Recipe
-recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
-recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>,
- [[<ThermalFoundation:material:138>, <ThermalExpansion:material:2>, <Mekanism:Ingot:4>],
-  [<MineFactoryReloaded:item.mfr.plastic.sheet>, <ThermalExpansion:material>, <Mekanism:ControlCircuit:2>],
-  [<ThermalFoundation:material:138>, <ThermalExpansion:material:2>, <Mekanism:Ingot:4>]]);
-
-//new Wireless Access Point Recipe
-recipes.remove(<appliedenergistics2:tile.BlockWireless>);
-recipes.addShaped(<appliedenergistics2:tile.BlockWireless>,
- [[<ThermalExpansion:material:1>, <appliedenergistics2:item.ItemMultiMaterial:41>, <ThermalExpansion:material:1>],
-  [<appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiMaterial:23>],
-  [<appliedenergistics2:tile.BlockSkyStone:1>, <Mekanism:TeleportationCore>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
-  
-//new Quantum Ring Recipe
-recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
-recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>,
- [[<appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>],
-  [<ThermalExpansion:Glass>, <ThermalExpansion:Frame:3>, <ThermalExpansion:Glass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>]]);
-  
-//new Quantum Link Chamber Recipe
-recipes.remove(<appliedenergistics2:tile.BlockQuantumLinkChamber>);
-recipes.addShaped(<appliedenergistics2:tile.BlockQuantumLinkChamber>,
- [[<Mekanism:TeleportationCore>, <appliedenergistics2:tile.BlockQuartzGlass>, <Mekanism:TeleportationCore>],
-  [<appliedenergistics2:tile.BlockQuartzGlass>, <ThermalExpansion:Frame:8>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<Mekanism:TeleportationCore>, <appliedenergistics2:tile.BlockQuartzGlass>, <Mekanism:TeleportationCore>]]);
-  
-//new Spactial Pylon Recipe
-recipes.remove(<appliedenergistics2:tile.BlockSpatialPylon>);
-recipes.addShaped(<appliedenergistics2:tile.BlockSpatialPylon>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:32>, <ThermalExpansion:Frame:5>, <appliedenergistics2:item.ItemMultiMaterial:32>],
-  [<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:tile.BlockQuartzGlass>]]);
-
-//new Me Controller Recipe
-recipes.remove(<appliedenergistics2:tile.BlockController>);
-recipes.addShaped(<appliedenergistics2:tile.BlockController>,
- [[<appliedenergistics2:tile.BlockSkyStone:1>, <ThermalExpansion:material:1>, <appliedenergistics2:tile.BlockSkyStone:1>],
-  [<appliedenergistics2:item.ItemMultiPart:76>, <Mekanism:ControlCircuit:3>, <appliedenergistics2:item.ItemMultiPart:76>],
-  [<appliedenergistics2:tile.BlockSkyStone:1>, <ThermalExpansion:material:2>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
-  
-//new Drive Recipe
-recipes.remove(<appliedenergistics2:tile.BlockDrive>);
-recipes.addShaped(<appliedenergistics2:tile.BlockDrive>,
- [[<appliedenergistics2:tile.BlockQuartz>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiMaterial:9>],
-  [<appliedenergistics2:item.ItemMultiMaterial:35>, <ThermalExpansion:Cache:3>, <appliedenergistics2:item.ItemMultiMaterial:35>],
-  [<appliedenergistics2:item.ItemMultiMaterial:9>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:tile.BlockQuartz>]]);
-  
-//new Me Chest Recipe
-recipes.remove(<appliedenergistics2:tile.BlockChest>);
-recipes.addShaped(<appliedenergistics2:tile.BlockChest>,
- [[<ThermalFoundation:material:71>, <appliedenergistics2:item.ItemMultiPart:380>, <ThermalFoundation:material:71>],
-  [<appliedenergistics2:item.ItemMultiPart:36>, <ThermalExpansion:Strongbox:3>, <appliedenergistics2:item.ItemMultiPart:36>],
-  [<ThermalFoundation:material:69>, <appliedenergistics2:item.ItemMultiMaterial:12>, <ThermalFoundation:material:69>]]);
-
-//new Me Interface Recipe
-recipes.remove(<appliedenergistics2:tile.BlockInterface>);
-recipes.addShaped(<appliedenergistics2:tile.BlockInterface>,
- [[<Mekanism:Ingot:4>, <appliedenergistics2:tile.BlockQuartzGlass>, <Mekanism:Ingot:4>],
-  [<appliedenergistics2:item.ItemMultiMaterial:43>, <appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:44>],
-  [<Mekanism:Ingot:4>, <appliedenergistics2:tile.BlockQuartzGlass>, <Mekanism:Ingot:4>]]);
-  
-//new Cell Workbench Recipe
-recipes.remove(<appliedenergistics2:tile.BlockCellWorkbench>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>,
- [[<MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:item.ItemMultiMaterial:23>, <MineFactoryReloaded:item.mfr.plastic.sheet>],
-  [<TConstruct:materials:3>, <Mekanism:MachineBlock:13>, <TConstruct:materials:3>],
-  [<TConstruct:materials:3>, <TConstruct:materials:3>, <TConstruct:materials:3>]]);
-  
-//new Dense Cable Recipe
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:76>,
- [[<minecraft:glowstone_dust>, <appliedenergistics2:item.ItemMultiPart:56>, <minecraft:redstone>],
-  [<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiMaterial:1>, <appliedenergistics2:item.ItemMultiPart:56>],
-  [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiPart:56>, <minecraft:glowstone_dust>]]);
-  
-//new Matter Considerer Recipe
-recipes.remove(<appliedenergistics2:tile.BlockCondenser>);
-recipes.addShaped(<appliedenergistics2:tile.BlockCondenser>,
- [[<TConstruct:materials:15>, <ThermalExpansion:Glass>, <TConstruct:materials:15>],
-  [<ThermalExpansion:Glass>, <appliedenergistics2:item.ItemMultiMaterial:9>, <ThermalExpansion:Glass>],
-  [<TConstruct:materials:15>, <ThermalExpansion:Glass>, <TConstruct:materials:15>]]);
-  
-//new Energy Cell Recipe
-recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
-recipes.addShaped(<appliedenergistics2:tile.BlockEnergyCell>,
- [[<ThermalFoundation:material:71>, <RedstoneArsenal:material:64>, <ThermalFoundation:material:71>],
-  [<RedstoneArsenal:material:64>, <ThermalExpansion:Frame:4>, <RedstoneArsenal:material:64>],
-  [<ThermalFoundation:material:71>, <RedstoneArsenal:material:64>, <ThermalFoundation:material:71>]]);
-  
-//new Security Terminal Recipe
-recipes.remove(<appliedenergistics2:tile.BlockSecurity>);
-recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>,
- [[<ThermalExpansion:material:16>, <appliedenergistics2:tile.BlockChest>, <ThermalExpansion:material:16>],
-  [<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiMaterial:38>, <appliedenergistics2:item.ItemMultiPart:56>],
-  [<Mekanism:Ingot:4>, <appliedenergistics2:item.ItemMultiMaterial:24>, <Mekanism:Ingot:4>]]);
-  
-//new Glass Cable Recipe
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:16>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 5,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:7>, <appliedenergistics2:item.ItemMultiPart:140>, <appliedenergistics2:item.ItemMultiMaterial:7>],
-  [<appliedenergistics2:tile.BlockQuartzGlass>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:tile.BlockQuartzGlass>]]);
-  
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:16> * 5,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:12>, <appliedenergistics2:item.ItemMultiPart:140>, <appliedenergistics2:item.ItemMultiMaterial:12>],
-  [<appliedenergistics2:tile.BlockQuartzGlass>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:tile.BlockQuartzGlass>]]);
-  
-//new Covered Cable Recipe
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:36>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:36>,
- [[<MineFactoryReloaded:item.mfr.plastic.sheet>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <MineFactoryReloaded:item.mfr.plastic.sheet>],
-  [<MineFactoryReloaded:item.mfr.plastic.sheet>, <appliedenergistics2:item.ItemMultiPart:16>, <MineFactoryReloaded:item.mfr.plastic.sheet>],
-  [<MineFactoryReloaded:item.mfr.plastic.sheet>, <MineFactoryReloaded:item.mfr.plastic.sheet>, <MineFactoryReloaded:item.mfr.plastic.sheet>]]);
-  
-//new Smart Cable Recipe
-recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
-recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:56> * 3,
- [[<Mekanism:Ingot:3>, <minecraft:redstone>, <Mekanism:Ingot:3>],
-  [<appliedenergistics2:item.ItemMultiPart:36>, <appliedenergistics2:item.ItemMultiPart:36>, <appliedenergistics2:item.ItemMultiPart:36>],
-  [<Mekanism:Ingot:3>, <minecraft:redstone>, <Mekanism:Ingot:3>]]);
-
-//new 1K Storage Recipe
-recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.1k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.1k>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:redstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:35>, <minecraft:redstone>],
-  [<Mekanism:Ingot:4>, <Mekanism:Ingot:4>, <Mekanism:Ingot:4>]]);
-  
-//new 4K Storage Recipe
-recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.4k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.4k>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:glowstone_dust>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<minecraft:glowstone_dust>, <appliedenergistics2:item.ItemMultiMaterial:36>, <minecraft:glowstone_dust>],
-  [<TConstruct:materials:15>, <TConstruct:materials:15>, <TConstruct:materials:15>]]);
-  
-//new 16K Storage Recipe
-recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.16k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.16k>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-  [<Mekanism:Ingot>, <Mekanism:Ingot>, <Mekanism:Ingot>]]);
-  
-//new 64K Storage Recipe
-recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.64k>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <RedstoneArsenal:material>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<RedstoneArsenal:material>, <appliedenergistics2:item.ItemMultiMaterial:38>, <RedstoneArsenal:material>],
-  [<ThermalFoundation:material:76>, <ThermalFoundation:material:76>, <ThermalFoundation:material:76>]]);
-  
-  //new 2^3 Spacial Recipe
-recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
-recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:glowstone_dust>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<minecraft:glowstone_dust>, <appliedenergistics2:item.ItemMultiMaterial:32>, <minecraft:glowstone_dust>],
-  [<TConstruct:materials:15>, <TConstruct:materials:15>, <TConstruct:materials:15>]]);
-  
-//new 16^3 Spacial Recipe
-recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
-recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<appliedenergistics2:item.ItemMultiMaterial:8>, <appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:8>],
-  [<Mekanism:Ingot>, <Mekanism:Ingot>, <Mekanism:Ingot>]]);
-  
-//new 128^3 Spacial Recipe
+recipes.remove(<appliedenergistics2:tile.BlockCraftingUnit>);
 recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>);
-recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>,
- [[<appliedenergistics2:tile.BlockQuartzGlass>, <RedstoneArsenal:material>, <appliedenergistics2:tile.BlockQuartzGlass>],
-  [<RedstoneArsenal:material>, <appliedenergistics2:item.ItemMultiMaterial:34>, <RedstoneArsenal:material>],
-  [<ThermalFoundation:material:76>, <ThermalFoundation:material:76>, <ThermalFoundation:material:76>]]);
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>);
+recipes.remove(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>);
+recipes.remove(<appliedenergistics2:item.ItemViewCell>);
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.16k>);
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.4k>);
+recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.1k>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:76>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:36>);
+recipes.remove(<appliedenergistics2:item.ItemMultiPart:56>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:42>);
+recipes.remove(<appliedenergistics2:item.ToolBiometricCard>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:39>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:35>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:32>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:52>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:44>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:25>);
+recipes.remove(<appliedenergistics2:item.ItemMultiMaterial:28>);
+recipes.remove(<appliedenergistics2:tile.BlockDenseEnergyCell>);
+recipes.remove(<appliedenergistics2:tile.BlockEnergyCell>);
+recipes.remove(<appliedenergistics2:tile.BlockVibrationChamber>);
+recipes.remove(<appliedenergistics2:tile.BlockEnergyAcceptor>);
+recipes.remove(<appliedenergistics2:tile.BlockIOPort>);
+recipes.remove(<appliedenergistics2:tile.BlockCellWorkbench>);
+recipes.remove(<appliedenergistics2:tile.BlockInterface>);
+recipes.remove(<appliedenergistics2:tile.BlockChest>);
+recipes.remove(<appliedenergistics2:tile.BlockDrive>);
+recipes.remove(<appliedenergistics2:tile.BlockController>);
+recipes.remove(<appliedenergistics2:tile.BlockSpatialPylon>);
+recipes.remove(<appliedenergistics2:tile.BlockSpatialIOPort>);
+recipes.remove(<appliedenergistics2:tile.BlockQuantumLinkChamber>);
+recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
+recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
+recipes.remove(<appliedenergistics2:tile.BlockGrinder>);
+recipes.remove(<appliedenergistics2:tile.BlockCharger>);
+recipes.remove(<appliedenergistics2:tile.BlockSkyCompass>);
+
+recipes.addShaped(<appliedenergistics2:tile.BlockCraftingUnit>, [[<ore:ingotElectricalSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotElectricalSteel>], [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:item.ItemMultiMaterial:22>, <appliedenergistics2:item.ItemMultiPart:16>], [<ore:ingotElectricalSteel>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [[<appliedenergistics2:item.ItemMultiMaterial>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [[<appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [[<appliedenergistics2:item.ItemMultiMaterial:33>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [[<appliedenergistics2:item.ItemMultiMaterial:32>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemViewCell>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <ore:crystalCertusQuartz>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.128Cubed>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:34>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.16Cubed>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:33>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemSpatialStorageCell.2Cubed>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:32>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.64k>, [[<appliedenergistics2:item.ItemMultiMaterial:38>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.16k>, [[<appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.4k>, [[<appliedenergistics2:item.ItemMultiMaterial:36>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.1k>, [[<appliedenergistics2:item.ItemMultiMaterial:35>, <appliedenergistics2:item.ItemMultiMaterial:39>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.64k>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:38>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.16k>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:37>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.4k>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:36>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.1k>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, <appliedenergistics2:item.ItemMultiMaterial:35>, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:76>, [[<appliedenergistics2:item.ItemMultiPart:36>, <EnderIO:itemMaterial:1>, <appliedenergistics2:item.ItemMultiPart:36>], [<ore:dustRedstone>, <EnderIO:itemMaterial:1>, <minecraft:glowstone_dust>], [<appliedenergistics2:item.ItemMultiPart:36>, <EnderIO:itemMaterial:1>, <appliedenergistics2:item.ItemMultiPart:36>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:56>, [[null, <EnderIO:itemMaterial:1>, null], [<ore:dustRedstone>, <appliedenergistics2:item.ItemMultiPart:36>, <minecraft:glowstone_dust>], [null, <EnderIO:itemMaterial:1>, null]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiPart:36>, [[<EnderIO:itemMaterial:1>], [<appliedenergistics2:item.ItemMultiPart:16>], [<EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:42>, [[<ore:crystalCertusQuartz>, <EnderIO:itemBasicCapacitor:1>, <ore:crystalCertusQuartz>], [<ore:dustEnderPearl>, <ore:pearlFluix>, <ore:dustEnderPearl>], [<ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:item.ToolBiometricCard>, [[<appliedenergistics2:item.ItemMultiMaterial:24>, <ore:ingotElectricalSteel>, <ore:ingotElectricalSteel>], [<ore:ingotElectrum>, <ore:ingotRedstoneAlloy>, <ore:ingotElectrum>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:39>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotRedstoneAlloy>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotRedstoneAlloy>, null, <ore:ingotRedstoneAlloy>], [<EnderIO:itemMaterial:1>, <ore:ingotDarkSteel>, <EnderIO:itemMaterial:1>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:38>, [[<ore:dustElectrum>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:dustElectrum>], [<appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiMaterial:37>], [<ore:dustLumium>, <appliedenergistics2:item.ItemMultiMaterial:37>, <ore:dustLumium>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:35>, [[<ore:ingotRedstoneAlloy>, <ore:itemSilicon>, <ore:ingotRedstoneAlloy>], [<ore:crystalCertusQuartz>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:crystalCertusQuartz>], [<ore:ingotRedstoneAlloy>, <ore:itemSilicon>, <ore:ingotRedstoneAlloy>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:32>, [[<ore:dustGlowstone>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:dustGlowstone>], [<ore:pearlFluix>, <EnderIO:itemMaterial:5>, <ore:pearlFluix>], [<ore:dustGlowstone>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:dustGlowstone>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:52>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <ThermalExpansion:augment>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:dustGold>, <appliedenergistics2:item.ItemMultiMaterial:1>, <ore:dustGold>], [<ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:43>, [[null, <ThermalExpansion:material>, null], [<ore:crystalFluix>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:crystalFluix>], [null, <ThermalExpansion:material>, null]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:44>, [[null, <ore:crystalFluix>, null], [<ThermalExpansion:material>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ThermalExpansion:material>], [null, <ore:crystalFluix>, null]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:25>, [[<ore:ingotElectrum>, <ore:nuggetSilver>, null], [<ore:ingotConductiveIron>, <appliedenergistics2:item.ItemMultiMaterial:23>, <EnderIO:itemMaterial:1>], [<ore:ingotElectrum>, <ore:nuggetSilver>, null]]);
+recipes.addShaped(<appliedenergistics2:item.ItemMultiMaterial:28>, [[<EnderIO:itemMaterial:5>, <ore:nuggetSilver>, null], [<ore:ingotConductiveIron>, <appliedenergistics2:item.ItemMultiMaterial:23>, <EnderIO:itemMaterial:1>], [<EnderIO:itemMaterial:5>, <ore:nuggetSilver>, null]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSecurity>, [[<ore:ingotSignalum>, <ThermalExpansion:material:16>, <ore:ingotSignalum>], [<appliedenergistics2:item.ItemMultiPart:16>, <appliedenergistics2:tile.BlockChest>, <appliedenergistics2:item.ItemMultiPart:16>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiMaterial:37>, <appliedenergistics2:item.ItemMultiMaterial:24>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockDenseEnergyCell>, [[<ore:ingotElectrum>, <appliedenergistics2:tile.BlockEnergyCell>, <EnderIO:itemBasicCapacitor:1>], [<appliedenergistics2:tile.BlockEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:23>, <appliedenergistics2:tile.BlockEnergyCell>], [<EnderIO:itemBasicCapacitor:1>, <appliedenergistics2:tile.BlockEnergyCell>, <ore:ingotElectrum>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyCell>, [[<ore:ingotLead>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:crystalFluix>], [<EnderIO:itemBasicCapacitor>, <ore:ingotRedstoneAlloy>, <EnderIO:itemBasicCapacitor>], [<ore:crystalFluix>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotLead>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockEnergyAcceptor>, [[<ore:ingotElectrum>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectrum>], [<ore:crystalFluix>, <ThermalExpansion:Frame:4>, <ore:crystalFluix>], [<ore:ingotElectrum>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectrum>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockCondenser>, [[<ore:ingotElectricalSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectricalSteel>], [<ore:crystalPureFluix>, <EnderIO:itemMaterial:6>, <ore:crystalPureFluix>], [<ore:ingotElectricalSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockIOPort>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:tile.BlockQuartzGlass>], [<appliedenergistics2:tile.BlockDrive>, <appliedenergistics2:item.ItemMultiPart:76>, <appliedenergistics2:tile.BlockDrive>], [<ore:ingotDarkSteel>, <appliedenergistics2:item.ItemMultiMaterial:22>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockCellWorkbench>, [[<ore:ingotEnderiumBase>, <appliedenergistics2:item.ItemMultiMaterial:23>, <ore:ingotEnderiumBase>], [<ore:ingotDarkSteel>, <ThermalExpansion:Strongbox:3>, <ore:ingotDarkSteel>], [<ore:ingotElectricalSteel>, <ThermalExpansion:material>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockInterface>, [[<ore:ingotElectricalSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectricalSteel>], [<appliedenergistics2:item.ItemMultiMaterial:43>, <ThermalExpansion:material>, <appliedenergistics2:item.ItemMultiMaterial:43>], [<ore:ingotElectricalSteel>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockChest>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiPart:380>, <appliedenergistics2:tile.BlockQuartzGlass>], [<appliedenergistics2:item.ItemMultiPart:56>, <ThermalExpansion:Strongbox:3>, <appliedenergistics2:item.ItemMultiPart:56>], [<ore:ingotElectricalSteel>, <ore:crystalFluix>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockDrive>, [[<ore:ingotElectricalSteel>, <ThermalExpansion:material:1>, <ore:ingotElectricalSteel>], [<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:item.ItemMultiPart:56>], [<ore:ingotElectricalSteel>, <ThermalExpansion:material:2>, <ore:ingotElectricalSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockController>, [[<appliedenergistics2:tile.BlockSkyStone:1>, <EnderIO:itemBasicCapacitor:2>, <appliedenergistics2:tile.BlockSkyStone:1>], [<ore:crystalPureFluix>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:crystalPureFluix>], [<appliedenergistics2:tile.BlockSkyStone:1>, <ore:ingotDarkSteel>, <appliedenergistics2:tile.BlockSkyStone:1>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSpatialIOPort>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <EnderIO:itemBasicCapacitor:2>, <appliedenergistics2:tile.BlockQuartzGlass>], [<appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:tile.BlockIOPort>, <appliedenergistics2:item.ItemMultiPart:56>], [<ore:ingotDarkSteel>, <appliedenergistics2:item.ItemMultiMaterial:24>, <ore:ingotDarkSteel>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSpatialPylon>, [[<appliedenergistics2:tile.BlockQuartzGlass>, <EnderIO:itemFrankenSkull:3>, <appliedenergistics2:tile.BlockQuartzGlass>], [<EnderIO:itemBasicCapacitor:1>, <ore:pearlFluix>, <EnderIO:itemBasicCapacitor:1>], [<appliedenergistics2:tile.BlockQuartzGlass>, <appliedenergistics2:item.ItemMultiPart:56>, <appliedenergistics2:tile.BlockQuartzGlass>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockQuantumLinkChamber>, [[<ore:pearlFluix>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:ingotPhasedIron>], [<appliedenergistics2:tile.BlockQuartzGlass>, <EnderIO:itemMaterial:6>, <appliedenergistics2:tile.BlockQuartzGlass>], [<ore:ingotPhasedIron>, <appliedenergistics2:tile.BlockQuartzGlass>, <ore:pearlFluix>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockQuantumRing>, [[<ore:ingotPhasedIron>, <EnderIO:itemFrankenSkull:3>, <ore:ingotPhasedIron>], [<appliedenergistics2:item.ItemMultiMaterial:24>, <appliedenergistics2:tile.BlockEnergyCell>, <appliedenergistics2:item.ItemMultiMaterial:22>], [<ore:ingotPhasedIron>, <appliedenergistics2:item.ItemMultiPart:76>, <ore:ingotPhasedIron>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>, [[<EnderIO:itemBasicCapacitor:1>, <minecraft:sticky_piston>, <ore:ingotDarkSteel>], [<ore:ingotDarkSteel>, null, null], [<ore:ingotDarkSteel>, <ore:ingotDarkSteel>, <ore:gearLead>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockGrinder>, [[<ore:crystalCertusQuartz>, <ore:thermalexpansion:machineCopper>, <ore:crystalCertusQuartz>], [<ore:stone>, <ore:thermalexpansion:machineCopper>, <ore:stone>], [<ore:cobblestone>, <minecraft:stone_slab:3>, <ore:cobblestone>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockCharger>, [[<EnderIO:itemBasicCapacitor>, <ore:crystalFluix>, <ore:nuggetElectrum>], [<ore:ingotElectricalSteel>, null, null], [<ore:ingotElectricalSteel>, <ore:crystalFluix>, <ore:nuggetElectrum>]]);
+recipes.addShaped(<appliedenergistics2:tile.BlockSkyCompass>, [[<ore:nuggetPulsatingIron>, null, <ore:nuggetPulsatingIron>], [<ThermalExpansion:material:2>, <ore:crystalCertusQuartz>, <ThermalExpansion:material:1>], [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
+mods.thermalexpansion.Smelter.addRecipe(800, <EnderIO:itemPowderIngot:7> * 2, <appliedenergistics2:item.ItemMultiMaterial:2> * 2, <appliedenergistics2:tile.BlockQuartzGlass> * 2, <appliedenergistics2:tile.BlockQuartzGlass>, 20);
